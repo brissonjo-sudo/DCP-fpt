@@ -50,3 +50,10 @@ contraintes ci-dessous ne sont pas des préférences de style.
 
 Toute décision d'architecture (ajout d'une couche, déplacement d'une frontière,
 changement de gabarit) fait l'objet d'une ADR dans `docs/adr/`.
+
+## Rédaction du skill
+
+La rédaction et l'outillage suivent le dossier de passation
+`docs/passation-redaction.md` : ordre imposé, modèle à reproduire,
+adaptations de l'outillage, points ouverts du socle, définition de
+« terminé ».
