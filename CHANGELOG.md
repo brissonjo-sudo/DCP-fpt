@@ -10,3 +10,7 @@ Gabarits [INCOMPLET] tant que faits, source ou compétence manquent.
 **Non mesuré, non relu par un praticien** : aucune suite métier/campagne,
 intégration plugin ou modification des autres skills. Tests logiciels avec
 entrées factices temporaires uniquement.
+
+Relecture PR #4 : retrait du chemin utilisateur, normalisation des
+métadonnées ZIP avec contrôle de l'empreinte sur Windows et Ubuntu,
+clarification du rôle du juge en contentieux et prérequis MCP/CLI avant mesure.

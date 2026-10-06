@@ -32,8 +32,10 @@ mandat du conseil et autorité compétente. Aucun nom ni document réel identifi
 **Ancrage** : registre §11 pour les référés, §14 pour la jurisprudence,
 §8 pour médiation. CJA L. 551-1 vise les manquements de passation par un
 pouvoir adjudicateur avant conclusion ; L. 551-10 encadre les personnes
-habilitées, avec représentant de l'État pour les collectivités. Le conseil
-contrôle intérêt et lésion, pas une intuition sur la gravité du requérant.
+habilitées, avec représentant de l'État pour les collectivités. Le juge
+contrôle l'intérêt à agir et la lésion ; le conseil en apprécie le risque,
+sans préjuger de l'appréciation du juge. Voir le registre §14 pour la
+jurisprudence relative à ce contrôle.
 
 CJA L. 551-4 interdit la signature entre saisine et notification de la
 décision au pouvoir adjudicateur. R. 551-1 porte la notification du recours.

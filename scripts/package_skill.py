@@ -70,6 +70,10 @@ def write_package(output: Path) -> None:
         for path in runtime_files():
             relative = path.relative_to(ROOT).as_posix()
             info = zipfile.ZipInfo(relative, FIXED_TIMESTAMP)
+            # Ne pas laisser l'OS hôte choisir les métadonnées de l'archive.
+            info.create_system = 3
+            info.create_version = 20
+            info.extract_version = 20
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             archive.writestr(info, path.read_bytes())

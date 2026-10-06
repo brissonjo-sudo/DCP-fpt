@@ -50,3 +50,22 @@ de ressources du compte, réservés à une phase autorisée.
 Seuil atteint distinct de relecture et publication. Le juge sans web ne
 vérifie pas indépendamment les sources : revue des traces indispensable.
 `publication_ready` demeure faux dans l'outillage.
+
+## Points à trancher avant la mesure — relecture PR #4
+
+Le répondant Claude reçoit actuellement une configuration MCP vide : il
+n'a pas accès à `droit-francais`. L'accès web éventuel permet une lecture
+officielle, mais ne reproduit pas les outils `mcp__droit-francais__*` requis
+par le harnais du plugin collectivite-territoriale. Ces environnements ne
+doivent pas être présentés comme comparables.
+
+Avant campagne, définir et documenter le profil d'outils autorisé : accès
+MCP Légifrance qualifié et reproductible, ou campagne web/mode dégradé
+explicitement distincte de la qualification du plugin. Ne pas charger une
+configuration MCP personnelle implicitement pour combler cet écart.
+Cette décision reste ouverte ; aucune modification du lanceur ni campagne
+dans cette correction de rédaction.
+
+Les options CLI, dont `--restricted`, restent testées par simulation.
+Prévoir une vérification sur CLI réelle dans la phase autorisée, puis
+consigner versions, options acceptées et traces avant de retenir une mesure.

@@ -42,17 +42,19 @@ python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
 
-Exécutable utilisé :
-`C:\Users\Krn\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`.
+Exécutable utilisé : Python embarqué du runtime Codex, **3.12.14**.
 Environnement `PYTHONUTF8=1` pour les sorties françaises.
 
 - Validation : **625 contrôles**, zéro erreur ; seul avertissement : suite
   métier absente, conformément au périmètre.
-- Tests logiciels : **33 réussis**, CLI simulées et fixtures temporaires.
+- Tests logiciels initiaux : **33 réussis**, CLI simulées et fixtures temporaires.
 - Validateur skill-creator : **Skill is valid!**, avec Python 3.13 existant
   (le runtime embarqué ne contient pas PyYAML ; aucune dépendance installée).
-- Paquet : **30 fichiers**, cache et conception exclus, déterminisme testé.
-- SHA-256 : `a976a02d9973acd6c029174a4f9618b84e20906402a4976f62fff6302f2acd6d`.
+- Paquet : **30 fichiers**, cache et conception exclus. Le test initial ne
+  prouvait que le déterminisme sur une même machine ; métadonnées ZIP
+  désormais normalisées après relecture pour retirer la dépendance à l'OS.
+- Empreinte initiale Windows retirée : elle n'était pas reproductible sous Linux.
+- SHA-256 du paquet corrigé : `a74ed0222561d3836c7d80c0a4aa3af05cfec953d28d9971df730867a70af9b3`.
 - Registre, cache, méthode de sources et docs/socle : aucun diff Git.
 - Suite métier et tests/runs absents ; aucun modèle réellement appelé.
 
@@ -70,3 +72,20 @@ observée le 2026-10-06 :
 Tests/CI distincts de mesure et de relecture ; aucun score métier ni permission
 de fusion. Ce relevé porte sur le commit de rédaction ; l'ajout de ce relevé
 est un commit documentaire distinct soumis à la même CI.
+
+## Prise en compte de la relecture de la PR #4
+
+Le chemin utilisateur a été retiré. Le paquet fixe désormais le système
+créateur, les versions ZIP et les permissions ; deux tests supplémentaires
+contrôlent les métadonnées de chaque entrée et l'empreinte publiée ci-dessus.
+La CI exécute les mêmes contrôles sur Windows et Ubuntu, avec Python 3.12.
+Le succès de ces deux exécutions reste à observer sur le commit corrigé.
+Revalidation locale du 2026-10-06 : **625 contrôles statiques sans erreur**
+et **35 tests logiciels réussis**, avec le seul avertissement attendu
+concernant la suite métier absente. L'empreinte du paquet corrigé est
+contrôlée par ces tests.
+
+La branche contentieux attribue au juge le contrôle de l'intérêt à agir et
+de la lésion ; le conseil en apprécie le risque. Les prérequis MCP et CLI
+avant mesure sont consignés dans docs/campagne-locale.md et restent ouverts.
+Aucune campagne ni fusion n'est réalisée au titre de ces corrections.

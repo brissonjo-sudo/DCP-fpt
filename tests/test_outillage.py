@@ -2,9 +2,11 @@
 
 import hashlib
 import json
+import re
 import sys
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 from unittest.mock import patch
 
@@ -101,6 +103,29 @@ class Packaging(unittest.TestCase):
             package_skill.write_package(second)
             self.assertEqual(hashlib.sha256(first.read_bytes()).digest(),
                              hashlib.sha256(second.read_bytes()).digest())
+
+    def test_metadonnees_archive_independantes_de_os(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / "paquet.zip"
+            package_skill.write_package(output)
+            with zipfile.ZipFile(output) as archive:
+                for info in archive.infolist():
+                    with self.subTest(fichier=info.filename):
+                        self.assertEqual(info.create_system, 3)
+                        self.assertEqual(info.create_version, 20)
+                        self.assertEqual(info.extract_version, 20)
+                        self.assertEqual(info.date_time, package_skill.FIXED_TIMESTAMP)
+                        self.assertEqual(info.external_attr, 0o100644 << 16)
+
+    def test_empreinte_publiee_correspond_au_paquet(self):
+        """La CI Windows/Linux doit retrouver la même empreinte publiée."""
+        report = (package_skill.ROOT / "docs" / "etat-avancement.md").read_text(encoding="utf-8")
+        match = re.search(r"^- SHA-256 du paquet corrigé : `([0-9a-f]{64})`\.$", report, re.M)
+        self.assertIsNotNone(match, "Empreinte du paquet corrigé absente du relevé")
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / "paquet.zip"
+            package_skill.write_package(output)
+            self.assertEqual(hashlib.sha256(output.read_bytes()).hexdigest(), match.group(1))
 
 
 class InvariantsRedaction(unittest.TestCase):
