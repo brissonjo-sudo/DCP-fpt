@@ -1,7 +1,10 @@
 # Cadrage du skill `dcp-fpt` (v0.1.0)
 
-> **Statut** : **proposé**, en attente du point d'étape de la Phase 1 (PR #1).
-> Décisions déjà prises par l'auteur le 2026-10-06 : nom `dcp-fpt` ;
+> **Statut** : **validé par l'auteur le 2026-10-06** (point d'étape de la
+> Phase 1, PR #1) : persona et mode d'exercice validés ; 12 branches
+> validées ; garde-fous du §3 validés tels quels ; partage de frontière avec
+> `dsi-fpt` adopté (§4, note de transmission dans `docs/frontiere-dsi-fpt.md`).
+> Décisions antérieures du même jour : nom `dcp-fpt` ;
 > périmètre passation et exécution juridique ; volet financier laissé à
 > `dirfi-fpt` ; concessions hors périmètre en v1 ; relecture par un praticien
 > avant la v1.0.0.
@@ -363,11 +366,10 @@ article, identifiant officiel, date de lecture, extrait utile court,
 raison), branches concernées. Les valeurs (seuils, délais) vont dans
 `references/cache-valeurs.md`, datées et sourcées, jamais dans le runtime.
 
-## 11. Questions ouvertes à l'auteur
+## 11. Décisions de l'auteur (2026-10-06)
 
-1. **Persona et mode d'exercice** (§1) : validés tels quels ?
-2. **Douze branches** (§6) : validées, ou faut-il fusionner (par exemple
-   `modifications` dans `resiliation-difficultes`) ?
-3. **Garde-fous** (§3) : validés tels quels ?
-4. **Frontière avec `dsi-fpt`** (§4) : le partage proposé convient-il, pour
-   le transmettre à la session qui reprend `dsi-fpt` ?
+1. **Persona et mode d'exercice** (§1) : validés tels quels.
+2. **Douze branches** (§6) : validées, sans fusion.
+3. **Garde-fous** (§3) : validés tels quels.
+4. **Frontière avec `dsi-fpt`** (§4) : partage adopté ; note de transmission
+   rédigée pour la session qui reprend `dsi-fpt`.
