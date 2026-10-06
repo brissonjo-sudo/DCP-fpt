@@ -1,7 +1,8 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.0
 
-> **Statut : en construction (v0.1.0, non mesuré).** Le skill n'est pas encore
-> utilisable. Le cadrage sera dans `docs/cadrage.md`.
+> **Statut : non mesuré, non relu par un praticien.** Rédaction et outillage
+> livrés en v0.1.0 ; campagne et relecture à réaliser. Les contrôles statiques
+> et unitaires ne qualifient pas un usage en production.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et
@@ -19,17 +20,58 @@ d'information), avec `recherche-juridique` comme validateur de fond.
   des prix, pénalités, paiement) : c'est `dirfi-fpt`.
 - Il ne traite pas les concessions ni les délégations de service public dans
   sa première version.
+- Contenu informatique → `dsi-fpt` ; clauses de données personnelles →
+  `dpo-ct` ; déontologie/sanction d'agent → `drh-fpt` ; besoin opérationnel
+  PM → `dpm-fpt`. Vigueur/portée → `recherche-juridique`.
+- Contrats de l'État et droit étranger : hors périmètre. Une frontière ne
+  s'illustre pas.
 - Il n'aide jamais à orienter une procédure vers un candidat choisi d'avance.
+
+## Contenu et usage
+
+Lire [SKILL.md](SKILL.md), puis le [routeur](references/analyse-situation.md).
+Douze branches, six objets et cinq gabarits orientent conditions, autorités
+et écrits. Deux STOP avant contenu : égalité de traitement et acte irréversible
+sous condition non établie. Mode intégré, mutualisé, groupement, centrale ou
+assistance externe à lever en ouverture. Aucune donnée réelle identifiable.
+
+Registre daté distinct d'une vérification en session. Le cache des valeurs
+est **exclu du runtime** : source officielle en session pour seuil, délai ou
+pourcentage. Réserves dans les branches et [grille de relecture](docs/relecture-praticien.md).
+
+## Contrôles et paquet
+
+Python 3.11 ou ultérieur, sans bibliothèque tierce, depuis le dépôt :
+
+```powershell
+python scripts/validate_repo.py --sans-campagne
+python -m unittest discover -s tests -p 'test_*.py'
+python scripts/package_skill.py
+```
+
+`--sans-campagne` tolère uniquement la suite métier absente. Si elle est
+présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
+partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
+sans appel modèle ni score du skill.
+
+Archive déterministe : dist/dcp-fpt-0.1.0.zip. Contenu : SKILL.md,
+agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
+tests, preuves, journal et index hors paquet. Distribution via plugin après
+phase de qualification autorisée, aucune installation dans cette passation.
 
 ## Feuille de route
 
-1. Cadrage et décisions d'architecture.
-2. Socle de sources vérifiées, avec applicabilité aux collectivités.
-3. Rédaction : `SKILL.md`, puis branches, objets et gabarits.
-4. Outillage de validation et de mesure.
+1. Cadrage et décisions d'architecture : validés.
+2. Socle daté et applicabilité : conservés, avec réserves.
+3. Point d'entrée, branches, objets et gabarits : rédigés.
+4. Outillage de validation et de mesure : livré, sans campagne.
 5. Campagne de mesure de 28 cas, relecture par un praticien ; v1.0.0 au
    premier passage du seuil.
 6. Intégration au plugin `collectivite-territoriale`.
+
+[État et preuves](docs/etat-avancement.md) · [Passation](docs/passation-redaction.md) ·
+[Cadrage](docs/cadrage.md) · [Protocole futur](docs/campagne-locale.md).
+Aucun seuil de publication déclaré atteint. Patron DSI : provenance dans l'état.
 
 ## Licence
 
