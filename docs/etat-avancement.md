@@ -79,7 +79,10 @@ Le chemin utilisateur a été retiré. Le paquet fixe désormais le système
 créateur, les versions ZIP et les permissions ; deux tests supplémentaires
 contrôlent les métadonnées de chaque entrée et l'empreinte publiée ci-dessus.
 La CI exécute les mêmes contrôles sur Windows et Ubuntu, avec Python 3.12.
-Le succès de ces deux exécutions reste à observer sur le commit corrigé.
+Les deux systèmes ont réussi sur le commit corrigé `2b168fe`, avec la même
+empreinte publiée : [CI PR](https://github.com/brissonjo-sudo/DCP-fpt/actions/runs/37518012410)
+et [CI push](https://github.com/brissonjo-sudo/DCP-fpt/actions/runs/37518005873).
+L'ajout de ce relevé est un commit documentaire soumis à la même CI.
 Revalidation locale du 2026-10-06 : **625 contrôles statiques sans erreur**
 et **35 tests logiciels réussis**, avec le seul avertissement attendu
 concernant la suite métier absente. L'empreinte du paquet corrigé est
