@@ -10,7 +10,7 @@ Statut produit : **non mesuré, non relu par un praticien**.
 | Douze branches | Rédigées, lacunes réservées |
 | Six objets | Rédigés, parcours par pointeurs |
 | Cinq écrits | Brouillons anonymisés et [INCOMPLET] si manque |
-| Quatre scripts, tests, CI, index | Adaptés, contrôles locaux réussis ; CI distante à suivre |
+| Quatre scripts, tests, CI, index | Adaptés, contrôles locaux et CI distante réussis |
 | Registre/cache/docs-socle | Conservés sans nouvelle attestation |
 | Suite métier/campagne/relecture | Non réalisées, hors périmètre |
 | Plugin/autres skills/fusion | Hors périmètre, aucun changement |
@@ -56,5 +56,17 @@ Environnement `PYTHONUTF8=1` pour les sorties françaises.
 - Registre, cache, méthode de sources et docs/socle : aucun diff Git.
 - Suite métier et tests/runs absents ; aucun modèle réellement appelé.
 
-CI distante et PR : à constater après envoi de la branche. Tests/CI distincts
-de mesure et de relecture ; aucun score métier ni permission de fusion.
+PR vers main : [#4](https://github.com/brissonjo-sudo/DCP-fpt/pull/4), ouverte,
+sans fusion, branche codex/redaction-outillage-dcp.
+
+CI distante sur le commit de rédaction `78ba1a846384b49ff6dbeb021e0d1d3821b1cd1a`,
+observée le 2026-10-06 :
+
+- [Push](https://github.com/brissonjo-sudo/DCP-fpt/actions/runs/37516401449) : réussi.
+- [Pull request](https://github.com/brissonjo-sudo/DCP-fpt/actions/runs/37516412441) : réussi.
+- Les trois étapes (validation sans campagne, tests, paquet) sont vertes sur
+  Ubuntu/Python 3.12, en plus des contrôles Windows locaux.
+
+Tests/CI distincts de mesure et de relecture ; aucun score métier ni permission
+de fusion. Ce relevé porte sur le commit de rédaction ; l'ajout de ce relevé
+est un commit documentaire distinct soumis à la même CI.
