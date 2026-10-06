@@ -14,9 +14,11 @@ contraintes ci-dessous ne sont pas des préférences de style.
    ils se vérifient à la source ou ne s'écrivent pas. Les seuils changent
    périodiquement : ils ne vivent que dans le cache daté.
 3. **Aucun identifiant officiel en dur** (`LEGIARTI`, `JORFTEXT`, `CETATEXT`,
-   CELEX) hors de `references/references-verifiees.md`, seul registre
-   autorisé, et seulement pour des identifiants **réellement vérifiés**,
-   datés.
+   CELEX) dans les fichiers du skill (`SKILL.md`, `references/`, `objets/`)
+   hors de `references/references-verifiees.md`, seul registre autorisé, et
+   seulement pour des identifiants **réellement vérifiés**, datés. Les
+   dossiers de vérification de `docs/socle/` en contiennent aussi : ce sont
+   les pièces de travail d'où le registre est tiré, hors runtime.
 4. **Applicabilité aux collectivités.** Une règle propre à l'État, aux
    autorités publiques centrales, aux entités adjudicatrices ou aux
    concessions ne se présente jamais comme applicable à une collectivité sans
