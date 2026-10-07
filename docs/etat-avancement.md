@@ -12,7 +12,8 @@ Statut produit : **non mesuré, non relu par un praticien**.
 | Cinq écrits | Brouillons anonymisés et [INCOMPLET] si manque |
 | Quatre scripts, tests, CI, index | Adaptés, contrôles locaux et CI distante réussis |
 | Registre/cache/docs-socle | Conservés sans nouvelle attestation |
-| Suite métier/campagne/relecture | Non réalisées, hors périmètre |
+| Suite de 28 cas (`tests/cas-de-test.json`) | Écrite le 2026-10-07, contrôlée statiquement, **non lancée** |
+| Campagne/relecture | Non réalisées, hors périmètre |
 | Plugin/autres skills/fusion | Hors périmètre, aucun changement |
 
 ## Provenance de l'outillage
@@ -56,7 +57,7 @@ Environnement `PYTHONUTF8=1` pour les sorties françaises.
 - Empreinte initiale Windows retirée : elle n'était pas reproductible sous Linux.
 - SHA-256 du paquet corrigé : `a74ed0222561d3836c7d80c0a4aa3af05cfec953d28d9971df730867a70af9b3`.
 - Registre, cache, méthode de sources et docs/socle : aucun diff Git.
-- Suite métier et tests/runs absents ; aucun modèle réellement appelé.
+- Suite métier absente à la livraison de la v0.1.0, écrite depuis (2026-10-07) ; tests/runs absents ; aucun modèle réellement appelé.
 
 PR vers main : [#4](https://github.com/brissonjo-sudo/DCP-fpt/pull/4), ouverte,
 sans fusion, branche codex/redaction-outillage-dcp.

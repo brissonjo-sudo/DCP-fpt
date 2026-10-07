@@ -1,7 +1,8 @@
 # Outillage de campagne future — dcp-fpt v0.1.0
 
-**Arrêt avant campagne.** Aucun cas métier, run, kit de mesure ou score livré.
-Fixtures logicielles temporaires uniquement. Statut : **non mesuré, non relu
+**Arrêt avant campagne.** La suite de 28 cas (`tests/cas-de-test.json`) est
+écrite, contrôlée statiquement et **non lancée** : aucun run, kit de mesure ni
+score livré. Les fixtures logicielles restent temporaires. Statut : **non mesuré, non relu
 par un praticien**.
 
 ## Validation de rédaction
@@ -9,21 +10,23 @@ par un praticien**.
 Python 3.11 ou ultérieur, bibliothèque standard uniquement :
 
 ```powershell
-python scripts/validate_repo.py --sans-campagne
+python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
 
-`--sans-campagne` tolère uniquement tests/cas-de-test.json absent. Inventaires,
-liens, versions, garde-fous et outillage restent requis. Une suite présente
-reste entièrement contrôlée. Sans option, son absence est bloquante.
+La suite étant présente, la validation s'exécute sans option : son absence
+serait bloquante. `--sans-campagne` ne tolère que tests/cas-de-test.json absent
+et ne sert plus qu'aux fixtures. Une suite présente reste entièrement contrôlée
+(schéma, 28 cas, couverture, classification).
 `--partiel` reste un mode historique de rédaction du patron ; il n'est utilisé
 ni pour la livraison ni dans la CI.
 
 ## Phase de mesure distincte
 
-Après autorisation : rédiger les cas/attendus depuis le socle, contrôler sans
-`--sans-campagne`, figer suite/runtime/barème avec eval_suite.py.
+Après autorisation : la rédaction des cas/attendus depuis le socle est faite
+(2026-10-07) et contrôlée sans `--sans-campagne` ; reste à figer
+suite/runtime/barème avec eval_suite.py.
 mesure_locale.py export fournit un kit sans appels ; run --dry-run contrôle
 sans CLI ni appel. Aucune de ces opérations n'est exécutée avec une suite
 métier dans cette passation.
