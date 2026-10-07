@@ -33,7 +33,7 @@ def clean_url(url: str) -> str:
 def role_trace(events: list[dict]) -> dict:
     """Sépare recherche, ouverture explicite et action ambiguë sans les confondre."""
     result = {"read_commands": [], "search_calls": 0, "official_search_results": [],
-              "official_results_action_unknown": [], "official_open_results": [], "usage": None}
+              "official_results_action_unknown": [], "official_open_results": [], "mcp_calls": [], "usage": None}
     for event in events:
         if event.get("type") == "turn.completed":
             result["usage"] = event.get("usage")
@@ -43,6 +43,33 @@ def role_trace(events: list[dict]) -> dict:
         if item.get("type") == "command_execution":
             result["read_commands"].append({"exit_code": item.get("exit_code"), "status": item.get("status"),
                 "runtime_paths": sorted(set(re.findall(r"\.agents/skills/dcp-fpt/[\w./-]+", item.get("command", "").replace("\\", "/"))))})
+        if item.get("type") == "mcp_tool_call":
+            response = item.get("result") or {}
+            success = item.get("status") == "completed" and bool(response) and not response.get("isError", False) and not item.get("error")
+            structured = response.get("structuredContent")
+            if not isinstance(structured, dict):
+                structured = None
+                for block in response.get("content", []):
+                    if block.get("type") == "text":
+                        try:
+                            candidate = json.loads(block.get("text", ""))
+                        except (ValueError, TypeError):
+                            continue
+                        if isinstance(candidate, dict):
+                            structured = candidate
+                            break
+            sources = []
+            if success and item.get("server") == "droit-francais" and item.get("tool") in ("get_article", "fetch", "get_section", "get_decision") and structured:
+                for node in [structured, *structured.get("articles", [])]:
+                    metadata = node.get("metadata") or {}
+                    url = node.get("url", "")
+                    if url and official(url) and node.get("text") and metadata.get("verified"):
+                        sources.append({"url": clean_url(url), "title": node.get("title"), "id": node.get("id"),
+                            "metadata": {key: metadata.get(key) for key in ("source", "verified", "as_of_date", "requested_date", "legal_status", "version_start_date", "version_end_date", "applicable_at_as_of_date", "content_complete")},
+                            "text_sha256": hashlib.sha256(node["text"].encode()).hexdigest()})
+            result["mcp_calls"].append({"server": item.get("server"), "tool": item.get("tool"),
+                "succeeded": success, "sources": sources,
+                "result_sha256": hashlib.sha256(json.dumps(response, sort_keys=True, ensure_ascii=False).encode()).hexdigest()})
         if item.get("type") != "web_search":
             continue
         action = (item.get("action") or {}).get("type")
@@ -138,12 +165,14 @@ def export(kit: Path, output: Path, commit: str) -> dict:
         text = (folder / "response.md").read_text(encoding="utf-8")
         cited = {clean_url(url.rstrip(".,;")) for url in re.findall(r"https?://[^\s)\]>]+", text) if official(url)}
         opened = {s["url"] for s in trace["roles"]["respondant"]["official_open_results"]}
+        fetched = {s["url"] for call in trace["roles"]["respondant"]["mcp_calls"] for s in call["sources"]}
         trace["official_citations_without_matching_open_url"] = sorted(cited - opened)
-        trace["source_audit_note"] = "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+        trace["official_citations_without_matching_retrieval"] = sorted(cited - opened - fetched)
+        trace["source_audit_note"] = "Correspondance d'URL et récupération MCP explicite seulement ; application au dossier et portée restent à contrôler."
         save(target / "trace-assainie.json", trace)
         progress.append({"case_id": case["id"], "verdict": mesure.load(folder / "judgment.json")["verdict"],
                          "response_sha256": hashlib.sha256((folder / "response.md").read_bytes()).hexdigest(),
-                         "citation_alerts": len(cited - opened)})
+                         "citation_alerts": len(cited - opened - fetched)})
     manifest["source_runtime_commit"] = commit
     manifest["public_trace_policy"] = "Flux bruts hors dépôt ; réponses, jugements, empreintes et traces assainies exportés."
     save(output / "manifest.json", manifest)

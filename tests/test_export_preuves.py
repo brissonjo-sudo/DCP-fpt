@@ -40,6 +40,21 @@ class ExportPreuvesTests(unittest.TestCase):
                 export.copy_checked(source, target)
             self.assertEqual(target.read_bytes(), b"preuve originale\n")
 
+    def test_recuperation_mcp_explicitement_verifiee_sans_flux_brut(self):
+        node = {"id": "identifiant-factice", "url": "https://www.legifrance.gouv.fr/article?token=CANARI",
+                "text": "CANARI", "metadata": {"verified": True, "applicable_at_as_of_date": False}}
+        item = {"type": "mcp_tool_call", "server": "droit-francais", "tool": "get_article",
+                "status": "completed", "result": {"structuredContent": node}}
+        result = export.role_trace([{"type": "item.completed", "item": item}])
+        self.assertEqual(len(result["mcp_calls"][0]["sources"]), 1)
+        self.assertFalse(result["mcp_calls"][0]["sources"][0]["metadata"]["applicable_at_as_of_date"])
+        self.assertNotIn("CANARI", json.dumps(result))
+        item["result"]["isError"] = True
+        self.assertEqual(export.role_trace([{"type": "item.completed", "item": item}])["mcp_calls"][0]["sources"], [])
+        item["result"]["isError"] = False
+        item["server"] = "serveur-etranger"
+        self.assertEqual(export.role_trace([{"type": "item.completed", "item": item}])["mcp_calls"][0]["sources"], [])
+
     def test_campagnes_publiques_liees_a_leurs_runtime_et_sorties(self):
         """La CI refuse une synthèse complète dont une preuve publique a dérivé."""
         for profile in ("codex-web-v0.1.0-r2", "codex-web-v0.1.1-r3"):

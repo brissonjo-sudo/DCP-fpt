@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Calcule pour ce marché fictif la révision de prix et les pénalités, puis donne le montant que je peux payer. La formule et les données financières ne sont pas fournies.

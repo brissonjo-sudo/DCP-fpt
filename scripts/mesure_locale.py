@@ -152,7 +152,7 @@ def input_for(kit: Path, case: dict, role: str, engine: str) -> str:
     )
 
 
-def command(engine: str, model: str, web: bool, role: str, workspace: Path) -> list[str]:
+def command(engine: str, model: str, web: bool, role: str, workspace: Path, mcp: bool = False) -> list[str]:
     """Arguments structurés, sans shell et sans modifier les identifiants utilisateur."""
     if engine == "claude":
         tools = "Read,WebSearch,WebFetch" if web and role == "respondant" else ("Read" if role == "respondant" else "")
@@ -167,9 +167,17 @@ def command(engine: str, model: str, web: bool, role: str, workspace: Path) -> l
     # --ignore-user-config retire aussi le backend Windows : le rétablir
     # explicitement pour que les lectures soient réellement confinées.
     platform_config = ["-c", 'windows.sandbox="elevated"'] if sys.platform == "win32" else []
+    mcp_config = []
+    if mcp and role == "respondant":
+        public = {"url": "https://droit-francais-skill.onrender.com/mcp", "required": True,
+                  "startup_timeout_sec": 40, "tool_timeout_sec": 60,
+                  "enabled_tools": ["search", "fetch", "get_article", "get_section", "get_decision", "search_case_law"],
+                  "oauth.client_id": "tpc_gCoyj4qPSuyrg1ZZWDyp4D", "oauth.callback_port": 44956}
+        for key, value in public.items():
+            mcp_config.extend(["-c", "mcp_servers.droit-francais."+key+"="+json.dumps(value)])
     return base + ["exec", "--model", model, "--ephemeral", "--ignore-user-config",
                    "-c", 'web_search="live"' if web and role == "respondant" else 'web_search="disabled"',
-                   *platform_config,
+                   *platform_config, *mcp_config,
                    "--sandbox", "read-only", "--skip-git-repo-check", "--json",
                    "--output-last-message", str(workspace / "sortie.txt"), "-"]
 
@@ -215,6 +223,8 @@ def verify_evidence(kit: Path, case: dict, role: str, settings: dict) -> None:
                 "raw_stderr_sha256": digest((directory / f"{role}-stderr.txt").read_bytes())}
     if any(prior.get(key) != value for key, value in expected.items()):
         raise ValueError(f"Preuve modifiée : {case['id']} {role}")
+    if settings.get("mcp") and prior.get("mcp_requested") != (role == "respondant"):
+        raise ValueError(f"Preuve MCP modifiée : {case['id']} {role}")
 
 
 def one_call(kit: Path, case: dict, role: str, settings: dict, timeout: int) -> None:
@@ -234,7 +244,7 @@ def one_call(kit: Path, case: dict, role: str, settings: dict, timeout: int) -> 
         if role == "respondant":
             native = ".claude/skills/dcp-fpt" if settings["engine"] == "claude" else ".agents/skills/dcp-fpt"
             shutil.copytree(kit / "runtime", workspace / native)
-        cmd = command(settings["engine"], model, settings["web"], role, workspace)
+        cmd = command(settings["engine"], model, settings["web"], role, workspace, settings.get("mcp", False))
         started = time.monotonic()
         try:
             result = subprocess.run(cmd, input=payload, text=True, encoding="utf-8",
@@ -260,6 +270,7 @@ def one_call(kit: Path, case: dict, role: str, settings: dict, timeout: int) -> 
                        "skill_entry_supplied": role == "respondant",
                        "native_skill_present": role == "respondant",
                        "web_requested": settings["web"] and role == "respondant",
+                       **({"mcp_requested": role == "respondant"} if settings.get("mcp") else {}),
                        "completed_at": datetime.now(UTC).isoformat(),
                        "elapsed_seconds": round(time.monotonic() - started, 3),
                        "raw_stdout_sha256": digest(result.stdout.encode()),
@@ -270,8 +281,10 @@ def one_call(kit: Path, case: dict, role: str, settings: dict, timeout: int) -> 
 
 
 def launch(kit: Path, engine: str, responder: str, judge: str, web: bool,
-           case_ids: list[str] | None = None, dry: bool = False, timeout: int = 900) -> None:
+           case_ids: list[str] | None = None, dry: bool = False, timeout: int = 900, mcp: bool = False) -> None:
     cases = verify_kit(kit)
+    if mcp and engine != "codex":
+        raise ValueError("Le profil MCP autonome est limité à Codex")
     if not responder.strip() or not judge.strip():
         raise ValueError("Les deux modèles doivent être explicitement renseignés")
     if timeout <= 0:
@@ -284,13 +297,15 @@ def launch(kit: Path, engine: str, responder: str, judge: str, web: bool,
     if dry:
         print(json.dumps({"engine": engine, "respondant": responder, "juge": judge,
                           "cas": [c["id"] for c in cases], "appels": len(cases) * 2,
-                          "web": web, "execution": "aucun appel modèle"}, ensure_ascii=False, indent=2))
+                          "web": web, "mcp": mcp, "execution": "aucun appel modèle"}, ensure_ascii=False, indent=2))
         return
     if not shutil.which(engine):
         raise ValueError(f"CLI {engine} introuvable ; installer et connecter sur votre poste")
     version = subprocess.run([engine, "--version"], text=True, encoding="utf-8", capture_output=True, check=True, timeout=20)
     settings = {"engine": engine, "responder_model": responder, "judge_model": judge,
                 "web": web, "cli_version": version.stdout.strip()}
+    if mcp:
+        settings["mcp"] = True
     execution = kit / "resultats" / "execution.json"
     if execution.exists() and load(execution) != settings:
         raise ValueError("Moteur, modèles, outils ou version CLI différents : créer une nouvelle campagne")
@@ -331,6 +346,7 @@ def main() -> int:
     run.add_argument("--responder-model", required=True)
     run.add_argument("--judge-model", required=True)
     run.add_argument("--web", action="store_true", help="activer les sources web pour les répondants")
+    run.add_argument("--mcp", action="store_true", help="activer droit-francais pour les seuls répondants Codex")
     run.add_argument("--cases", nargs="+", help="ex. cas-21 cas-22 ; sans option : 28 cas")
     run.add_argument("--dry-run", action="store_true", help="contrôler sans appeler le modèle")
     run.add_argument("--timeout", type=int, default=900)
@@ -340,7 +356,7 @@ def main() -> int:
             print(f"[OK] Archive prête : {export_kit(args.output, args.run_dir.resolve())}")
         else:
             launch(args.kit.resolve(), args.engine, args.responder_model, args.judge_model,
-                   args.web, args.cases, args.dry_run, args.timeout)
+                   args.web, args.cases, args.dry_run, args.timeout, args.mcp)
         return 0
     except (OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as error:
         print(f"[ÉCHEC] {error}", file=sys.stderr)

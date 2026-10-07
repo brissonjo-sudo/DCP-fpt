@@ -154,6 +154,16 @@ class CampagneLocale(unittest.TestCase):
         self.assertEqual(judgment["response_sha256"], mesure.digest(
             (self.kit / "resultats" / "cas-21" / "response.md").read_bytes()))
 
+    def test_mcp_repondant_seul_et_changement_profil_refuse(self):
+        respondent = mesure.command("codex", "factice", False, "respondant", self.root, True)
+        judge = mesure.command("codex", "factice", False, "juge", self.root, True)
+        self.assertTrue(any("mcp_servers.droit-francais.url=" in arg for arg in respondent))
+        self.assertFalse(any("mcp_servers." in arg for arg in judge))
+        self.launch(engine="codex")
+        with patch.object(mesure.shutil, "which", return_value="factice"), patch.object(mesure.subprocess, "run", side_effect=self.fake_cli):
+            with self.assertRaisesRegex(ValueError, "différents"):
+                mesure.launch(self.kit, "codex", "modèle factice", "juge factice", False, ["cas-21"], mcp=True)
+
     def test_jugement_non_objet_ou_sans_notes_refuse(self):
         for invalid in ('[]', '{"verdict":"RÉUSSITE","notes":""}', '{"verdict":"inconnu","notes":"Test"}'):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):

@@ -1,10 +1,10 @@
 ---
 title: "Index dcp-fpt"
-version: 0.1.2
+version: 0.1.3
 statut: "mesuré par juge automatique, non relu par un praticien"
 ---
 
-# Index — dcp-fpt v0.1.2
+# Index — dcp-fpt v0.1.3
 
 Notes compatibles Obsidian ; aucune configuration de vault local ni
 synchronisation attestée. Suivi hors paquet runtime.

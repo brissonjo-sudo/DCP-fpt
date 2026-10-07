@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse demande le contrat et les pièces nécessaires, précise les rôles sans identification nominative et distingue acceptation, agrément des conditions de paiement et exécution sans valider la demande. Elle réserve le paiement direct et bascule explicitement vers dirfi-fpt, sans instruction financière. Les références officielles sont accompagnées d’une déclaration de lecture en session, d’une date et de réserves d’applicabilité. Cette provenance devra être contrôlée dans les traces avant promotion, conformément au protocole ; aucun manquement éliminatoire n’est établi par le contenu fourni.",
+  "response_sha256": "c25c47a5a4290bd86d72053130aeff88be70bb9f3954504e56d7ae8f4b5b628b"
+}

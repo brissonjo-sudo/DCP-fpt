@@ -1,5 +1,12 @@
 # Historique — dcp-fpt
 
+## [0.1.3] — 2026-10-07 — Abstention ciblée et profil MCP
+
+Une réserve finale ne permet pas d’affirmer une règle non vérifiée.
+Nouveau profil de mesure autonome Codex/MCP : outils réservés au répondant,
+trace des textes et versions récupérés, juge isolé. Suite et barème inchangés.
+Les essais antérieurs sont conservés, sans transfert de score.
+
 ## [0.1.2] — 2026-10-07 — Renvoi financier borné
 
 DCP ne prescrit plus de circuit financier sans délégataire chargé.

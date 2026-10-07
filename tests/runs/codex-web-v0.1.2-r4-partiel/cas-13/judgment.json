@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "Le parcours agrège les étapes via l’objet marche-travaux et distingue besoin, procédure, attribution/signature, exécution et réception sans inventer de calendrier. Les pièces, compétences et habilitations restent à établir avant les actes sensibles. Le financier est basculé vers dirfi-fpt ; aucun CCAG n’est présumé incorporé. Les lectures officielles déclarées comportent URL, date et statut ; l’échec d’accès au CCAG entraîne une abstention ciblée, et le registre daté est explicitement distingué d’une vérification en session. La réalité des lectures reste à contrôler dans les traces, conformément au protocole.",
+  "response_sha256": "010a2527d092845e27b9c7c96bececb23a0a34d46db0b1bdaea67123a4ac4db4"
+}

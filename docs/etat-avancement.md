@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.2
+# État d'avancement — dcp-fpt v0.1.3
+
+## Candidat 0.1.3 — 2026-10-07
+
+Abstention ciblée et profil autonome Codex/MCP selon ADR 0005. Nouvelle
+mesure requise. Essai web 0.1.2 interrompu après régression source au cas 01 ;
+cas achevés conservés, sans score global.
+
+- SHA-256 du paquet 0.1.3 : `70fed26db3441e89e9fe77539302f8e0d44f0abd9765e6f5f81d1376efcd5e46`.
+
 
 ## Candidat 0.1.2 — 2026-10-07
 
