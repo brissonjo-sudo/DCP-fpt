@@ -1,5 +1,14 @@
 # Journal de maintenance — dcp-fpt
 
+## 2026-10-07 — Candidat correctif 0.1.1
+
+Poursuite autorisée : précision BASCULE avant l'intertitre du délégataire,
+relais financier nommé dans une note d'estimation ou de montage incomplète.
+Les deux STOP, le registre, le cache et les branches restent inchangés.
+Lanceur : ouverture officielle exigée avant déclaration de lecture. Suite
+et barème historiques conservés ; nouveau kit requis, aucun transfert du
+score 0.1.0. Intégration et mesure du correctif restent à établir.
+
 ## 2026-10-07 — Résultats autonomes
 
 Les 28 cas et 56 rôles sont achevés avec contrôle des empreintes. Le juge

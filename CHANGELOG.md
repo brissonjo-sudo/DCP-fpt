@@ -1,5 +1,14 @@
 # Historique — dcp-fpt
 
+## [0.1.1] — 2026-10-07 — Candidat correctif
+
+Ordre explicite BASCULE puis intertitre du délégataire, y compris en
+coactivation. Séparation entre méthode juridique d'estimation et chiffrage,
+crédits ou engagement financier, avec relais nommé dans une note incomplète.
+Protocole de mesure : ouverture officielle distincte d'un résultat de
+recherche. Aucun nouveau droit, identifiant ni valeur dans le runtime.
+Nouvelle mesure requise ; preuves et score de 0.1.0 conservés séparément.
+
 ## Mesure autonome — 2026-10-07
 
 Campagne Codex web v0.1.0-r2 complète, 56 rôles avec preuves empreintées.

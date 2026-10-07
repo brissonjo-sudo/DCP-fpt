@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.0
+# État d'avancement — dcp-fpt v0.1.1
+
+## Candidat correctif du 2026-10-07
+
+0.1.1 précise les frontières financières et l'ordre BASCULE/intertitre.
+Le score autonome 0.1.0 ci-dessous ne s'applique pas à ce nouveau runtime.
+Le protocole exige une ouverture officielle avant une déclaration de lecture.
+Nouvelle mesure en préparation, sans modifier les réponses historiques.
+
+- SHA-256 du paquet 0.1.1 : `8a63fd0a87512ff2e0d478c34317e635a259d31ce7f23d3b8efa777edbdd27de`.
 
 ## Actualisation du 2026-10-07
 

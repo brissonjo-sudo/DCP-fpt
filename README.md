@@ -1,13 +1,13 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.0
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.1
 
-> **Statut : mesuré sur Codex, non relu par un praticien.** Campagne autonome
-> du 2026-10-07 : 26 réussites, une demi-réussite, un échec ; aucun échec
-> critique selon le juge automatique. Sources et qualification plugin restent
-> à contrôler. Aucune qualification de production ni promotion de version.
+> **Statut du candidat 0.1.1 : non mesuré, non relu par un praticien.**
+> La campagne 0.1.0 a produit 26 réussites, une demi-réussite, un échec selon
+> le juge automatique, sans échec critique. Ce score ne se transfère pas au
+> nouveau candidat. Sources et qualification plugin restent à contrôler.
 
-Le runtime figé conserve son avertissement de rédaction historique :
-« non mesuré, non relu par un praticien ». Les résultats ci-dessus portent
-sur ses octets inchangés, sans effacer cet avertissement dans le paquet.
+Le run historique 0.1.0 conserve ses preuves et son avertissement de rédaction.
+Le candidat 0.1.1 doit être évalué sur ses propres octets avant tout nouveau
+score ; la relecture praticien demeure à réaliser.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et
@@ -59,7 +59,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.0.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.1.1.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.

@@ -129,6 +129,10 @@ def input_for(kit: Path, case: dict, role: str, engine: str) -> str:
             "barème, autre cas, configuration personnelle ou historique. "
             "Réponds à la question en français, sans commentaire sur le protocole. "
             "Ne prétends pas avoir consulté une source sans appel réel. "
+            "Un résultat de recherche est une piste : ouvre la page officielle "
+            "et lis son contenu et sa version avant de la présenter comme vérifiée. "
+            "Si l'ouverture échoue ou reste ambiguë, indique cette limite ; "
+            "ne présente pas l'extrait de recherche comme une lecture complète. "
             "Si les sources sont indisponibles, applique le mode dégradé du skill.\n\n"
             "<entree_skill>\n" + (kit / "runtime" / "SKILL.md").read_text(encoding="utf-8") +
             "\n</entree_skill>\n\n<question>\n" + case["prompt"] + "\n</question>\n"
