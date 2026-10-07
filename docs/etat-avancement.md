@@ -1,5 +1,18 @@
 # État d'avancement — dcp-fpt v0.1.0
 
+## Actualisation du 2026-10-07
+
+Rédaction fusionnée par la PR #4 ; intégration candidate du plugin fusionnée
+par les PR #10 puis #9. Distribution toujours gelée sur v1.1.1, sans DCP.
+Suite métier rédigée : 28 cas, huit critiques. CI passée en validation complète.
+Profil autonome Codex web et profil plugin MCP séparés (ADR 0002).
+Mesure autonome en cours ; relecture praticien non réalisée. Les 36 tests
+logiciels passent, dont le correctif du backend sandbox Windows.
+Le relevé ci-dessous conserve le périmètre historique de la rédaction.
+Preuves de la nouvelle phase : `docs/qualification-2026-10-07.md`.
+
+## État historique de la passation du 2026-10-06
+
 Date : 2026-10-06. Périmètre : docs/passation-redaction.md.
 Statut produit : **non mesuré, non relu par un praticien**.
 

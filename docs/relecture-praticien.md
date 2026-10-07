@@ -3,6 +3,17 @@
 Candidate **0.1.0** : **non mesuré, non relu par un praticien**.
 Grille vierge, aucune relecture attestée.
 
+La phase du 2026-10-07 fournit la suite de 28 cas et les réponses/jugements
+achevés dans `tests/runs/codex-web-v0.1.0-r2/`. Voir le rapport de
+qualification du 2026-10-07 pour le profil, les limites et les alertes de
+provenance. Une relecture de PR ou un jugement de modèle ne renseigne pas
+cette grille à la place d'un acheteur public ou juriste.
+
+Points ciblés : frontière entre estimation juridique et calcul financier
+(cas-01 et cas-24), STOP avant contenu, compétence/signature, différences
+adaptée/formalisée et collectivité/État, provenance des citations et réserves
+du socle. Les huit cas critiques se relisent aussi dans leur intégralité.
+
 | Axe | Point à examiner | Avis/preuve/correction |
 |---|---|---|
 | Persona/modes | Conduite, attribution, signature selon convention/délégation | À renseigner |

@@ -160,8 +160,12 @@ def command(engine: str, model: str, web: bool, role: str, workspace: Path) -> l
     base = ["codex"]
     if web and role == "respondant":
         base.append("--search")
+    # --ignore-user-config retire aussi le backend Windows : le rétablir
+    # explicitement pour que les lectures soient réellement confinées.
+    platform_config = ["-c", 'windows.sandbox="elevated"'] if sys.platform == "win32" else []
     return base + ["exec", "--model", model, "--ephemeral", "--ignore-user-config",
                    "-c", 'web_search="live"' if web and role == "respondant" else 'web_search="disabled"',
+                   *platform_config,
                    "--sandbox", "read-only", "--skip-git-repo-check", "--json",
                    "--output-last-message", str(workspace / "sortie.txt"), "-"]
 

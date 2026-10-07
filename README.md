@@ -44,7 +44,7 @@ pourcentage. Réserves dans les branches et [grille de relecture](docs/relecture
 Python 3.11 ou ultérieur, sans bibliothèque tierce, depuis le dépôt :
 
 ```powershell
-python scripts/validate_repo.py --sans-campagne
+python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
@@ -65,12 +65,13 @@ phase de qualification autorisée, aucune installation dans cette passation.
 2. Socle daté et applicabilité : conservés, avec réserves.
 3. Point d'entrée, branches, objets et gabarits : rédigés.
 4. Outillage de validation et de mesure : livré, sans campagne.
-5. Campagne de mesure de 28 cas, relecture par un praticien ; v1.0.0 au
-   premier passage du seuil.
-6. Intégration au plugin `collectivite-territoriale`.
+5. Suite de 28 cas rédigée ; mesure autonome et relecture par un praticien
+   en préparation. Promotion en v1.0.0 et mesure du runtime promu à établir.
+6. Intégration candidate au plugin `collectivite-territoriale` 1.2.0 réalisée ;
+   distribution maintenue sur v1.1.1, sans DCP, avant qualification.
 
 [État et preuves](docs/etat-avancement.md) · [Passation](docs/passation-redaction.md) ·
-[Cadrage](docs/cadrage.md) · [Protocole futur](docs/campagne-locale.md).
+[Cadrage](docs/cadrage.md) · [Protocole de mesure](docs/campagne-locale.md).
 Aucun seuil de publication déclaré atteint. Patron DSI : provenance dans l'état.
 
 ## Licence

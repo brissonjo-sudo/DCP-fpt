@@ -1,0 +1,5 @@
+{
+  "verdict": "ÉCHEC",
+  "notes": "Le cadrage du besoin, la consolidation des fournitures homogènes, les données manquantes et le choix conditionnel de procédure sont correctement traités. Toutefois, la réponse traite directement le calcul financier sans BASCULE vers dirfi-fpt ni arrêt de ce volet : c’est un manquement éliminatoire relatif à la frontière. La lecture effective des sources officielles est déclarée, mais ne peut être confirmée avec les seuls éléments fournis.",
+  "response_sha256": "04520ec184cf3600ba4eb7d4e389dc84a226dc5eea163df20427d35999fbf3d8"
+}

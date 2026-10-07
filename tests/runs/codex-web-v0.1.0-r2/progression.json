@@ -1,0 +1,110 @@
+{
+  "case_count": 28,
+  "completed_count": 17,
+  "cases": [
+    {
+      "case_id": "cas-01",
+      "verdict": "ÉCHEC",
+      "response_sha256": "04520ec184cf3600ba4eb7d4e389dc84a226dc5eea163df20427d35999fbf3d8",
+      "citation_alerts": 3
+    },
+    {
+      "case_id": "cas-02",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f521c553fd2b3c73d6732e1a4df2dfa6f12cae60845e6f34b49235f6e1c1c356",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-03",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "6cd5f22b33094915ba248295c8eb7547603808ed2f15f8a1b0ecc8c670fb6270",
+      "citation_alerts": 1
+    },
+    {
+      "case_id": "cas-04",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "983535940b7b75ac37ac72d0f50c56142b08f83ecabbf41094a6cec285975f94",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-05",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "49d6b834bbff4c9f399fe679663710972071971d305ccb6c7fc1cbd8d3057ce5",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-06",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b9db13c34cb90e8ac43f855b4f83195cc4ab98be31816cf2abcfa861c69a055e",
+      "citation_alerts": 1
+    },
+    {
+      "case_id": "cas-07",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "7eeaaac96d9d26e7e8f8aa19682e829b01ecdac34285abc801e2809a1b2b71f4",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-08",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8439ec15a5a78a977471b4b250fd25da1cec5a624e98afedbdb3b0d22a20aa60",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-09",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "88d0715ddb9dd6ccd135e61c2bdbda6dba80650d4138751e98586b6144fc6303",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-10",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "bc78b1cbc86618be738387eadf004bb706108a5d9825de9ac08e9cd352908fff",
+      "citation_alerts": 1
+    },
+    {
+      "case_id": "cas-11",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "981fadaf0e283a7a115857b06bfdba9c3edc3df4b62a8925913526fb3fe99d53",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-12",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "e65659a6baa25587a21a1cee50809da2c9c746d3fed5e8f0dc647d11242266d2",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-13",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b9d88a236fa5655da4236025e9921068c631e4884785efed2ef0eab0b7aa4a13",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-14",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "fec72a00dba70f48710273642ca53b69ed7d3342b54d7b936e9d93d6a67cf8bb",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-15",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "215d16c86ec5a9442cd792b0448d02b98a36279ed5162c0c2312d290425a223a",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-16",
+      "verdict": "DEMI-RÉUSSITE",
+      "response_sha256": "ac483f24b82516419c3ba22ee8eb4aa365d775a26127ab330b90406788ddd1c3",
+      "citation_alerts": 4
+    },
+    {
+      "case_id": "cas-23",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f87a8e939e260920c6fb3ae320e6b1045125583f3f844c998efff7db1d736155",
+      "citation_alerts": 0
+    }
+  ],
+  "publication_ready": false,
+  "human_legal_validation": false
+}

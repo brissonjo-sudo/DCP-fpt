@@ -164,6 +164,17 @@ class CampagneLocale(unittest.TestCase):
             mesure.response_text("claude", json.dumps({"type": "result", "subtype": "error_max_turns",
                                                        "is_error": True}), self.root)
 
+    def test_codex_windows_conserve_backend_et_lecture_seule(self):
+        with patch.object(mesure.sys, "platform", "win32"):
+            cmd = mesure.command("codex", "modèle factice", True, "respondant", self.root)
+        self.assertIn('windows.sandbox="elevated"', cmd)
+        self.assertIn("--ignore-user-config", cmd)
+        self.assertEqual(cmd[cmd.index("--sandbox") + 1], "read-only")
+        with patch.object(mesure.sys, "platform", "linux"):
+            cmd = mesure.command("codex", "modèle factice", False, "juge", self.root)
+        self.assertFalse(any("windows.sandbox" in arg for arg in cmd))
+        self.assertIn('web_search="disabled"', cmd)
+
     def test_complete_simulee_verifie_56_preuves_sans_publication(self):
         self.launch(cases=[])
         self.assertEqual(len(self.calls), 56)

@@ -1,5 +1,13 @@
 # Historique — dcp-fpt
 
+## Préparation de mesure — 2026-10-07
+
+Suite de 28 cas fictifs, huit critiques, conforme au cadrage ; barème adapté
+à la phase autorisée. CI en mode complet. Profils autonome web et plugin MCP
+séparés dans l'ADR 0002. Correction du backend sandbox Windows du lanceur
+Codex, couvert par un test logiciel. Runtime, registre et cache inchangés.
+La préparation et le contrôle initial ne prouvent aucun seuil atteint.
+
 ## [0.1.0] — 2026-10-06
 
 Point d'entrée, routeur, douze branches, six objets, cinq gabarits,

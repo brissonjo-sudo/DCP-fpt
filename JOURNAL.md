@@ -1,5 +1,16 @@
 # Journal de maintenance — dcp-fpt
 
+## 2026-10-07 — Préparation de la mesure autonome
+
+Poursuite autorisée après fusion des PR plugin 10 puis 9. Suite de 28 cas
+fictifs et anonymisés, aucun montant ou dossier réel. Profil autonome Codex
+web distinct du MCP plugin. Premier contrôle d'environnement conservé à
+part : branches bloquées malgré un jugement favorable. Backend Windows
+rétabli explicitement en lecture seule, sans importer la configuration
+personnelle. Nouveau kit pour le contrôle corrigé. Relecture praticien et
+qualification plugin toujours distinctes ; aucun tag ou changement de
+distribution.
+
 ## 2026-10-06 — Rédaction et outillage v0.1.0
 
 Passation exécutée sur clone isolé : point d'entrée, routeur/gabarits,

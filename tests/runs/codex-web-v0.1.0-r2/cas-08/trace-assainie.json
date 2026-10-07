@@ -1,0 +1,80 @@
+{
+  "case_id": "cas-08",
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/projet-avenant.md"
+          ]
+        },
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/templates/projet-avenant.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037729565",
+          "title": "Article R2194-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 202"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037729545",
+          "title": "Article R2194-7 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 206"
+        }
+      ],
+      "usage": {
+        "input_tokens": 147562,
+        "cached_input_tokens": 110208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 956,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14528,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 180,
+        "reasoning_output_tokens": 64
+      }
+    }
+  },
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}
