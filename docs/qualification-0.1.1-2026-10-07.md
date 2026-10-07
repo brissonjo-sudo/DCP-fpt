@@ -44,6 +44,9 @@ paquet déterministe de 30 fichiers. SHA-256 :
 `8a63fd0a87512ff2e0d478c34317e635a259d31ce7f23d3b8efa777edbdd27de`.
 Relecture praticien et qualification d'installation distinctes. Le point
 d'entrée garde son avertissement antérieur à la mesure pour préserver les
-octets réellement testés. La CI distante du nouveau commit de preuves reste
-à observer ; les contrôles Windows et Ubuntu du runtime source ont réussi.
+octets réellement testés. La CI distante du commit de preuves
+`da6b6ce916aa017b5ef5edb1fb496cd6054d1c8f` réussit sur Windows et Ubuntu :
+[validation](https://github.com/brissonjo-sudo/DCP-fpt/actions/runs/37680308826).
+Cette CI contrôle les logiciels, les preuves et le paquet ; elle ne vaut
+pas relecture praticien ni vérification indépendante des sources juridiques.
 Ni fusion automatique de ces PR, ni nouvelle étiquette ou publication.
