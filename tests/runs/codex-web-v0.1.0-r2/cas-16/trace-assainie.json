@@ -1,5 +1,6 @@
 {
   "case_id": "cas-16",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -49,6 +50,66 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2026-08-21/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724364/2026-01-26/",
+          "title": "Sous-section 3 : Dispositions propres aux bons de commande (Articles R2162-13 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2024-01-16/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2024-01-01/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2023-03-11/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2022-12-30/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2021-11-19",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048246719",
+          "title": "Article L2125-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043970205",
+          "title": "Article R2121-8 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393960",
+          "title": "Article L2111-1 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724334/2026-08-21/",
+          "title": "Section 1 : Accords-cadres (Articles R2162-1 à R2162-14) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048246719",
+          "title": "Article L2125-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043970205",
+          "title": "Article R2121-8 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393960",
+          "title": "Article L2111-1 - Code de la commande publique - Légifrance"
+        }
+      ],
       "official_open_results": [],
       "usage": {
         "input_tokens": 205310,
@@ -61,6 +122,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 15243,

@@ -1,5 +1,6 @@
 {
   "case_id": "cas-11",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -47,6 +48,8 @@
         }
       ],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 141876,
@@ -59,6 +62,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14866,

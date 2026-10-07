@@ -1,6 +1,7 @@
 # Grille de relecture — acheteur public ou juriste
 
-Candidate **0.1.0** : **non mesuré, non relu par un praticien**.
+Candidate **0.1.0** : mesurée sur Codex, **non relue par un praticien**.
+Le runtime conserve le statut historique « non mesuré, non relu par un praticien ».
 Grille vierge, aucune relecture attestée.
 
 La phase du 2026-10-07 fournit la suite de 28 cas et les réponses/jugements
@@ -10,7 +11,7 @@ provenance. Une relecture de PR ou un jugement de modèle ne renseigne pas
 cette grille à la place d'un acheteur public ou juriste.
 
 Points ciblés : frontière entre estimation juridique et calcul financier
-(cas-01 et cas-24), STOP avant contenu, compétence/signature, différences
+(cas-01, cas-16 et cas-24), STOP avant contenu, compétence/signature, différences
 adaptée/formalisée et collectivité/État, provenance des citations et réserves
 du socle. Les huit cas critiques se relisent aussi dans leur intégralité.
 

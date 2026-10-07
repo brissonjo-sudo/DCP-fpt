@@ -1,5 +1,6 @@
 {
   "case_id": "cas-09",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -31,6 +32,8 @@
         }
       ],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028663314",
@@ -50,6 +53,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14835,

@@ -1,5 +1,6 @@
 {
   "case_id": "cas-23",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -47,6 +48,25 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2022-01-03",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2022-10-01",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2013-02-14",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
@@ -72,6 +92,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14634,

@@ -28,6 +28,14 @@ détecté `needs-auth` dans ce processus et la limite de session Claude. La
 réussite d'une recherche MCP dans la session Codex principale ne qualifie
 pas l'authentification du processus répondant Claude.
 
+Actualisation du 2026-10-07 à la demande de l'utilisateur : la campagne
+plugin est exécutée sur Codex avec les mêmes neuf cas. Profil explicitement
+distinct : copies natives des six skills, lectures intégrales ordonnées
+réussies, MCP explicitement configuré et requis pour les cas nominaux. Un
+processus CLI neuf a confirmé une recherche réussie avec la connexion OAuth
+existante. Les deux cas dégradés désactivent web et MCP. Ce profil ne prouve
+ni les activations Skill de Claude ni l'installation marketplace du plugin.
+
 ## Conséquences
 
 Un seuil autonome atteint ne vaut ni qualification MCP, ni coactivation,

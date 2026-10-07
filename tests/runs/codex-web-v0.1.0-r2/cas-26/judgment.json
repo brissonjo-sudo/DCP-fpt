@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse refuse correctement le seuil des autorités centrales pour une commune, distingue la qualité de l’acheteur et explicite l’inférence. Elle demande la nature des prestations, la valeur globale et la date de lancement, sans inventer de montant ni autoriser la procédure adaptée. La vérification du seuil applicable reste conditionnée à ces informations. Les lectures officielles sont déclarées avec URL, date et statut ; leur réalité doit être contrôlée dans les traces avant promotion, sans pouvoir être confirmée ni infirmée par ce jugement.",
+  "response_sha256": "f3b099ccd5edb3788ab5665840e196d8bd052cd2fc9c8f8fc5295bbba9323e9a"
+}

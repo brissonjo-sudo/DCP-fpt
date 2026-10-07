@@ -1,5 +1,6 @@
 {
   "case_id": "cas-05",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -39,6 +40,45 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://journal-officiel.legifrance.gouv.fr/",
+          "title": "Légifrance - Version allégée"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723632/",
+          "title": "Partie réglementaire (Articles R2100-1 à D3381-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037731063",
+          "title": "DEUXIÈME PARTIE : MARCHÉS PUBLICS (Articles R2100-1 à R2691-1) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037726787/2026-08-21/",
+          "title": "Chapitre unique. (Articles R2681-1 à D2681-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037726771/2026-05-07/",
+          "title": "Chapitre unique. (Articles R2671-1 à D2671-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037726739/2026-08-17/",
+          "title": "Chapitre unique. (Articles R2651-1 à D2651-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037727963",
+          "title": "Chapitre unique. (Articles R2651-1 à D2651-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723638/2022-03-05/",
+          "title": "DEUXIÈME PARTIE : MARCHÉS PUBLICS (Articles R2100-1 à R2691-1) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723638/2019-07-22",
+          "title": "DEUXIÈME PARTIE : MARCHÉS PUBLICS (Articles R2100-1 à R2691-1) - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730011",
@@ -76,6 +116,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 15130,

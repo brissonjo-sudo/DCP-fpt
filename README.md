@@ -1,8 +1,13 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.0
 
-> **Statut : non mesuré, non relu par un praticien.** Rédaction et outillage
-> livrés en v0.1.0 ; campagne et relecture à réaliser. Les contrôles statiques
-> et unitaires ne qualifient pas un usage en production.
+> **Statut : mesuré sur Codex, non relu par un praticien.** Campagne autonome
+> du 2026-10-07 : 26 réussites, une demi-réussite, un échec ; aucun échec
+> critique selon le juge automatique. Sources et qualification plugin restent
+> à contrôler. Aucune qualification de production ni promotion de version.
+
+Le runtime figé conserve son avertissement de rédaction historique :
+« non mesuré, non relu par un praticien ». Les résultats ci-dessus portent
+sur ses octets inchangés, sans effacer cet avertissement dans le paquet.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et
@@ -65,8 +70,9 @@ phase de qualification autorisée, aucune installation dans cette passation.
 2. Socle daté et applicabilité : conservés, avec réserves.
 3. Point d'entrée, branches, objets et gabarits : rédigés.
 4. Outillage de validation et de mesure : livré, sans campagne.
-5. Suite de 28 cas rédigée ; mesure autonome et relecture par un praticien
-   en préparation. Promotion en v1.0.0 et mesure du runtime promu à établir.
+5. Suite de 28 cas mesurée sur le runtime 0.1.0 ; seuil automatique atteint.
+   Relecture praticien et contrôle des sources à réaliser. Promotion en
+   v1.0.0 et mesure du runtime promu à établir.
 6. Intégration candidate au plugin `collectivite-territoriale` 1.2.0 réalisée ;
    distribution maintenue sur v1.1.1, sans DCP, avant qualification.
 

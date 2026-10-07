@@ -1,5 +1,6 @@
 {
   "case_id": "cas-15",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -37,6 +38,17 @@
         }
       ],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730897",
+          "title": "Article R2121-6 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730895",
+          "title": "Article R2121-7 - Code de la commande publique - Légifrance"
+        }
+      ],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053222294",
@@ -68,6 +80,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14775,

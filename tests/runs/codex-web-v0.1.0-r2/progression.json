@@ -1,6 +1,6 @@
 {
   "case_count": 28,
-  "completed_count": 17,
+  "completed_count": 28,
   "cases": [
     {
       "case_id": "cas-01",
@@ -99,9 +99,75 @@
       "citation_alerts": 4
     },
     {
+      "case_id": "cas-17",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c85a02aed14dc814cb885d4b009bc4837c2221f7d4781eff0f6223545bdb06e0",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-18",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "a2eb5e9910c460c2996d791a9a3afd1c4b687e6f7402a24cfa4239511c43319e",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-19",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8d5fa3c2f5c77364d5a3846ede3c0efe764807d3d30030a1236d9869efe59c7b",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-20",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "7ad2a96c3ca28fc56f1711e66755d6427118567e4590bcb5e6ad4c0828855da9",
+      "citation_alerts": 1
+    },
+    {
+      "case_id": "cas-21",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "13a488a1607280df85db465388efd51690b13547b12b82e89f503a73756972c3",
+      "citation_alerts": 1
+    },
+    {
+      "case_id": "cas-22",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c50c9ddc7fea8461ed36a535fa7ce26f6c35f5c0f5f0132c05bf36c8a3db21e4",
+      "citation_alerts": 0
+    },
+    {
       "case_id": "cas-23",
       "verdict": "RÉUSSITE",
       "response_sha256": "f87a8e939e260920c6fb3ae320e6b1045125583f3f844c998efff7db1d736155",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-24",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "9c66441e8432e978c78388e797af93a3de7788d53e397da74a8f8ec6649de081",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-25",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b9088bb7ebb289d712c6d3ab413c1a8973dfa90f6280b0b73944bc775bdef26f",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-26",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f3b099ccd5edb3788ab5665840e196d8bd052cd2fc9c8f8fc5295bbba9323e9a",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-27",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8aa8e095528d4fff650c2610b38f013ebb3f05aefac81f69b2a1dc6687abb3fe",
+      "citation_alerts": 0
+    },
+    {
+      "case_id": "cas-28",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d2f368ea32fcd094279753067732bd4de8e33c364958d6bf620d971682747b75",
       "citation_alerts": 0
     }
   ],

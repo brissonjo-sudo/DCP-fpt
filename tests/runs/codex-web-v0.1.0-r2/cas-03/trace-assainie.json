@@ -1,5 +1,6 @@
 {
   "case_id": "cas-03",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -36,6 +37,25 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236/2023-01-01",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236/2020-01-29",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/dae/Rapport%20D%C3%A9veloppement%20durable%20et%20acc%C3%A8s%20des%20PME%20aux%20march%C3%A9s%20publics%20-%20Adrien%20Deschamps.pdf",
+          "title": "Introduction"
+        }
+      ],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 144875,
@@ -48,6 +68,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14723,

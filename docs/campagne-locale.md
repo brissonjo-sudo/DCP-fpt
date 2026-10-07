@@ -2,8 +2,10 @@
 
 **Phase de préparation autorisée le 2026-10-07.** Les 28 cas métier sont
 désormais rédigés, fictifs et anonymisés. Un kit prêt et un dry-run ne sont
-pas une mesure. Statut : **non mesuré, non relu par un praticien** tant que
-la campagne retenue n'est pas complète et ses traces contrôlées.
+pas une mesure. La campagne `codex-web-v0.1.0-r2` est désormais complète :
+26 réussites, une demi-réussite, un échec ; aucun échec critique selon le juge.
+Statut : **mesuré sur Codex, non relu par un praticien**. Sources et plugin
+restent à contrôler ; voir le rapport `qualification-2026-10-07.md`.
 
 ## Validation de rédaction
 

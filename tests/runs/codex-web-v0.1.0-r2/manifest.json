@@ -39,7 +39,7 @@
     "references/templates/rapport-analyse-offres.md": "220abb58f5a2181077a93912c89535a823ca0181fb35f02463bfb768dfa1ae75",
     "SKILL.md": "fff608879806a5a4942672512d5cb0a5979f3fec4dc60bcf3df845130ec9d994"
   },
-  "measurement_status": "en cours",
+  "measurement_status": "exécutée ; contrôle des traces et relecture à réaliser",
   "rubric_sha256": "58d79ce8b06fd9bc7d2e47fe4aa0ce629399408eeaf7034d02729474b867cf43",
   "protocol": "Le répondant reçoit seulement prompt.md. Le juge reçoit ensuite response.md, les attendus du cas et tests/bareme-cas-de-test.md.",
   "execution_settings": {

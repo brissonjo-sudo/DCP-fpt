@@ -1,5 +1,15 @@
 # Journal de maintenance — dcp-fpt
 
+## 2026-10-07 — Résultats autonomes
+
+Les 28 cas et 56 rôles sont achevés avec contrôle des empreintes. Le juge
+classe 26 réponses RÉUSSITE, cas-16 DEMI-RÉUSSITE et cas-01 ÉCHEC. Aucun
+échec critique ; seuil automatique atteint. Les deux réserves de frontière
+financière et les alertes de correspondance des sources sont conservées pour
+relecture. Traces publiques assainies ; aucun changement du runtime mesuré.
+Le précontrôle MCP du processus Codex réussit ; la campagne plugin distincte
+est adaptée à ce moteur à la demande de l'utilisateur, sans connexion Claude.
+
 ## 2026-10-07 — Préparation de la mesure autonome
 
 Poursuite autorisée après fusion des PR plugin 10 puis 9. Suite de 28 cas

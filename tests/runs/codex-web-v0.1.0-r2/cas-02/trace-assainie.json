@@ -1,5 +1,6 @@
 {
   "case_id": "cas-02",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -42,6 +43,34 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899/2026-03-31",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037730901",
+          "title": "Section 2 : Prise en compte de la nature des prestations (Articles R2121-5 à R2121-7) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899/2027-05-02",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723786/2023-03-02/",
+          "title": "Titre II : CHOIX DE LA PROCÉDURE DE PASSATION (Articles R2121-1 à R2124-6) - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+          "title": "Article R2123-1 - Code de la commande publique - Légifrance"
+        }
+      ],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393960",
@@ -73,6 +102,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14818,

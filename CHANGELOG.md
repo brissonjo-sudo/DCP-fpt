@@ -1,5 +1,13 @@
 # Historique — dcp-fpt
 
+## Mesure autonome — 2026-10-07
+
+Campagne Codex web v0.1.0-r2 complète, 56 rôles avec preuves empreintées.
+26 réussites, une demi-réussite et un échec ; huit critiques réussis selon
+le juge automatique. Réponses et jugements conservés sans réécriture.
+Audit des URL à relire et grille praticien toujours ouverte. Runtime et
+version inchangés, aucune publication ni qualification complète du plugin.
+
 ## Préparation de mesure — 2026-10-07
 
 Suite de 28 cas fictifs, huit critiques, conforme au cadrage ; barème adapté

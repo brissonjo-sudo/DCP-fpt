@@ -1,5 +1,6 @@
 {
   "case_id": "cas-14",
+  "audit_version": 2,
   "roles": {
     "respondant": {
       "read_commands": [
@@ -41,6 +42,29 @@
         }
       ],
       "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730987",
+          "title": "Article R2112-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/?lang=fr_fr",
+          "title": "Légifrance - Le service public de la diffusion du droit"
+        },
+        {
+          "url": "https://journal-officiel.legifrance.gouv.fr/",
+          "title": "Légifrance - Version allégée"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/recherche?lang=fr",
+          "title": "Recherche avancée - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/download/file/B8wnzackpIlHpzFEDIdB7q3PzXyh2U2x_naRfEud_Wg%3D/JOE_TEXTE",
+          "title": "14 juin 2025"
+        }
+      ],
+      "official_results_action_unknown": [],
       "official_open_results": [
         {
           "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730987",
@@ -66,6 +90,8 @@
     "juge": {
       "read_commands": [],
       "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
       "official_open_results": [],
       "usage": {
         "input_tokens": 14964,

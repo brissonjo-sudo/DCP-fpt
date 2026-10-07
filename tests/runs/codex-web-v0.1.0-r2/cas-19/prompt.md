@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Rédige une lettre de rejet fictive. Le service donne seulement une décision d'éviction ; régime de procédure, motifs et informations communicables ne sont pas fournis.
