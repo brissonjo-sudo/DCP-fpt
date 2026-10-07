@@ -1,6 +1,8 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.3
 
-> **Candidat 0.1.3 : renvoi borné et abstention renforcée, nouvelle mesure requise.**
+> **Candidat 0.1.3 mesuré sur Codex : 27 réussites, une demi-réussite, zéro échec.**
+> Huit critiques réussis ; non relu par un praticien.
+> [Rapport actuel](docs/qualification-0.1.3-2026-10-08.md) et [grille de relecture](docs/relecture-candidat-0.1.3-2026-10-08.md).
 
 > **Historique 0.1.1 mesuré sur Codex : 27 réussites, une demi-réussite, aucun
 > échec selon le juge automatique. Non relu par un praticien.**

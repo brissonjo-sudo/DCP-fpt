@@ -10,6 +10,7 @@ import subprocess
 import sys
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+import eval_suite as public_eval
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAINS = ("legifrance.gouv.fr", "eur-lex.europa.eu", "curia.europa.eu",
@@ -46,7 +47,7 @@ def role_trace(events: list[dict]) -> dict:
         if item.get("type") == "mcp_tool_call":
             response = item.get("result") or {}
             success = item.get("status") == "completed" and bool(response) and not response.get("isError", False) and not item.get("error")
-            structured = response.get("structuredContent")
+            structured = response.get("structuredContent") or response.get("structured_content")
             if not isinstance(structured, dict):
                 structured = None
                 for block in response.get("content", []):
@@ -63,7 +64,7 @@ def role_trace(events: list[dict]) -> dict:
                 for node in [structured, *structured.get("articles", [])]:
                     metadata = node.get("metadata") or {}
                     url = node.get("url", "")
-                    if url and official(url) and node.get("text") and metadata.get("verified"):
+                    if url and official(url) and node.get("text") and metadata.get("verified") and metadata.get("content_complete") is not False:
                         sources.append({"url": clean_url(url), "title": node.get("title"), "id": node.get("id"),
                             "metadata": {key: metadata.get(key) for key in ("source", "verified", "as_of_date", "requested_date", "legal_status", "version_start_date", "version_end_date", "applicable_at_as_of_date", "content_complete")},
                             "text_sha256": hashlib.sha256(node["text"].encode()).hexdigest()})
@@ -154,8 +155,15 @@ def export(kit: Path, output: Path, commit: str) -> dict:
     progress = []
     for case, folder in complete:
         target = output / case["id"]
-        for name in ("prompt.md", "response.md", "judgment.json", "respondant-execution.json", "juge-execution.json"):
+        for name in ("prompt.md", "judgment.json", "respondant-execution.json", "juge-execution.json"):
             copy_checked(folder / name, target / name)
+        public, redaction = public_eval.redact_response((folder / "response.md").read_bytes())
+        destination = target / "response.md"
+        if destination.exists() and destination.read_bytes() != public:
+            raise ValueError("Réponse publique existante différente")
+        destination.write_bytes(public)
+        if redaction:
+            save(target / "redaction.json", redaction)
         trace = {"case_id": case["id"], "audit_version": 3, "roles": {},
                  "exporter_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                  "review_status": "à relire, pas une validation praticien"}

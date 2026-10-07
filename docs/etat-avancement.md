@@ -3,7 +3,12 @@
 ## Candidat 0.1.3 — 2026-10-07
 
 Abstention ciblée et profil autonome Codex/MCP selon ADR 0005. Nouvelle
-mesure requise. Essai web 0.1.2 interrompu après régression source au cas 01 ;
+mesure achevée : 27 réussites, une demi-réussite (cas-06), zéro échec ; huit
+critiques réussis. Quinze alertes de provenance dans quatre cas, treize
+articles relus après exécution ; avis praticien encore requis. Rapport :
+`docs/qualification-0.1.3-2026-10-08.md`.
+
+Essai web 0.1.2 interrompu après régression source au cas 01 ;
 cas achevés conservés, sans score global.
 
 - SHA-256 du paquet 0.1.3 : `70fed26db3441e89e9fe77539302f8e0d44f0abd9765e6f5f81d1376efcd5e46`.

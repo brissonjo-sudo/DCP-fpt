@@ -113,6 +113,39 @@ def case_dir_name(case: dict) -> str:
     return str(case_id)
 
 
+REDACTION_POLICY = "personal-runtime-links-v1"
+
+
+def redact_response(data: bytes) -> tuple[bytes, dict | None]:
+    """Ne transforme que les chemins personnels du runtime, pas le fond."""
+    pattern = re.compile(r"[A-Za-z]:[/\\]Users[/\\][^\s)]*?[/\\](\.agents[/\\]skills[/\\][^\s)]+)")
+    text, count = pattern.subn(lambda m: m.group(1).replace("\\", "/"), data.decode("utf-8"))
+    public = text.encode("utf-8")
+    if not count:
+        return data, None
+    return public, {"policy": REDACTION_POLICY, "replacement_count": count,
+        "original_response_sha256": hashlib.sha256(data).hexdigest(),
+        "public_response_sha256": hashlib.sha256(public).hexdigest(),
+        "original_preserved_in_private_kit": True}
+
+
+def canonical_response_digest(response: Path) -> str:
+    """Rattache une copie publique assainie au jugement de l'original privé."""
+    metadata = response.parent / "redaction.json"
+    if not metadata.exists():
+        return suite_digest(response)
+    data = json.loads(metadata.read_text(encoding="utf-8"))
+    if (data.get("policy") != REDACTION_POLICY or data.get("public_response_sha256") != suite_digest(response)
+            or not isinstance(data.get("replacement_count"), int) or data["replacement_count"] <= 0
+            or data.get("original_preserved_in_private_kit") is not True
+            or not re.fullmatch(r"[a-f0-9]{64}", data.get("original_response_sha256", ""))):
+        raise ValueError("Copie publique assainie altérée ou non rattachée")
+    evidence = response.parent / "respondant-execution.json"
+    if not evidence.exists() or json.loads(evidence.read_text(encoding="utf-8")).get("output_sha256") != data["original_response_sha256"]:
+        raise ValueError("Original assaini non rattaché à l'exécution")
+    return data["original_response_sha256"]
+
+
 def validate_run(run_dir: Path) -> dict[str, int]:
     """Valide réponses et jugements, puis calcule les totaux."""
     manifest_path = run_dir / "manifest.json"
@@ -145,7 +178,7 @@ def validate_run(run_dir: Path) -> dict[str, int]:
         data = json.loads(judgment.read_text(encoding="utf-8"))
         if not response.is_file():
             continue
-        if data.get("response_sha256") != suite_digest(response):
+        if data.get("response_sha256") != canonical_response_digest(response):
             raise ValueError(f"{case['id']} : jugement non rattaché à la réponse")
         verdict = data.get("verdict")
         if verdict not in VALID_VERDICTS:

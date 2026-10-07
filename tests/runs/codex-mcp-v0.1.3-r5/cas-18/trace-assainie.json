@@ -1,0 +1,130 @@
+{
+  "case_id": "cas-18",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/templates/mise-en-demeure.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703851",
+          "title": "Article L2195-3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052421653",
+          "title": "Article R2122-1 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 2342"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703851",
+          "title": "Article L2195-3 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 204"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052421653",
+          "title": "Article R2122-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 210"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703851",
+          "title": "Article L2195-3 - Code de la commande publique - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 204"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052421653",
+          "title": "Article R2122-1 - Code de la commande publique - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 210"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2342"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2342"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 316128,
+        "cached_input_tokens": 256256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1848,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14995,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 132,
+        "reasoning_output_tokens": 40
+      }
+    }
+  },
+  "exporter_sha256": "92d5a3584e9dcbe7a4ce8e0d0d0f3356ed63219572b27128bcfafaa7adb36f3f",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "official_citations_without_matching_retrieval": [],
+  "source_audit_note": "Correspondance d'URL et récupération MCP explicite seulement ; application au dossier et portée restent à contrôler."
+}

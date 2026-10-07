@@ -1,0 +1,50 @@
+{
+  "case_id": "cas-25",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 64478,
+        "cached_input_tokens": 41472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 277,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14185,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 180,
+        "reasoning_output_tokens": 61
+      }
+    }
+  },
+  "exporter_sha256": "92d5a3584e9dcbe7a4ce8e0d0d0f3356ed63219572b27128bcfafaa7adb36f3f",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "official_citations_without_matching_retrieval": [],
+  "source_audit_note": "Correspondance d'URL et récupération MCP explicite seulement ; application au dossier et portée restent à contrôler."
+}
