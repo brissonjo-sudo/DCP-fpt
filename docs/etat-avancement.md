@@ -5,11 +5,15 @@
 0.1.1 précise les frontières financières et l'ordre BASCULE/intertitre.
 Le score autonome 0.1.0 ci-dessous ne s'applique pas à ce nouveau runtime.
 Le protocole exige une ouverture officielle avant une déclaration de lecture.
-Nouvelle mesure en préparation, sans modifier les réponses historiques.
+Nouvelle mesure achevée : 27 RÉUSSITE, une DEMI-RÉUSSITE (cas-24), zéro ÉCHEC.
+Seuil automatique atteint, sept critiques réussis et un demi-réussi ;
+20 alertes de citations dans huit cas à relire. 1301 contrôles et 40 tests
+logiciels réussis après export. Aucun avis praticien ni publication.
+Rapport : `docs/qualification-0.1.1-2026-10-07.md`. Réponses historiques conservées.
 
 - SHA-256 du paquet 0.1.1 : `8a63fd0a87512ff2e0d478c34317e635a259d31ce7f23d3b8efa777edbdd27de`.
 
-## Actualisation du 2026-10-07
+## Mesure historique 0.1.0 du 2026-10-07
 
 Rédaction fusionnée par la PR #4 ; intégration candidate du plugin fusionnée
 par les PR #10 puis #9. Distribution toujours gelée sur v1.1.1, sans DCP.

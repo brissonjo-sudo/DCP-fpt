@@ -1,0 +1,47 @@
+{
+  "case_id": "cas-25",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 53384,
+        "cached_input_tokens": 36096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14197,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 155,
+        "reasoning_output_tokens": 47
+      }
+    }
+  },
+  "exporter_sha256": "03ce53548e5c75c9f9c0a37881f6519a670ee98f0186126613c1a9a3a4f9c40a",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

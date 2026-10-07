@@ -7,7 +7,10 @@ coactivation. Séparation entre méthode juridique d'estimation et chiffrage,
 crédits ou engagement financier, avec relais nommé dans une note incomplète.
 Protocole de mesure : ouverture officielle distincte d'un résultat de
 recherche. Aucun nouveau droit, identifiant ni valeur dans le runtime.
-Nouvelle mesure requise ; preuves et score de 0.1.0 conservés séparément.
+Nouvelle mesure : 27 réussites, une demi-réussite (cas-24), aucun échec selon
+le juge automatique. Seuil atteint, sans avis praticien ; 20 alertes de
+correspondance de sources dans huit cas. Exporteur vérifié et contrôles CI
+des preuves contre leurs commits source. Preuves 0.1.0 conservées séparément.
 
 ## Mesure autonome — 2026-10-07
 

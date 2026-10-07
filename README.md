@@ -1,13 +1,14 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.1
 
-> **Statut du candidat 0.1.1 : non mesuré, non relu par un praticien.**
-> La campagne 0.1.0 a produit 26 réussites, une demi-réussite, un échec selon
-> le juge automatique, sans échec critique. Ce score ne se transfère pas au
-> nouveau candidat. Sources et qualification plugin restent à contrôler.
+> **Candidat 0.1.1 mesuré sur Codex : 27 réussites, une demi-réussite, aucun
+> échec selon le juge automatique. Non relu par un praticien.**
+> Réserve cas-24 et 20 alertes de correspondance de sources dans huit cas.
+> Seuil automatique atteint ; qualification juridique et plugin ouvertes.
 
-Le run historique 0.1.0 conserve ses preuves et son avertissement de rédaction.
-Le candidat 0.1.1 doit être évalué sur ses propres octets avant tout nouveau
-score ; la relecture praticien demeure à réaliser.
+Les campagnes 0.1.0 et 0.1.1 conservent leurs propres réponses et jugements.
+Le runtime figé avant mesure garde la mention « non mesuré, non relu par un praticien » ;
+son statut actualisé est consigné hors paquet dans le
+[rapport 0.1.1](docs/qualification-0.1.1-2026-10-07.md), sans changer ses octets.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et
@@ -69,8 +70,9 @@ phase de qualification autorisée, aucune installation dans cette passation.
 1. Cadrage et décisions d'architecture : validés.
 2. Socle daté et applicabilité : conservés, avec réserves.
 3. Point d'entrée, branches, objets et gabarits : rédigés.
-4. Outillage de validation et de mesure : livré, sans campagne.
-5. Suite de 28 cas mesurée sur le runtime 0.1.0 ; seuil automatique atteint.
+4. Outillage de validation, mesure et export de preuves : livré.
+5. Suite de 28 cas mesurée sur les runtimes 0.1.0 puis 0.1.1 ; seuil
+   automatique atteint pour chaque campagne, résultats séparés.
    Relecture praticien et contrôle des sources à réaliser. Promotion en
    v1.0.0 et mesure du runtime promu à établir.
 6. Intégration candidate au plugin `collectivite-territoriale` 1.2.0 réalisée ;

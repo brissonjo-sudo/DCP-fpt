@@ -1,0 +1,90 @@
+{
+  "case_id": "cas-22",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730903/2026-04-25",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037730903/2026-03-02",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037730903/2021-07-10",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730903/2027-05-02",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037697329",
+          "title": "Article R2121-4 - Décret n° 2018-1075 du 3 décembre 2018 portant partie réglementaire du code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730903/2023-09-06",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730903/2020-12-16",
+          "title": "Article R2121-4 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 144793,
+        "cached_input_tokens": 113280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1141,
+        "reasoning_output_tokens": 17
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14536,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 167,
+        "reasoning_output_tokens": 44
+      }
+    }
+  },
+  "exporter_sha256": "03ce53548e5c75c9f9c0a37881f6519a670ee98f0186126613c1a9a3a4f9c40a",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

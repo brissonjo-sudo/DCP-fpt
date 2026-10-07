@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "Le parcours agrège les étapes via l’objet marche-travaux, distingue les décisions et leurs compétences, et conditionne les actes sensibles aux pièces et habilitations manquantes. Aucun calendrier réglementaire n’est inventé. Le financier est renvoyé à dirfi-fpt et l’incorporation du CCAG reste conditionnelle. Les références officielles sont déclarées lues en session, avec URL, date et statut ; les points non vérifiés font l’objet d’une abstention ciblée. Ces lectures restent à contrôler dans les traces, conformément au barème.",
+  "response_sha256": "7122caf2364cbcccad6f13181fb95e54fb3ad7fda29b821366dccadd68f21480"
+}

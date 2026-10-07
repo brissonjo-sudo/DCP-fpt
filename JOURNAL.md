@@ -7,7 +7,13 @@ relais financier nommé dans une note d'estimation ou de montage incomplète.
 Les deux STOP, le registre, le cache et les branches restent inchangés.
 Lanceur : ouverture officielle exigée avant déclaration de lecture. Suite
 et barème historiques conservés ; nouveau kit requis, aucun transfert du
-score 0.1.0. Intégration et mesure du correctif restent à établir.
+score 0.1.0. Intégration candidate épinglée au commit `caef7fd`.
+Nouvelle mesure autonome complète : 27 RÉUSSITE, une DEMI-RÉUSSITE (cas-24),
+zéro ÉCHEC. Sept critiques réussis et un demi-réussi ; seuil automatique
+atteint. Vingt citations dans huit cas restent sans ouverture explicite
+correspondante dans la trace. 1301 contrôles et 40 tests logiciels passent.
+Exporteur assaini reproductible ajouté ; preuves historiques intactes.
+Coactivation du correctif en cours, relecture praticien et publication ouvertes.
 
 ## 2026-10-07 — Résultats autonomes
 

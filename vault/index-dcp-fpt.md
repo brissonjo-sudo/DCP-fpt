@@ -1,7 +1,7 @@
 ---
 title: "Index dcp-fpt"
 version: 0.1.1
-statut: "non mesuré, non relu par un praticien"
+statut: "mesuré par juge automatique, non relu par un praticien"
 ---
 
 # Index — dcp-fpt v0.1.1
@@ -16,6 +16,7 @@ synchronisation attestée. Suivi hors paquet runtime.
 - [Cadrage](../docs/cadrage.md)
 - [Passation](../docs/passation-redaction.md)
 - [État et preuves](../docs/etat-avancement.md)
+- [Mesure 0.1.1 et réserves](../docs/qualification-0.1.1-2026-10-07.md)
 - [Relecture](../docs/relecture-praticien.md)
 - [Protocole futur](../docs/campagne-locale.md)
 
