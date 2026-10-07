@@ -1,6 +1,8 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.1
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.2
 
-> **Candidat 0.1.1 mesuré sur Codex : 27 réussites, une demi-réussite, aucun
+> **Candidat 0.1.2 : renvoi financier borné, nouvelle mesure requise.**
+
+> **Historique 0.1.1 mesuré sur Codex : 27 réussites, une demi-réussite, aucun
 > échec selon le juge automatique. Non relu par un praticien.**
 > Réserve cas-24 et 20 alertes de correspondance de sources dans huit cas.
 > Seuil automatique atteint ; qualification juridique et plugin ouvertes.
@@ -60,7 +62,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.1.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.1.2.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.

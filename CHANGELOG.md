@@ -1,5 +1,11 @@
 # Historique — dcp-fpt
 
+## [0.1.2] — 2026-10-07 — Renvoi financier borné
+
+DCP ne prescrit plus de circuit financier sans délégataire chargé.
+Aucune modification du socle, des STOP ou du barème. Nouvelle campagne
+sur les octets de 0.1.2 ; les résultats de 0.1.1 restent historiques.
+
 ## [0.1.1] — 2026-10-07 — Candidat correctif
 
 Ordre explicite BASCULE puis intertitre du délégataire, y compris en

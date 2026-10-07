@@ -1,4 +1,12 @@
-# État d'avancement — dcp-fpt v0.1.1
+# État d'avancement — dcp-fpt v0.1.2
+
+## Candidat 0.1.2 — 2026-10-07
+
+Renvoi financier borné selon ADR 0004. Nouvelle mesure requise ; aucune
+qualification transférée du candidat précédent.
+
+- SHA-256 du paquet 0.1.2 : `c893fe8eddcb497a347dd1985e249c5ad7ea11331d59e842b7fb02aaf12281f0`.
+
 
 ## Candidat correctif du 2026-10-07
 
