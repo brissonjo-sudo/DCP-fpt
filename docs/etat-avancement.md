@@ -1,4 +1,28 @@
-# État d'avancement — dcp-fpt v0.1.0
+# État d'avancement — dcp-fpt v0.1.1
+
+## Candidat correctif du 2026-10-07
+
+0.1.1 précise les frontières financières et l'ordre BASCULE/intertitre.
+Le score autonome 0.1.0 ci-dessous ne s'applique pas à ce nouveau runtime.
+Le protocole exige une ouverture officielle avant une déclaration de lecture.
+Nouvelle mesure en préparation, sans modifier les réponses historiques.
+
+- SHA-256 du paquet 0.1.1 : `8a63fd0a87512ff2e0d478c34317e635a259d31ce7f23d3b8efa777edbdd27de`.
+
+## Actualisation du 2026-10-07
+
+Rédaction fusionnée par la PR #4 ; intégration candidate du plugin fusionnée
+par les PR #10 puis #9. Distribution toujours gelée sur v1.1.1, sans DCP.
+Suite métier rédigée : 28 cas, huit critiques. CI passée en validation complète.
+Profil autonome Codex web et profil plugin MCP séparés (ADR 0002).
+Mesure autonome complète : 26 RÉUSSITE, une DEMI-RÉUSSITE, un ÉCHEC ; huit
+cas critiques jugés RÉUSSITE. Seuil automatique atteint, sources à relire,
+publication non autorisée et relecture praticien non réalisée. Les 36 tests
+logiciels passent, dont le correctif du backend sandbox Windows.
+Le relevé ci-dessous conserve le périmètre historique de la rédaction.
+Preuves de la nouvelle phase : `docs/qualification-2026-10-07.md`.
+
+## État historique de la passation du 2026-10-06
 
 Date : 2026-10-06. Périmètre : docs/passation-redaction.md.
 Statut produit : **non mesuré, non relu par un praticien**.

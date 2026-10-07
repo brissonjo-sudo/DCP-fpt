@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse demande le dossier contractuel et les pièces nécessaires, identifie les rôles, distingue acceptation, agrément des conditions de paiement et exécution, et ne valide pas la demande. Elle bascule le volet financier vers dirfi-fpt sans trancher le paiement direct. La lacune du socle sur ce paiement n’est toutefois pas explicitement signalée. Les lectures officielles en session sont déclarées avec URL, date et statut ; leur réalité doit être contrôlée dans les traces, sans vérification indépendante par le juge.",
+  "response_sha256": "7eeaaac96d9d26e7e8f8aa19682e829b01ecdac34285abc801e2809a1b2b71f4"
+}

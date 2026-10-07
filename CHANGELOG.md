@@ -1,5 +1,30 @@
 # Historique — dcp-fpt
 
+## [0.1.1] — 2026-10-07 — Candidat correctif
+
+Ordre explicite BASCULE puis intertitre du délégataire, y compris en
+coactivation. Séparation entre méthode juridique d'estimation et chiffrage,
+crédits ou engagement financier, avec relais nommé dans une note incomplète.
+Protocole de mesure : ouverture officielle distincte d'un résultat de
+recherche. Aucun nouveau droit, identifiant ni valeur dans le runtime.
+Nouvelle mesure requise ; preuves et score de 0.1.0 conservés séparément.
+
+## Mesure autonome — 2026-10-07
+
+Campagne Codex web v0.1.0-r2 complète, 56 rôles avec preuves empreintées.
+26 réussites, une demi-réussite et un échec ; huit critiques réussis selon
+le juge automatique. Réponses et jugements conservés sans réécriture.
+Audit des URL à relire et grille praticien toujours ouverte. Runtime et
+version inchangés, aucune publication ni qualification complète du plugin.
+
+## Préparation de mesure — 2026-10-07
+
+Suite de 28 cas fictifs, huit critiques, conforme au cadrage ; barème adapté
+à la phase autorisée. CI en mode complet. Profils autonome web et plugin MCP
+séparés dans l'ADR 0002. Correction du backend sandbox Windows du lanceur
+Codex, couvert par un test logiciel. Runtime, registre et cache inchangés.
+La préparation et le contrôle initial ne prouvent aucun seuil atteint.
+
 ## [0.1.0] — 2026-10-06
 
 Point d'entrée, routeur, douze branches, six objets, cinq gabarits,

@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Un candidat fictif conteste son éviction après attribution. Le marché serait signé mais la date et les pièces de rejet ne sont pas connues. Quelle voie proposer et quelle réponse préparer ?

@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse recherche les dates, la signature effective, les notifications, les habilitations et les pièces ; elle distingue les voies avant et après signature sans retenir une hypothèse comme acquise. Aucun délai n’est donné de mémoire ; recevabilité et calendrier restent à contrôler. Le brouillon est anonymisé, explicitement INCOMPLET et soumis à validation, sans promesse d’issue. Les références officielles comportent URL, identifiant et date de consultation déclarée ; la lecture réelle devra être contrôlée dans les traces avant promotion, sans pouvoir être confirmée ni infirmée par ce jugement.",
+  "response_sha256": "c85a02aed14dc814cb885d4b009bc4837c2221f7d4781eff0f6223545bdb06e0"
+}

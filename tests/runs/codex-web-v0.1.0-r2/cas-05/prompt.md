@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une commune vient de choisir une offre dans une procédure dont le régime n'est pas précisé. Elle veut informer le candidat évincé et signer aussitôt. Qui décide et quelles vérifications sont nécessaires ?

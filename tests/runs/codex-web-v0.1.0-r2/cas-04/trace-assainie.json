@@ -1,0 +1,112 @@
+{
+  "case_id": "cas-04",
+  "audit_version": 2,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/2025-06-18",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/2024-06-03",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/2023-12-20/",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703643/2022-01-01/",
+          "title": "Chapitre II : Examen des offres (Articles L2152-1 à L2152-9) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724202/2022-09-14/",
+          "title": "Section 2 : Offres anormalement basses (Articles R2152-3 à R2152-5) - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/media-document/FT%2048%20-%20L%27offre%20anormalement%20basse_0.pdf",
+          "title": "LA DECLARATION SANS SUITE ET LA DECLARATION D’INFRUCTUOSITE"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/conseil_acheteurs/fiches-techniques/mise-en-oeuvre-procedure/offre-anormalement-basse-2019.pdf",
+          "title": "<visual_element id=\"e1\">"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 216"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724202/",
+          "title": "Section 2 : Offres anormalement basses (Articles R2152-3 à R2152-5) - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 232"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000047313910",
+          "title": "Conseil d'État, 7ème chambre, 14/03/2023, 465456, Inédit au recueil Lebon - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 180"
+        }
+      ],
+      "usage": {
+        "input_tokens": 151353,
+        "cached_input_tokens": 90752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1200,
+        "reasoning_output_tokens": 44
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14735,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 178,
+        "reasoning_output_tokens": 47
+      }
+    }
+  },
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

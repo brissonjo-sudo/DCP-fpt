@@ -1,15 +1,18 @@
-# Outillage de campagne future — dcp-fpt v0.1.0
+# Outillage de campagne — dcp-fpt v0.1.0
 
-**Arrêt avant campagne.** Aucun cas métier, run, kit de mesure ou score livré.
-Fixtures logicielles temporaires uniquement. Statut : **non mesuré, non relu
-par un praticien**.
+**Phase de préparation autorisée le 2026-10-07.** Les 28 cas métier sont
+désormais rédigés, fictifs et anonymisés. Un kit prêt et un dry-run ne sont
+pas une mesure. La campagne `codex-web-v0.1.0-r2` est désormais complète :
+26 réussites, une demi-réussite, un échec ; aucun échec critique selon le juge.
+Statut : **mesuré sur Codex, non relu par un praticien**. Sources et plugin
+restent à contrôler ; voir le rapport `qualification-2026-10-07.md`.
 
 ## Validation de rédaction
 
 Python 3.11 ou ultérieur, bibliothèque standard uniquement :
 
 ```powershell
-python scripts/validate_repo.py --sans-campagne
+python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
@@ -20,7 +23,7 @@ reste entièrement contrôlée. Sans option, son absence est bloquante.
 `--partiel` reste un mode historique de rédaction du patron ; il n'est utilisé
 ni pour la livraison ni dans la CI.
 
-## Phase de mesure distincte
+## Phase de mesure distincte — état historique de la passation
 
 Après autorisation : rédiger les cas/attendus depuis le socle, contrôler sans
 `--sans-campagne`, figer suite/runtime/barème avec eval_suite.py.
@@ -69,3 +72,25 @@ dans cette correction de rédaction.
 Les options CLI, dont `--restricted`, restent testées par simulation.
 Prévoir une vérification sur CLI réelle dans la phase autorisée, puis
 consigner versions, options acceptées et traces avant de retenir une mesure.
+
+## Profil et contrôles du 2026-10-07
+
+Voir l'ADR 0002 : suite autonome Codex avec web pour le répondant, sans web
+pour le juge, aucun MCP implicite. La qualification plugin reste un autre
+profil, avec coactivation et appels MCP du plugin obligatoires.
+
+CLI vérifiées par leur aide réelle : Claude Code 2.1.288 et Codex 0.160.0.
+Claude charge les six skills du candidat, mais indique une limite de session
+et `needs-auth` pour le MCP. Une recherche MCP dans la session principale
+Codex réussit ; cette connexion n'est pas transférée au processus Claude.
+
+Le premier essai autonome `r1`, cas-23, est conservé comme contrôle de
+l'environnement : le jugement est favorable, mais les lectures des branches
+ont été bloquées. Il ne compte pas dans la mesure retenue. Le lanceur rétablit
+explicitement `windows.sandbox="elevated"` sous Windows malgré
+`--ignore-user-config`, tout en maintenant `--sandbox read-only`.
+Un nouveau kit `r2` fige ce correctif. Aucune protection n'est désactivée.
+
+Les kits et flux bruts restent hors dépôt. Le rapport publie seulement les
+réponses, jugements et métadonnées utiles après contrôle ; raisonnements,
+signatures et sorties de débogage ne sont pas promus en preuve publique.

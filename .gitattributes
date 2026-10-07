@@ -34,6 +34,11 @@
 *.otf    binary
 *.sqlite binary
 *.db     binary
+
+# Préserver les octets des preuves liées par empreinte.
+tests/runs/** -text whitespace=-blank-at-eol,-blank-at-eof
+# La suite a été figée avant les appels : conserver également ses octets.
+tests/cas-de-test.json -text whitespace=-blank-at-eof
 *.wav    binary
 *.mp3    binary
 *.mp4    binary

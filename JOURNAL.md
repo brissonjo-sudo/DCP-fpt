@@ -1,5 +1,35 @@
 # Journal de maintenance — dcp-fpt
 
+## 2026-10-07 — Candidat correctif 0.1.1
+
+Poursuite autorisée : précision BASCULE avant l'intertitre du délégataire,
+relais financier nommé dans une note d'estimation ou de montage incomplète.
+Les deux STOP, le registre, le cache et les branches restent inchangés.
+Lanceur : ouverture officielle exigée avant déclaration de lecture. Suite
+et barème historiques conservés ; nouveau kit requis, aucun transfert du
+score 0.1.0. Intégration et mesure du correctif restent à établir.
+
+## 2026-10-07 — Résultats autonomes
+
+Les 28 cas et 56 rôles sont achevés avec contrôle des empreintes. Le juge
+classe 26 réponses RÉUSSITE, cas-16 DEMI-RÉUSSITE et cas-01 ÉCHEC. Aucun
+échec critique ; seuil automatique atteint. Les deux réserves de frontière
+financière et les alertes de correspondance des sources sont conservées pour
+relecture. Traces publiques assainies ; aucun changement du runtime mesuré.
+Le précontrôle MCP du processus Codex réussit ; la campagne plugin distincte
+est adaptée à ce moteur à la demande de l'utilisateur, sans connexion Claude.
+
+## 2026-10-07 — Préparation de la mesure autonome
+
+Poursuite autorisée après fusion des PR plugin 10 puis 9. Suite de 28 cas
+fictifs et anonymisés, aucun montant ou dossier réel. Profil autonome Codex
+web distinct du MCP plugin. Premier contrôle d'environnement conservé à
+part : branches bloquées malgré un jugement favorable. Backend Windows
+rétabli explicitement en lecture seule, sans importer la configuration
+personnelle. Nouveau kit pour le contrôle corrigé. Relecture praticien et
+qualification plugin toujours distinctes ; aucun tag ou changement de
+distribution.
+
 ## 2026-10-06 — Rédaction et outillage v0.1.0
 
 Passation exécutée sur clone isolé : point d'entrée, routeur/gabarits,

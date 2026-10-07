@@ -1,8 +1,13 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.0
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.1
 
-> **Statut : non mesuré, non relu par un praticien.** Rédaction et outillage
-> livrés en v0.1.0 ; campagne et relecture à réaliser. Les contrôles statiques
-> et unitaires ne qualifient pas un usage en production.
+> **Statut du candidat 0.1.1 : non mesuré, non relu par un praticien.**
+> La campagne 0.1.0 a produit 26 réussites, une demi-réussite, un échec selon
+> le juge automatique, sans échec critique. Ce score ne se transfère pas au
+> nouveau candidat. Sources et qualification plugin restent à contrôler.
+
+Le run historique 0.1.0 conserve ses preuves et son avertissement de rédaction.
+Le candidat 0.1.1 doit être évalué sur ses propres octets avant tout nouveau
+score ; la relecture praticien demeure à réaliser.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et
@@ -44,7 +49,7 @@ pourcentage. Réserves dans les branches et [grille de relecture](docs/relecture
 Python 3.11 ou ultérieur, sans bibliothèque tierce, depuis le dépôt :
 
 ```powershell
-python scripts/validate_repo.py --sans-campagne
+python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
@@ -54,7 +59,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.0.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.1.1.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.
@@ -65,12 +70,14 @@ phase de qualification autorisée, aucune installation dans cette passation.
 2. Socle daté et applicabilité : conservés, avec réserves.
 3. Point d'entrée, branches, objets et gabarits : rédigés.
 4. Outillage de validation et de mesure : livré, sans campagne.
-5. Campagne de mesure de 28 cas, relecture par un praticien ; v1.0.0 au
-   premier passage du seuil.
-6. Intégration au plugin `collectivite-territoriale`.
+5. Suite de 28 cas mesurée sur le runtime 0.1.0 ; seuil automatique atteint.
+   Relecture praticien et contrôle des sources à réaliser. Promotion en
+   v1.0.0 et mesure du runtime promu à établir.
+6. Intégration candidate au plugin `collectivite-territoriale` 1.2.0 réalisée ;
+   distribution maintenue sur v1.1.1, sans DCP, avant qualification.
 
 [État et preuves](docs/etat-avancement.md) · [Passation](docs/passation-redaction.md) ·
-[Cadrage](docs/cadrage.md) · [Protocole futur](docs/campagne-locale.md).
+[Cadrage](docs/cadrage.md) · [Protocole de mesure](docs/campagne-locale.md).
 Aucun seuil de publication déclaré atteint. Patron DSI : provenance dans l'état.
 
 ## Licence

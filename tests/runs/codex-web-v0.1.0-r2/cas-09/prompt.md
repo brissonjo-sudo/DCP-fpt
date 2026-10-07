@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Un titulaire fictif ne respecte plus ses obligations. Le service veut résilier pour faute immédiatement, mais le contrat, le CCAG incorporé et les échanges ne sont pas disponibles. Quelle conduite préparer ?

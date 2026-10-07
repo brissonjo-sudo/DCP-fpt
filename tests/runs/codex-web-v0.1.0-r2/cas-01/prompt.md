@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. La commune renouvelle des fournitures récurrentes achetées séparément par plusieurs services. Les quantités prévisionnelles, reconductions et options sont incomplètes. Comment déterminer la valeur du besoin et préparer le choix de procédure ?
