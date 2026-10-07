@@ -6,6 +6,8 @@
 - `tests/cas-de-test.json` : suite de 28 cas du cadrage §9 (12 branches,
   6 objets, 2 gabarits, 8 cas critiques), attendus limités au socle vérifié,
   sans valeur ni identifiant.
+- Relecture contradictoire en lecture seule (second modèle) : deux
+  contradictions avec le skill et neuf imprécisions corrigées avant dépôt.
 - Validation complète en CI (sans `--sans-campagne`) : schéma, 28 cas,
   couverture et classification sont contrôlés.
 

@@ -1,8 +1,13 @@
 # Barème et protocole — dcp-fpt v0.1.0
 
-**Campagne hors périmètre.** Aucune suite métier rédigée, aucun run préparé,
-aucun appel modèle. Les cibles futures restent les 28 cas du cadrage validé ;
-les fixtures unitaires n'ont aucun contenu juridique.
+**Campagne hors périmètre.** La suite de 28 cas (`tests/cas-de-test.json`,
+plan du cadrage §9, 8 cas critiques n° 21 à 28) est écrite, mais **jamais
+lancée** : aucun run préparé, aucun appel modèle, aucun score. Les attendus ne
+citent que le socle vérifié, sans valeur ni identifiant. Une relecture
+contradictoire des cas par un second modèle, en lecture seule, a corrigé deux
+contradictions avec le skill et neuf imprécisions ; elle ne vaut ni mesure ni
+relecture par un praticien. Les fixtures unitaires n'ont aucun contenu
+juridique.
 
 ## Contextes séparés
 
