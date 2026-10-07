@@ -44,15 +44,16 @@ pourcentage. Réserves dans les branches et [grille de relecture](docs/relecture
 Python 3.11 ou ultérieur, sans bibliothèque tierce, depuis le dépôt :
 
 ```powershell
-python scripts/validate_repo.py --sans-campagne
+python scripts/validate_repo.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/package_skill.py
 ```
 
-`--sans-campagne` tolère uniquement la suite métier absente. Si elle est
-présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
-partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
-sans appel modèle ni score du skill.
+La suite de 28 cas (`tests/cas-de-test.json`) est écrite et contrôlée par le
+validateur : schéma, couverture, classification. Elle n'a **jamais été
+lancée** : aucun score. L'option `--sans-campagne` ne sert plus qu'aux
+fixtures de test. Tests avec fixtures temporaires et CLI simulées, sans appel
+modèle ni score du skill.
 
 Archive déterministe : dist/dcp-fpt-0.1.0.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
@@ -65,9 +66,10 @@ phase de qualification autorisée, aucune installation dans cette passation.
 2. Socle daté et applicabilité : conservés, avec réserves.
 3. Point d'entrée, branches, objets et gabarits : rédigés.
 4. Outillage de validation et de mesure : livré, sans campagne.
-5. Campagne de mesure de 28 cas, relecture par un praticien ; v1.0.0 au
-   premier passage du seuil.
-6. Intégration au plugin `collectivite-territoriale`.
+5. Suite de 28 cas et barème : écrits, non lancés.
+6. Campagne de mesure, relecture par un praticien ; v1.0.0 au premier
+   passage du seuil.
+7. Intégration au plugin `collectivite-territoriale`.
 
 [État et preuves](docs/etat-avancement.md) · [Passation](docs/passation-redaction.md) ·
 [Cadrage](docs/cadrage.md) · [Protocole futur](docs/campagne-locale.md).
