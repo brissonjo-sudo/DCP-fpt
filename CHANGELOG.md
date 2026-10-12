@@ -41,6 +41,16 @@ séparés dans l'ADR 0002. Correction du backend sandbox Windows du lanceur
 Codex, couvert par un test logiciel. Runtime, registre et cache inchangés.
 La préparation et le contrôle initial ne prouvent aucun seuil atteint.
 
+## Préparation initiale sur main — 2026-10-07 (historique)
+
+Les commits `9bc348ee033ea7c09c4311ef3a01af8f946a4cae` et
+`ddafe45216787ca6066d2cebbd7c2b1ff43a4c03`, intégrés par #7,
+ont ajouté une première suite de 28 cas et sa relecture contradictoire.
+Elle était non lancée à cette étape. La suite du candidat #6 et les
+campagnes datées sont ultérieures ; leurs octets restent inchangés.
+La fusion locale de préparation est décrite dans
+[la note du 12 octobre](docs/assainissement-pr6-2026-10-12.md).
+
 ## [0.1.0] — 2026-10-06
 
 Point d'entrée, routeur, douze branches, six objets, cinq gabarits,
