@@ -120,8 +120,9 @@ class Packaging(unittest.TestCase):
     def test_empreinte_publiee_correspond_au_paquet(self):
         """La CI Windows/Linux doit retrouver la même empreinte publiée."""
         report = (package_skill.ROOT / "docs" / "etat-avancement.md").read_text(encoding="utf-8")
-        match = re.search(r"^- SHA-256 du paquet corrigé : `([0-9a-f]{64})`\.$", report, re.M)
-        self.assertIsNotNone(match, "Empreinte du paquet corrigé absente du relevé")
+        version = package_skill.read_version()
+        match = re.search(r"^- SHA-256 du paquet " + re.escape(version) + r" : `([0-9a-f]{64})`\.$", report, re.M)
+        self.assertIsNotNone(match, "Empreinte du paquet courant absente du relevé")
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary) / "paquet.zip"
             package_skill.write_package(output)

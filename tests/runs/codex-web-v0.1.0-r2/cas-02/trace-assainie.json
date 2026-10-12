@@ -1,0 +1,120 @@
+{
+  "case_id": "cas-02",
+  "audit_version": 2,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "type": "command_execution",
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899/2026-03-31",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037730901",
+          "title": "Section 2 : Prise en compte de la nature des prestations (Articles R2121-5 à R2121-7) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899/2027-05-02",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723786/2023-03-02/",
+          "title": "Titre II : CHOIX DE LA PROCÉDURE DE PASSATION (Articles R2121-1 à R2124-6) - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+          "title": "Article R2123-1 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393960",
+          "title": "Article L2111-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 199"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 201"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+          "title": "Article R2123-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 205"
+        }
+      ],
+      "usage": {
+        "input_tokens": 264112,
+        "cached_input_tokens": 215680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1491,
+        "reasoning_output_tokens": 28
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14818,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 20
+      }
+    }
+  },
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

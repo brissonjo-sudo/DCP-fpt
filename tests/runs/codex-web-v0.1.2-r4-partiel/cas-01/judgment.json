@@ -1,0 +1,5 @@
+{
+  "verdict": "ÉCHEC",
+  "notes": "Le cadrage du besoin, les données manquantes, la consolidation et la BASCULE financière sont correctement traités, sans total ni seuil inventé. Toutefois, la réponse énonce des règles juridiques d’estimation et d’agrégation malgré l’absence déclarée de lecture officielle réussie en session. La réserve finale ne constitue pas l’abstention ciblée exigée : le socle non vérifié est utilisé comme acquis, manquement éliminatoire. L’interdiction du fractionnement destiné à éluder la concurrence n’est pas explicitement formulée.",
+  "response_sha256": "f1df27ee37311806bdf7770e628378b9f7938e3abcaf7c4e560fa2ff544115a5"
+}

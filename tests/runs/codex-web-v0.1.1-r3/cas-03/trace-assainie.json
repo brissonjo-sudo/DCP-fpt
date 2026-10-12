@@ -1,0 +1,165 @@
+{
+  "case_id": "cas-03",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 2,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236/2023-01-01",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000037701019/2026-04-18",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT00003770101",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/LEGISCTA000037703246",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000037701019/2026-03-12",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000037701019/2023-12-31",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/download/file/5cj0pN6HhiJjeTexxQozHM1EHFQ2DgWXsjxXY-a5RFQ%3D/JOE_TEXTE",
+          "title": "2 mai 2025"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/dae/Rapport%20D%C3%A9veloppement%20durable%20et%20acc%C3%A8s%20des%20PME%20aux%20march%C3%A9s%20publics%20-%20Adrien%20Deschamps.pdf",
+          "title": "Introduction"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045284633",
+          "title": "Article R2151-4 - Code de la santé publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045284633/2026-05-06",
+          "title": "Article R2151-4 - Code de la santé publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539/2024-04-28",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037730539/2025-01-12",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539/2021-02-24",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539/2020-06-23",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037698364",
+          "title": "Article R2151-4 - Décret n° 2018-1075 du 3 décembre 2018 portant partie réglementaire du code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730495/2026-04-22",
+          "title": "Article R2152-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730727",
+          "title": "Article R2132-6 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730727",
+          "title": "Article R2132-6 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730727",
+          "title": "Article R2132-6 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539",
+          "title": "Article R2151-4 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 277734,
+        "cached_input_tokens": 215040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1664,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14854,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 166,
+        "reasoning_output_tokens": 52
+      }
+    }
+  },
+  "exporter_sha256": "03ce53548e5c75c9f9c0a37881f6519a670ee98f0186126613c1a9a3a4f9c40a",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730539",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730727"
+  ],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

@@ -1,0 +1,125 @@
+{
+  "case_id": "cas-13",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": []
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 2342"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2342"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2342"
+        }
+      ],
+      "mcp_calls": [
+        {
+          "server": "droit-francais",
+          "tool": "get_article",
+          "succeeded": true,
+          "sources": [
+            {
+              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899",
+              "title": "Article R2121-5",
+              "id": "LEGIARTI000037730899",
+              "metadata": {
+                "source": "Légifrance API",
+                "verified": true,
+                "as_of_date": "2026-10-07",
+                "requested_date": null,
+                "legal_status": "VIGUEUR",
+                "version_start_date": "2019-04-01",
+                "version_end_date": "2999-01-01",
+                "applicable_at_as_of_date": true,
+                "content_complete": null
+              },
+              "text_sha256": "54457f03803060e1c8466ecf6aa67f517715645708cfaa132d60ed388f1dd077"
+            }
+          ],
+          "result_sha256": "fc42a2b3468ca182e80ef3c724340ab261298953b54ed54c85a3e165d436364a"
+        }
+      ],
+      "usage": {
+        "input_tokens": 306627,
+        "cached_input_tokens": 245504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2841,
+        "reasoning_output_tokens": 95
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 15985,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 152,
+        "reasoning_output_tokens": 27
+      }
+    }
+  },
+  "exporter_sha256": "92d5a3584e9dcbe7a4ce8e0d0d0f3356ed63219572b27128bcfafaa7adb36f3f",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899"
+  ],
+  "official_citations_without_matching_retrieval": [],
+  "source_audit_note": "Correspondance d'URL et récupération MCP explicite seulement ; application au dossier et portée restent à contrôler."
+}

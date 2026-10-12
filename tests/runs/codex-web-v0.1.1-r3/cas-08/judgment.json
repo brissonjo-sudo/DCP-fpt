@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse refuse la signature en l’état, envisage plusieurs fondements sans qualifier automatiquement les travaux, précise les pièces manquantes et conserve les réserves sans avancer de plafond. Elle renvoie le chiffrage à dirfi-fpt et distingue préparation, décision et signature sous délégation vérifiée. Les sources officielles et leur consultation sont déclarées ; leur lecture effective reste à contrôler dans les traces, conformément au protocole, sans vérification indépendante du juge.",
+  "response_sha256": "3db07027551090c881476d7a16728c1aa499a904be188391cceb7f89d7684df7"
+}

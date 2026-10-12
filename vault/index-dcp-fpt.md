@@ -1,10 +1,10 @@
 ---
 title: "Index dcp-fpt"
-version: 0.1.0
-statut: "non mesuré, non relu par un praticien"
+version: 0.1.3
+statut: "mesuré par juge automatique, non relu par un praticien"
 ---
 
-# Index — dcp-fpt v0.1.0
+# Index — dcp-fpt v0.1.3
 
 Notes compatibles Obsidian ; aucune configuration de vault local ni
 synchronisation attestée. Suivi hors paquet runtime.
@@ -16,6 +16,7 @@ synchronisation attestée. Suivi hors paquet runtime.
 - [Cadrage](../docs/cadrage.md)
 - [Passation](../docs/passation-redaction.md)
 - [État et preuves](../docs/etat-avancement.md)
+- [Mesure 0.1.1 et réserves](../docs/qualification-0.1.1-2026-10-07.md)
 - [Relecture](../docs/relecture-praticien.md)
 - [Protocole futur](../docs/campagne-locale.md)
 

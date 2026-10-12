@@ -1,0 +1,143 @@
+{
+  "case_id": "cas-17",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079/2026-04-28",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602074",
+          "title": "Article L551-14 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593516/2024-01-28",
+          "title": "Section 2 : Référé contractuel (Articles L551-13 à L551-23) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593524/2024-09-01",
+          "title": "Sous-section 1 : Nature et présentation du recours (Articles L551-13 à L551-16) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593524/2023-01-01",
+          "title": "Sous-section 1 : Nature et présentation du recours (Articles L551-13 à L551-16) - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/analyse/2026-07-17/515310",
+          "title": "Décision n° 515310 - Conseil d'État"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-07-17/504004",
+          "title": "Décision n° 504004 - Conseil d'État"
+        },
+        {
+          "url": "https://conseil-etat.fr/fr/arianeweb/CE/decision/2017-02-14/405157",
+          "title": "Décision n° 405157 - Conseil d'État"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028823786/",
+          "title": "Conseil d'État, Assemblée, 04/04/2014, 358994, Publié au recueil Lebon - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602074",
+          "title": "Article L551-14 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079/2026-04-28",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028823786/",
+          "title": "Conseil d'État, Assemblée, 04/04/2014, 358994, Publié au recueil Lebon - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602072",
+          "title": "Article L551-15 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602072",
+          "title": "Article L551-15 - Code de justice administrative - Légifrance"
+        }
+      ],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 278412,
+        "cached_input_tokens": 215040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1941,
+        "reasoning_output_tokens": 48
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 15141,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 174,
+        "reasoning_output_tokens": 40
+      }
+    }
+  },
+  "exporter_sha256": "03ce53548e5c75c9f9c0a37881f6519a670ee98f0186126613c1a9a3a4f9c40a",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [
+    "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028823786/",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602072",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602074",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079/2026-04-28"
+  ],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

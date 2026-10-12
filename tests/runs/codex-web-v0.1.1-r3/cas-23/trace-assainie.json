@@ -1,0 +1,114 @@
+{
+  "case_id": "cas-23",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2026-04-25",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2021-11-23",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2022-01-03",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2013-02-14",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2013-04-11",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/content/download/206429/file/e8e68779cffc148c5fa9fc7f6aeac38a.pdf",
+          "title": "Lettre du tribunal"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/dematerialisation/jurisprudence-TA-Toulouse-9mars2011.pdf",
+          "title": "TRIBUNAL ADMINISTRA TIF"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CRP/conclusion/2017-02-14/403614",
+          "title": "N° 403614"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 189"
+        }
+      ],
+      "usage": {
+        "input_tokens": 153235,
+        "cached_input_tokens": 114688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1198,
+        "reasoning_output_tokens": 13
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "usage": {
+        "input_tokens": 14558,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 146,
+        "reasoning_output_tokens": 25
+      }
+    }
+  },
+  "exporter_sha256": "03ce53548e5c75c9f9c0a37881f6519a670ee98f0186126613c1a9a3a4f9c40a",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL uniquement ; contenu, version applicable et portée restent à contrôler."
+}

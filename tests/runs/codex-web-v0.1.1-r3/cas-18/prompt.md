@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Sur un chantier fictif, le titulaire a cessé d'intervenir. Le service veut appeler directement une autre entreprise et imputer toutes les dépenses au premier. Contrat et constats manquent.

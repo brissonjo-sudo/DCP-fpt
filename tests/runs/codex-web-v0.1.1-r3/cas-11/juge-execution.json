@@ -1,0 +1,19 @@
+{
+  "engine": "codex",
+  "requested_model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.160.0",
+  "role": "juge",
+  "input_sha256": "274de714575e7027101588cabe0de1a1bc1033a342eb2bccab72cda9037ec529",
+  "output_sha256": "2f41f89c6c81aeeb3773b6377f9681416c2d961ff2503860db63a682f4583a14",
+  "fresh_process": true,
+  "fresh_workspace": true,
+  "skill_entry_supplied": false,
+  "native_skill_present": false,
+  "web_requested": false,
+  "completed_at": "2026-10-07T19:43:39.999549+00:00",
+  "elapsed_seconds": 8.375,
+  "raw_stdout_sha256": "92469b56cf1c3bf6333edade53b1456836ae7fc32c356282d0a02d90d5daa31b",
+  "raw_stderr_sha256": "d6e7172cf47394944a6422e59251791f26a0b52afabcae60d11061d63522dcc4",
+  "tokens": null,
+  "tokens_note": "Consulter la sortie CLI brute ; pas d'estimation."
+}

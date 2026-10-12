@@ -1,0 +1,19 @@
+{
+  "engine": "codex",
+  "requested_model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.160.0",
+  "role": "respondant",
+  "input_sha256": "9ac5a79f7e1966b9f694f89553c61d4ab6edade031b9a594ee5f12e9b46f16b8",
+  "output_sha256": "28480a3a30294110a484f27f62fcb1f4139cbfe845faab6bdc811ef3ec20b204",
+  "fresh_process": true,
+  "fresh_workspace": true,
+  "skill_entry_supplied": true,
+  "native_skill_present": true,
+  "web_requested": true,
+  "completed_at": "2026-10-07T19:57:03.307615+00:00",
+  "elapsed_seconds": 66.063,
+  "raw_stdout_sha256": "e2414a107b36264eb7720de917208263b60e1e5d03d14b442c301167c18f1139",
+  "raw_stderr_sha256": "43f9ecc77fd01872a8b4683f0f83d3c6534bdc9d2b649bc3672ede04a342560d",
+  "tokens": null,
+  "tokens_note": "Consulter la sortie CLI brute ; pas d'estimation."
+}
