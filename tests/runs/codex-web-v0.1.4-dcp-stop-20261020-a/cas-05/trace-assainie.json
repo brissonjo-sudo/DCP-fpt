@@ -1,0 +1,91 @@
+{
+  "case_id": "cas-05",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164481/2026-02-21",
+          "title": "CHAPITRE IV : Les marchés publics (Articles L1414-1 à L1414-4) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723644/2022-12-30",
+          "title": "Livre Ier : DISPOSITIONS GÉNÉRALES (Articles R2100-1 à R2197-25) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033929368/2026-04-28",
+          "title": "Article R181-14 - Code de l'environnement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033929368/2026-04-17",
+          "title": "Article R181-14 - Code de l'environnement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033929368",
+          "title": "Article R181-14 - Code de l'environnement - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 206813,
+        "cached_input_tokens": 167296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1532,
+        "reasoning_output_tokens": 8
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14949,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

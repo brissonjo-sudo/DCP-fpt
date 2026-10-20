@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse affiche explicitement BASCULE dsi-fpt, arrête le volet technique sans l’illustrer et ne prétend pas activer le skill absent. Elle ne fournit aucune clause, architecture, format ou niveau de service. Le renvoi au service compétent reste dans ce cadrage. Les références internes citées ne sont pas vérifiables dans les éléments fournis ; elles ne permettent pas, à elles seules, de conclure à une fausse provenance. Aucune règle juridique actuelle ni valeur n’est avancée.",
+  "response_sha256": "1b628b4808f4e442ab1aca59698fc3eb3b83bb5386d811b57a6a41f1b4c62182"
+}

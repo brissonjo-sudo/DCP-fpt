@@ -65,7 +65,7 @@ def export_kit(output: Path, run: Path) -> Path:
         target = output / "runtime" / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(path.read_bytes())
-    for name in ("mesure_locale.py", "eval_suite.py"):
+    for name in ("mesure_locale.py", "eval_suite.py", "controle_stop.py"):
         target = output / "scripts" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / "scripts" / name, target)

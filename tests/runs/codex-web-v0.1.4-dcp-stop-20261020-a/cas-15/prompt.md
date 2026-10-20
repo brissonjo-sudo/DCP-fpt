@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une commune envisage un petit achat fictif de fournitures et le service affirme qu'il n'y a jamais besoin de publicité ni de mise en concurrence. La valeur globale annuelle du besoin n'est pas connue. Que vérifier ?

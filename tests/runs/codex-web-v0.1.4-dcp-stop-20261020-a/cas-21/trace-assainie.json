@@ -1,0 +1,86 @@
+{
+  "case_id": "cas-21",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236/2026-04-25",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703236/2020-01-29",
+          "title": "Article L3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/download/file/5cj0pN6HhiJjeTexxQozHM1EHFQ2DgWXsjxXY-a5RFQ%3D/JOE_TEXTE",
+          "title": "2 mai 2025"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/dae/Rapport%20D%C3%A9veloppement%20durable%20et%20acc%C3%A8s%20des%20PME%20aux%20march%C3%A9s%20publics%20-%20Adrien%20Deschamps.pdf",
+          "title": "Introduction"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 159217,
+        "cached_input_tokens": 121856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1165,
+        "reasoning_output_tokens": 31
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14631,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 140,
+        "reasoning_output_tokens": 21
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

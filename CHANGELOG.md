@@ -1,5 +1,17 @@
 # Historique — dcp-fpt
 
+## [0.1.4] — 2026-10-20 — STOP en première ligne visible
+
+Gabarit explicite et priorité dans la description pour les deux garde-fous.
+Les déclencheurs et le fond des blocs restent inchangés ; aucune règle de droit
+nouvelle. Initialement non mesuré au lot D0 ; aucun ancien score transféré.
+**Mesuré le 2026-10-20 : 28/28, protocole autonome Codex ; relu par Jo (non praticien).**
+56 sessions, 5 829 642 jetons d'entrée, six contrôles STOP réussis. Jo déclare
+les 28 cas conformes, sans réserve. Preuves publiques assainies versionnées ;
+runtime mesuré préservé. Relecture praticien et qualification du plugin distinctes.
+Contrôle automatique additionnel de la première ligne depuis les attendus
+figés, exporté dans le kit, sans réécriture des jugements ni changement de barème.
+
 ## [0.1.3] — 2026-10-07 — Abstention ciblée et profil MCP
 
 Une réserve finale ne permet pas d’affirmer une règle non vérifiée.

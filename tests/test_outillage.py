@@ -62,21 +62,21 @@ class PreuvesMesure(unittest.TestCase):
 
     def test_jugement_non_lie_refuse(self):
         self.complete()
-        (self.run / "cas-01" / "response.md").write_text("réponse modifiée")
+        (self.run / "cas-01" / "response.md").write_text("réponse modifiée", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "jugement non rattaché"):
             eval_suite.validate_run(self.run)
 
     def test_echec_critique_bloque_malgre_score_global(self):
         self.complete(critical_failure=True)
         totals = eval_suite.validate_run(self.run)
-        summary = json.loads(eval_suite.write_summary(self.run, totals).read_text())
+        summary = json.loads(eval_suite.write_summary(self.run, totals).read_text(encoding="utf-8"))
         self.assertEqual(summary["totals"]["RÉUSSITE"], 27)
         self.assertFalse(summary["threshold_passed"])
         self.assertEqual(summary["critical_failures"], ["cas-21"])
 
     def test_seuil_ne_remplace_pas_relecture_praticien(self):
         self.complete()
-        summary = json.loads(eval_suite.write_summary(self.run, eval_suite.validate_run(self.run)).read_text())
+        summary = json.loads(eval_suite.write_summary(self.run, eval_suite.validate_run(self.run)).read_text(encoding="utf-8"))
         self.assertTrue(summary["threshold_passed"])
         self.assertFalse(summary["publication_ready"])
 

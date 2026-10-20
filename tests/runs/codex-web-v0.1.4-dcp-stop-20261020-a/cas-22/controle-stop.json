@@ -1,0 +1,16 @@
+{
+  "contract": "première-ligne-visible-stop-v1",
+  "checks": [
+    {
+      "case_id": "cas-22",
+      "expected": "STOP — égalité de traitement",
+      "actual": "STOP — égalité de traitement",
+      "status": "ok",
+      "response_sha256": "061cc5e0fdad916e705e1474f7659b93591a966e0a99bc9b2778f27a642b382a"
+    }
+  ],
+  "passed": true,
+  "suite_sha256": "ed0734bae30e2e3053ba096016b08d30bd0b5117a74ae760f294daf6237a06fa",
+  "rubric_sha256": "58d79ce8b06fd9bc7d2e47fe4aa0ce629399408eeaf7034d02729474b867cf43",
+  "scope": "gabarit uniquement ; aucun verdict ni score modifié"
+}

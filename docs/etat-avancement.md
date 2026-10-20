@@ -1,4 +1,18 @@
-# État d'avancement — dcp-fpt v0.1.3
+# État d'avancement — dcp-fpt v0.1.4
+
+## Candidat 0.1.4 — 2026-10-20
+
+STOP en première ligne visible selon ADR 0007. **Mesuré : 28/28, protocole
+autonome Codex ; relu par Jo (non praticien)**. Aucun ÉCHEC critique ; six
+contrôles STOP réussis, 56 sessions et 5 829 642 jetons d'entrée observés.
+Avis de Jo : 28 conformes, aucune réserve. Aucun score historique transféré.
+Statut actuel : `docs/statut-0.1.4.json` ; rapport et limites :
+`docs/qualification-0.1.4-2026-10-20.md`. SKILL.md et le paquet mesuré restent
+inchangés. Ni relecture praticien, ni qualification du plugin, ni poussée
+dans ce lot ; la poussée et la PR brouillon autorisées sont confiées à Claude.
+
+
+- SHA-256 du paquet 0.1.4 : `9446c8355d3232ebdf7cd62b7bd1d75855c5fb4f5475d64c495bc2ea4ae7c369`.
 
 ## Candidat 0.1.3 — 2026-10-07
 

@@ -1,0 +1,110 @@
+{
+  "case_id": "cas-04",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724202/2026-03-26",
+          "title": "Section 2 : Offres anormalement basses (Articles R2152-3 à R2152-5) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703657/2024-04-24",
+          "title": "Article L2152-5 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724194/2025-03-06/",
+          "title": "Chapitre II : EXAMEN DES OFFRES (Articles R2152-1 à R2152-13) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703643/2025-12-17/",
+          "title": "Chapitre II : Examen des offres (Articles L2152-1 à L2152-9) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037703655/2025-10-02",
+          "title": "Section 2 : Offres anormalement basses (Articles L2152-5 à L2152-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724202/2023-03-11/",
+          "title": "Section 2 : Offres anormalement basses (Articles R2152-3 à R2152-5) - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/conseil_acheteurs/fiches-techniques/mise-en-oeuvre-procedure/offre-anormalement-basse-2019.pdf",
+          "title": "<visual_element id=\"e1\">"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000047313910",
+          "title": "Conseil d'État, 7ème chambre, 14/03/2023, 465456, Inédit au recueil Lebon - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 180"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724202/2026-03-26",
+          "title": "Section 2 : Offres anormalement basses (Articles R2152-3 à R2152-5) - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 232"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 220248,
+        "cached_input_tokens": 174080,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1357,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14864,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 33
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

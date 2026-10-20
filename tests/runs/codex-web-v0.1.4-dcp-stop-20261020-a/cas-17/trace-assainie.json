@@ -1,0 +1,112 @@
+{
+  "case_id": "cas-17",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079/2026-04-28",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602079/2024-02-07",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079/2024-03-03",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602074",
+          "title": "Article L551-14 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593524/2026-01-31/",
+          "title": "Sous-section 1 : Nature et présentation du recours (Articles L551-13 à L551-16) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593524/2026-06-25/",
+          "title": "Sous-section 1 : Nature et présentation du recours (Articles L551-13 à L551-16) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593524/2025-04-12/",
+          "title": "Sous-section 1 : Nature et présentation du recours (Articles L551-13 à L551-16) - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/content/download/161749/file/ENG_CJA%252Bpartie%252Blegislative_MAJ_20141017.pdf",
+          "title": "Code of Administrative Justice"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/content/download/150066/file/ENG_CJA%20partie%20legislative_MAJ_20141017.pdf",
+          "title": "Code of Administrative Justice"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 219929,
+        "cached_input_tokens": 175744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1435,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 23464,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 172,
+        "reasoning_output_tokens": 32
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}
