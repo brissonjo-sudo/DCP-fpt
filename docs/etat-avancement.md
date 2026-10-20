@@ -1,4 +1,54 @@
-# État d'avancement — dcp-fpt v0.1.0
+# État d'avancement — dcp-fpt v0.1.3
+
+## Candidat 0.1.3 — 2026-10-07
+
+Abstention ciblée et profil autonome Codex/MCP selon ADR 0005. Nouvelle
+mesure achevée : 27 réussites, une demi-réussite (cas-06), zéro échec ; huit
+critiques réussis. Quinze alertes de provenance dans quatre cas, treize
+articles relus après exécution ; avis praticien encore requis. Rapport :
+`docs/qualification-0.1.3-2026-10-08.md`.
+
+Essai web 0.1.2 interrompu après régression source au cas 01 ;
+cas achevés conservés, sans score global.
+
+- SHA-256 du paquet 0.1.3 : `70fed26db3441e89e9fe77539302f8e0d44f0abd9765e6f5f81d1376efcd5e46`.
+
+
+## Candidat 0.1.2 — 2026-10-07
+
+Renvoi financier borné selon ADR 0004. Nouvelle mesure requise ; aucune
+qualification transférée du candidat précédent.
+
+- SHA-256 du paquet 0.1.2 : `c893fe8eddcb497a347dd1985e249c5ad7ea11331d59e842b7fb02aaf12281f0`.
+
+
+## Candidat correctif du 2026-10-07
+
+0.1.1 précise les frontières financières et l'ordre BASCULE/intertitre.
+Le score autonome 0.1.0 ci-dessous ne s'applique pas à ce nouveau runtime.
+Le protocole exige une ouverture officielle avant une déclaration de lecture.
+Nouvelle mesure achevée : 27 RÉUSSITE, une DEMI-RÉUSSITE (cas-24), zéro ÉCHEC.
+Seuil automatique atteint, sept critiques réussis et un demi-réussi ;
+20 alertes de citations dans huit cas à relire. 1301 contrôles et 40 tests
+logiciels réussis après export. Aucun avis praticien ni publication.
+Rapport : `docs/qualification-0.1.1-2026-10-07.md`. Réponses historiques conservées.
+
+- SHA-256 du paquet 0.1.1 : `8a63fd0a87512ff2e0d478c34317e635a259d31ce7f23d3b8efa777edbdd27de`.
+
+## Mesure historique 0.1.0 du 2026-10-07
+
+Rédaction fusionnée par la PR #4 ; intégration candidate du plugin fusionnée
+par les PR #10 puis #9. Distribution toujours gelée sur v1.1.1, sans DCP.
+Suite métier rédigée : 28 cas, huit critiques. CI passée en validation complète.
+Profil autonome Codex web et profil plugin MCP séparés (ADR 0002).
+Mesure autonome complète : 26 RÉUSSITE, une DEMI-RÉUSSITE, un ÉCHEC ; huit
+cas critiques jugés RÉUSSITE. Seuil automatique atteint, sources à relire,
+publication non autorisée et relecture praticien non réalisée. Les 36 tests
+logiciels passent, dont le correctif du backend sandbox Windows.
+Le relevé ci-dessous conserve le périmètre historique de la rédaction.
+Preuves de la nouvelle phase : `docs/qualification-2026-10-07.md`.
+
+## État historique de la passation du 2026-10-06
 
 Date : 2026-10-06. Périmètre : docs/passation-redaction.md.
 Statut produit : **non mesuré, non relu par un praticien**.

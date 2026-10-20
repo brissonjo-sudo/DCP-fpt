@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "STOP apparaît avant tout calendrier. La réponse bloque signature, notification et exécution, exige la vérification du référé, de son stade, de la compétence et de l’habilitation, et refuse de traiter le recours comme une formalité. La référence comporte une URL officielle, une date de consultation déclarée et un statut de vigueur. La lecture effective en session reste à contrôler dans les traces avant promotion, conformément au barème ; les éléments fournis ne permettent pas de conclure à une fausse provenance.",
+  "response_sha256": "28fe47bf93fb830534a6c42ea54d7946dae41067f5b768e231282b13a9080976"
+}

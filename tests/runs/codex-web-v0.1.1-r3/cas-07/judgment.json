@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse demande le contrat et les pièces nécessaires, identifie les rôles sans données nominatives et distingue acceptation, agrément des conditions de paiement et exécution sans valider la demande. La BASCULE dirfi-fpt arrête le volet financier, sans calcul ni instruction de paiement. La lacune du socle sur le paiement direct reste implicite, seul point non éliminatoire manquant. Les références officielles sont accompagnées d’une déclaration de lecture en session, d’une date et d’un statut de vigueur ; cette provenance devra être contrôlée dans les traces avant promotion, conformément au barème.",
+  "response_sha256": "80da15644d389745bc6f0b15038d8d05141b06db8e392d464297472c44a02ccb"
+}

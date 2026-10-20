@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse propose une trame conditionnelle sans contrat final, qualifie le besoin et distingue bons de commande et marchés subséquents. Elle demande les informations nécessaires, traite les bornes et les modalités des commandes, identifie les branches et arrête le volet financier avec BASCULE dirfi-fpt. Elle déclare des lectures de sources officielles en session et s’abstient sur le plafond de durée non vérifié. Aucun manquement éliminatoire apparent ; la réalité des lectures déclarées reste à contrôler dans les traces avant promotion, conformément au barème.",
+  "response_sha256": "a57c88a10fbc2381a0163df746a58282a7131552bfe723c92d4c574710621ab2"
+}

@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse fournit une orientation conditionnelle correcte : elle demande les documents et le périmètre, distingue les opérations confiées des responsabilités conservées et sépare la décision d’abandon du recours à la centrale. Elle ne confond pas centrale et groupement ni service préparateur et autorité décisionnaire. Le renvoi à dirfi-fpt manque, sans traitement du volet budgétaire : omission non éliminatoire. Les références affichent une provenance officielle et une consultation déclarée en session ; leur lecture effective reste à contrôler dans les traces, sans pouvoir être confirmée ou infirmée par ce jugement.",
+  "response_sha256": "b9db13c34cb90e8ac43f855b4f83195cc4ab98be31816cf2abcfa861c69a055e"
+}

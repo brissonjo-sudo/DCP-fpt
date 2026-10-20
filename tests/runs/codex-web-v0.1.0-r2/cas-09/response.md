@@ -1,0 +1,17 @@
+**Ne pas engager la résiliation immédiate : préparer un dossier de qualification et une décision conditionnelle.** Le manquement est allégué ; sa preuve, sa gravité et les préalables contractuels restent inconnus. **[Risque critique / confiance : abstention sur la possibilité de résilier immédiatement].**
+
+Le mode d’exercice est **[INCOMPLET]** : service intégré, mutualisé, groupement ou assistance externe. Confirmer également la catégorie d’acheteur, la nature du marché, sa date de lancement et l’autorité compétente. Le stade est celui de l’exécution. Cette qualification suit `references/analyse-situation.md`.
+
+La conduite à préparer, selon `references/resiliation-difficultes.md` et `objets/titulaire-defaillant.md`, est la suivante :
+
+1. **Reconstituer les pièces.** Le service achat recherche le contrat signé, ses annexes et modifications, la preuve de notification, le CCAG expressément incorporé, sa version et les dérogations. Aucun CCAG ne doit être présumé applicable. Vérifier aussi la compétence et la délégation du décideur (`references/execution-juridique.md`).
+
+2. **Constituer une chronologie probante.** Le service prescripteur décrit chaque obligation concernée, les écarts constatés, leurs dates, les preuves et leurs effets sur le service. Récupérer les échanges, demandes de correction, réponses et preuves de réception. Examiner les causes possibles et les éventuels manquements de l’acheteur sans qualifier automatiquement tout incident de faute.
+
+3. **Faire vérifier la voie juridique.** Le conseil juridique examine le fondement de la résiliation, la gravité des faits, le contradictoire, l’éventuelle mise en demeure et toute possibilité de dispense. **Ni la nécessité systématique d’une mise en demeure ni une exception permettant d’y renoncer ne sont acquises ici.** En l’absence de clause prévue à cet effet, le Conseil d’État exige une faute suffisamment grave pour justifier la résiliation aux torts exclusifs du titulaire : [Conseil d’État, 26 février 2014, n° 365546](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028663314), texte lu sur Légifrance le 7 octobre 2026. Cette décision ne démontre pas que les conditions du cas sont remplies.
+
+4. **Préparer les écrits, sans les rendre envoyables.** Constituer une fiche de qualification **[INCOMPLET]** et, si le régime vérifié le commande, une trame de mise en demeure : obligation, faits prouvés, correction attendue, fondement, modalités de réponse, délai et point de départ à vérifier, suites juridiquement possibles, signataire et preuve de réception. Utiliser `references/ecrits-commande-publique.md` et `references/templates/mise-en-demeure.md`, sans délai inventé ni résiliation annoncée comme automatique.
+
+5. **Préparer la continuité et le contrôle suivant.** Recenser l’impact et les options de continuité, sans faire commencer un remplaçant sans cadre contractuel établi ni présumer une urgence. Après les préalables applicables, dresser un nouveau constat et soumettre une proposition motivée au conseil juridique puis à l’autorité habilitée. Le service achat prépare ; l’autorité compétente décide et signe après vérification de ses pouvoirs.
+
+**Point réservé :** aucune source générale ne remplace les pièces manquantes. La régularité d’une résiliation immédiate, les formalités et les délais applicables restent **[INCOMPLET]**. Le prochain contrôle porte sur le contrat, les preuves, les préalables et l’habilitation, avant toute signature ou notification de résiliation.

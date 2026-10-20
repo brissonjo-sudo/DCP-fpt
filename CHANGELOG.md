@@ -1,20 +1,55 @@
 # Historique — dcp-fpt
 
-## [Non publié] — 2026-10-07
+## [0.1.3] — 2026-10-07 — Abstention ciblée et profil MCP
 
-### Ajouté (hors runtime)
-- `tests/cas-de-test.json` : suite de 28 cas du cadrage §9 (12 branches,
-  6 objets, 2 gabarits, 8 cas critiques), attendus limités au socle vérifié,
-  sans valeur ni identifiant.
-- Relecture contradictoire en lecture seule (second modèle) : deux
-  contradictions avec le skill et neuf imprécisions corrigées avant dépôt.
-- Validation complète en CI (sans `--sans-campagne`) : schéma, 28 cas,
-  couverture et classification sont contrôlés.
+Une réserve finale ne permet pas d’affirmer une règle non vérifiée.
+Nouveau profil de mesure autonome Codex/MCP : outils réservés au répondant,
+trace des textes et versions récupérés, juge isolé. Suite et barème inchangés.
+Les essais antérieurs sont conservés, sans transfert de score.
 
-### Inchangé
-Runtime (`SKILL.md`, `references/`, `objets/`), registre, cache : version
-0.1.0 conservée, empreinte du paquet identique. **Suite écrite, jamais
-lancée : aucun score.** Statut : non mesuré, non relu par un praticien.
+## [0.1.2] — 2026-10-07 — Renvoi financier borné
+
+DCP ne prescrit plus de circuit financier sans délégataire chargé.
+Aucune modification du socle, des STOP ou du barème. Nouvelle campagne
+sur les octets de 0.1.2 ; les résultats de 0.1.1 restent historiques.
+
+## [0.1.1] — 2026-10-07 — Candidat correctif
+
+Ordre explicite BASCULE puis intertitre du délégataire, y compris en
+coactivation. Séparation entre méthode juridique d'estimation et chiffrage,
+crédits ou engagement financier, avec relais nommé dans une note incomplète.
+Protocole de mesure : ouverture officielle distincte d'un résultat de
+recherche. Aucun nouveau droit, identifiant ni valeur dans le runtime.
+Nouvelle mesure : 27 réussites, une demi-réussite (cas-24), aucun échec selon
+le juge automatique. Seuil atteint, sans avis praticien ; 20 alertes de
+correspondance de sources dans huit cas. Exporteur vérifié et contrôles CI
+des preuves contre leurs commits source. Preuves 0.1.0 conservées séparément.
+
+## Mesure autonome — 2026-10-07
+
+Campagne Codex web v0.1.0-r2 complète, 56 rôles avec preuves empreintées.
+26 réussites, une demi-réussite et un échec ; huit critiques réussis selon
+le juge automatique. Réponses et jugements conservés sans réécriture.
+Audit des URL à relire et grille praticien toujours ouverte. Runtime et
+version inchangés, aucune publication ni qualification complète du plugin.
+
+## Préparation de mesure — 2026-10-07
+
+Suite de 28 cas fictifs, huit critiques, conforme au cadrage ; barème adapté
+à la phase autorisée. CI en mode complet. Profils autonome web et plugin MCP
+séparés dans l'ADR 0002. Correction du backend sandbox Windows du lanceur
+Codex, couvert par un test logiciel. Runtime, registre et cache inchangés.
+La préparation et le contrôle initial ne prouvent aucun seuil atteint.
+
+## Préparation initiale sur main — 2026-10-07 (historique)
+
+Les commits `9bc348ee033ea7c09c4311ef3a01af8f946a4cae` et
+`ddafe45216787ca6066d2cebbd7c2b1ff43a4c03`, intégrés par #7,
+ont ajouté une première suite de 28 cas et sa relecture contradictoire.
+Elle était non lancée à cette étape. La suite du candidat #6 et les
+campagnes datées sont ultérieures ; leurs octets restent inchangés.
+La fusion locale de préparation est décrite dans
+[la note du 12 octobre](docs/assainissement-pr6-2026-10-12.md).
 
 ## [0.1.0] — 2026-10-06
 

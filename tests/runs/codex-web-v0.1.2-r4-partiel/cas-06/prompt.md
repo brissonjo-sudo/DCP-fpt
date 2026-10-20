@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une commune souhaite adhérer à une centrale d'achat pour un besoin de fournitures. La convention et les modalités de recours ne sont pas disponibles. Peut-elle abandonner sa propre consultation ?

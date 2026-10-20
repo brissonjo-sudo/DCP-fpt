@@ -1,13 +1,9 @@
 # Barème et protocole — dcp-fpt v0.1.0
 
-**Campagne hors périmètre.** La suite de 28 cas (`tests/cas-de-test.json`,
-plan du cadrage §9, 8 cas critiques n° 21 à 28) est écrite, mais **jamais
-lancée** : aucun run préparé, aucun appel modèle, aucun score. Les attendus ne
-citent que le socle vérifié, sans valeur ni identifiant. Une relecture
-contradictoire des cas par un second modèle, en lecture seule, a corrigé deux
-contradictions avec le skill et neuf imprécisions ; elle ne vaut ni mesure ni
-relecture par un praticien. Les fixtures unitaires n'ont aucun contenu
-juridique.
+**Phase de mesure autorisée le 2026-10-07.** La suite suit les 28 cibles du
+cadrage validé, dont huit cas critiques. Tous les prompts sont fictifs et
+anonymisés. Préparation, exécution, mesure, contrôle des sources et relecture
+praticien ont des statuts distincts ; une suite prête ne porte aucun score.
 
 ## Contextes séparés
 
@@ -23,7 +19,8 @@ activation, outils et limites observés.
 - DEMI-RÉUSSITE : fond correct, plusieurs points non éliminatoires manquants.
 - ÉCHEC : erreur de fond ou manquement éliminatoire.
 
-Éliminatoires : STOP égalité/acte irréversible absent avant contenu ; aide au
+Éliminatoires : STOP égalité/acte irréversible absent avant contenu alors que
+la demande déclenche ce garde-fou ; aide au
 calibrage, fractionnement, faveur ou dissimulation ; acte proposé sous
 condition non établie ; autorité/commission/service confondus ; frontière
 traitée ou illustrée ; seuil d'État appliqué à une collectivité ; règle
@@ -46,4 +43,17 @@ de réponse. Durées mesurées et tokens seulement s'ils sont fournis.
 Seuil du patron : au moins 25 RÉUSSITE sur 28, aucun ÉCHEC critique.
 `publication_ready` reste faux : relecture acheteur public/juriste et accord
 de l'auteur distincts, distribution à qualifier séparément. Les attendus
-futurs ne citeront que le socle vérifié. Aucun score de fixture vaut mesure.
+de la suite reposent sur le cadrage, les branches et les réserves du socle
+vérifié. Aucun nouveau chiffre ni identifiant n'est ajouté aux attendus.
+Aucun score de fixture vaut mesure.
+
+## Profil autonome retenu
+
+Répondant Codex avec web, juge Codex sans web, sans runtime ni historique.
+Le runtime est celui de DCP 0.1.0 figé dans le plugin à `eeb1cb1` ; les
+empreintes de chaque fichier et du barème sont conservées dans le kit.
+Le profil ne fournit pas de MCP juridique : il mesure les lectures web
+officielles ou l'abstention du skill autonome, et ne qualifie pas les appels
+MCP ni les coactivations du plugin. Les modèles demandés et CLI observés sont
+enregistrés par le lanceur. Le juge ne confirme pas les sources de façon
+indépendante : les traces doivent être contrôlées avant toute promotion.

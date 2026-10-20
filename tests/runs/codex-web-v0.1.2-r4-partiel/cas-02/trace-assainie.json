@@ -1,0 +1,107 @@
+{
+  "case_id": "cas-02",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+          "title": "Article R2123-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730909",
+          "title": "Article R2121-1 - Code de la commande publique - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899",
+          "title": "Article R2121-5 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 201"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+          "title": "Article R2123-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 205"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730909",
+          "title": "Article R2121-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 203"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 213174,
+        "cached_input_tokens": 167808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1560,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14915,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 173,
+        "reasoning_output_tokens": 40
+      }
+    }
+  },
+  "exporter_sha256": "e625e4687b6e456f6965ddb22f90d51d51f592dbdba659ecabe126e551ad6cf9",
+  "review_status": "à relire, pas une validation praticien",
+  "official_citations_without_matching_open_url": [],
+  "official_citations_without_matching_retrieval": [],
+  "source_audit_note": "Correspondance d'URL et récupération MCP explicite seulement ; application au dossier et portée restent à contrôler."
+}

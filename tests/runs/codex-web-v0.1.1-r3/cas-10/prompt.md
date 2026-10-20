@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Dans un cas fictif, un référé précontractuel vient d'être introduit. Le service souhaite maintenir le calendrier de signature. Les pièces du recours et la date exacte de saisine manquent. Que lui répondre ?

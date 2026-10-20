@@ -1,0 +1,7 @@
+{
+  "policy": "personal-runtime-links-v1",
+  "replacement_count": 1,
+  "original_response_sha256": "a7a08b65dba4b1d059055af45d21296abf723b70d2f649adc0c1ae849a87ec2d",
+  "public_response_sha256": "37057fafa60f854334c5ab5f1f9b8102b4205f698ba73f8feac1cf98a5e671e4",
+  "original_preserved_in_private_kit": true
+}
