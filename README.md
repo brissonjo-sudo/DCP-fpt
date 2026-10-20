@@ -1,7 +1,8 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.4
 
-> **Candidat 0.1.4 : non mesuré, non relu par un praticien.**
-> Correction de méthode : STOP exact en première ligne visible. Aucun score antérieur transféré.
+> **0.1.4 mesuré : 28/28, protocole autonome Codex ; relu par Jo (non praticien).**
+> 28 cas conformes selon Jo, aucune réserve. Aucune relecture praticien ni qualification du plugin revendiquée.
+> [Rapport 0.1.4](docs/qualification-0.1.4-2026-10-20.md) · [statut du skill](docs/statut-0.1.4.json) · [preuves publiques](tests/runs/codex-web-v0.1.4-dcp-stop-20261020-a/summary.json).
 
 > **Historique 0.1.3 mesuré sur Codex : 27 réussites, une demi-réussite, zéro échec.**
 > Huit critiques réussis ; non relu par un praticien.
@@ -14,8 +15,9 @@
 
 Les campagnes 0.1.0 et 0.1.1 conservent leurs propres réponses et jugements.
 Le runtime figé avant mesure garde la mention « non mesuré, non relu par un praticien » ;
-son statut actualisé est consigné hors paquet dans le
-[rapport 0.1.1](docs/qualification-0.1.1-2026-10-07.md), sans changer ses octets.
+son statut actualisé est consigné hors paquet dans les rapports de mesure.
+Cette convention vaut aussi pour 0.1.4 : SKILL.md et le paquet restent aux octets mesurés,
+liés au commit source, avec leur avertissement antérieur à la mesure.
 
 Système expert d'aide à la décision pour la fonction **commande publique**
 d'une collectivité territoriale française : définition du besoin, choix et

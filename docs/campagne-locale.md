@@ -2,8 +2,11 @@
 
 ## Candidat 0.1.4 — contrôle additionnel du STOP (2026-10-20)
 
-Le candidat 0.1.4 est **non mesuré, non relu par un praticien**. Les résultats
-ci-dessous décrivent les campagnes historiques et ne lui sont pas transférés.
+La mesure 0.1.4 est achevée : **28/28 en autonome Codex, relu par Jo
+(non praticien)**. Voir `qualification-0.1.4-2026-10-20.md`. L'avertissement
+du runtime figé avant mesure reste intact ; aucune qualification praticien
+ou plugin n'est déduite du score. Les campagnes plus anciennes ci-dessous
+conservent leurs propres résultats, sans transfert.
 Le kit exporte aussi `scripts/controle_stop.py`, couvert par ses empreintes.
 Après chaque paire répondant/juge, exécuter en lecture seule :
 

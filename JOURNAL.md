@@ -67,3 +67,14 @@ prioritaire sur les annonces et les lectures. Fond et déclencheurs
 historiques conservés. Contrôle déterministe additionnel tiré des
 attendus figés, sans modification des cas, du barème ou des scores.
 Non mesuré, non relu par un praticien ; aucune action externe.
+
+## 2026-10-20 — DCP D2 preuves 0.1.4
+
+Mesure autonome Codex : 28 RÉUSSITE sur 28, aucun ÉCHEC critique,
+six contrôles STOP réussis ; 56 sessions et 5 829 642 jetons d'entrée.
+Avis de Jo : 28 conformes, aucune réserve ; Jo n'est pas praticien.
+Preuves publiques assainies ajoutées, originaux privés et runtime
+mesuré préservés. Statut actuel hors paquet selon la convention du
+dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
+Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
+autorisées confiées à Claude.
