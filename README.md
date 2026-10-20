@@ -1,8 +1,11 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.3
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.4
 
-> **Candidat 0.1.3 mesuré sur Codex : 27 réussites, une demi-réussite, zéro échec.**
+> **Candidat 0.1.4 : non mesuré, non relu par un praticien.**
+> Correction de méthode : STOP exact en première ligne visible. Aucun score antérieur transféré.
+
+> **Historique 0.1.3 mesuré sur Codex : 27 réussites, une demi-réussite, zéro échec.**
 > Huit critiques réussis ; non relu par un praticien.
-> [Rapport actuel](docs/qualification-0.1.3-2026-10-08.md) et [grille de relecture](docs/relecture-candidat-0.1.3-2026-10-08.md).
+> [Rapport historique 0.1.3](docs/qualification-0.1.3-2026-10-08.md) et [grille de relecture](docs/relecture-candidat-0.1.3-2026-10-08.md).
 
 > **Historique 0.1.1 mesuré sur Codex : 27 réussites, une demi-réussite, aucun
 > échec selon le juge automatique. Non relu par un praticien.**

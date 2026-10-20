@@ -1,5 +1,11 @@
 # Historique — dcp-fpt
 
+## [0.1.4] — 2026-10-20 — STOP en première ligne visible
+
+Gabarit explicite et priorité dans la description pour les deux garde-fous.
+Les déclencheurs et le fond des blocs restent inchangés ; aucune règle de droit
+nouvelle. **Non mesuré, non relu par un praticien** ; aucun score transféré.
+
 ## [0.1.3] — 2026-10-07 — Abstention ciblée et profil MCP
 
 Une réserve finale ne permet pas d’affirmer une règle non vérifiée.

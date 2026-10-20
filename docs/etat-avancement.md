@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.3
+# État d'avancement — dcp-fpt v0.1.4
+
+## Candidat 0.1.4 — 2026-10-20
+
+STOP en première ligne visible selon ADR 0007. **Non mesuré, non relu par un
+praticien**. Aucun score historique transféré ; mesure autonome à préparer
+sur les nouveaux octets. Aucune publication ou intégration plugin.
+
+
+- SHA-256 du paquet 0.1.4 : `9446c8355d3232ebdf7cd62b7bd1d75855c5fb4f5475d64c495bc2ea4ae7c369`.
 
 ## Candidat 0.1.3 — 2026-10-07
 
