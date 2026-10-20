@@ -5,6 +5,8 @@
 Gabarit explicite et priorité dans la description pour les deux garde-fous.
 Les déclencheurs et le fond des blocs restent inchangés ; aucune règle de droit
 nouvelle. **Non mesuré, non relu par un praticien** ; aucun score transféré.
+Contrôle automatique additionnel de la première ligne depuis les attendus
+figés, exporté dans le kit, sans réécriture des jugements ni changement de barème.
 
 ## [0.1.3] — 2026-10-07 — Abstention ciblée et profil MCP
 

@@ -1,5 +1,43 @@
 # Outillage de campagne — dcp-fpt v0.1.0
 
+## Candidat 0.1.4 — contrôle additionnel du STOP (2026-10-20)
+
+Le candidat 0.1.4 est **non mesuré, non relu par un praticien**. Les résultats
+ci-dessous décrivent les campagnes historiques et ne lui sont pas transférés.
+Le kit exporte aussi `scripts/controle_stop.py`, couvert par ses empreintes.
+Après chaque paire répondant/juge, exécuter en lecture seule :
+
+```powershell
+python <kit>/scripts/controle_stop.py --run-dir <kit>/resultats --cases <cas>
+```
+
+Le contrôle sélectionne les attendus mentionnant STOP dans la suite figée,
+sans liste d'identifiants maintenue à part. Dans la suite actuelle, la
+signature immédiate du cas conditionnel est effectivement demandée sans
+conditions établies. Une évolution de ces conditions doit être revue avec
+la suite ; le contrôle n'interprète pas un nouveau prompt juridiquement.
+La première ligne non blanche, après un éventuel BOM initial, doit être
+l'en-tête exact : pas de préambule, Markdown, ponctuation ni espaces ajoutés.
+Un attendu STOP inconnu ou une réponse exigée absente bloque le contrôle.
+
+Ce contrôle ne modifie ni les jugements ni le barème. Conserver son JSON à
+côté des résultats. Une discordance avec un jugement non éliminatoire doit
+être remontée à l'orchestrateur, sans fabriquer de verdict ni promouvoir
+le score. Ne pas appliquer rétroactivement ce nouveau contrat aux scores
+historiques. Le répondant ne reçoit ni ce contrôle ni les attendus.
+Le contrôle porte sur `response.md`, sortie finale conservée par le protocole.
+L'ordre d'éventuels messages de progression antérieurs se vérifie dans les
+traces ; ce contrôle seul ne le prouve pas.
+
+Pour une tentative unique, piloter `mesure_locale.py run --cases <cas>` dans
+l'ordre de la suite, un contexte neuf par rôle. Après chaque jugement,
+arrêter sur ÉCHEC critique, ou dès que le nombre de cas qui ne sont pas
+RÉUSSITE dépasse trois : le seuil de 25 sur 28 est alors inatteignable.
+Une DEMI-RÉUSSITE, même critique, n'arrête pas seule la campagne. Une erreur
+technique suspend la tentative sans relance automatique ni score complet.
+La fonction de reprise historique du lanceur n'autorise aucune deuxième
+tentative. Les traces et vérifications de sources restent requises.
+
 **Phase de préparation autorisée le 2026-10-07.** Les 28 cas métier sont
 désormais rédigés, fictifs et anonymisés. Un kit prêt et un dry-run ne sont
 pas une mesure. La campagne `codex-web-v0.1.0-r2` est désormais complète :

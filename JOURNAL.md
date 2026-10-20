@@ -59,3 +59,11 @@ Aucune valeur chiffrée ni identifiant dans les attendus ; réserves du socle
 électroniques, jurisprudence à relire) jamais présentées comme acquises.
 Relecture contradictoire des cas critiques par un second modèle, en lecture
 seule. Aucune campagne, aucun appel du skill sur ces cas, aucun score.
+
+## 2026-10-20 — DCP D0 correction STOP
+
+Candidat local 0.1.4 : gabarit STOP exact en première ligne visible,
+prioritaire sur les annonces et les lectures. Fond et déclencheurs
+historiques conservés. Contrôle déterministe additionnel tiré des
+attendus figés, sans modification des cas, du barème ou des scores.
+Non mesuré, non relu par un praticien ; aucune action externe.
