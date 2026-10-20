@@ -1,0 +1,107 @@
+{
+  "case_id": "cas-18",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310518",
+          "title": "Article 52 - Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310421/",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310431",
+          "title": "Article - Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFARTI000043310425",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFARTI000043310423",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/daj/commande-publique/reglementation-de-la-commande-publique/cahiers-des-clauses-administratives",
+          "title": "Cahiers des clauses administratives générales et techniques | economie.gouv.fr"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 217511,
+        "cached_input_tokens": 174464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1529,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14985,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [
+    "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310518",
+    "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/"
+  ],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

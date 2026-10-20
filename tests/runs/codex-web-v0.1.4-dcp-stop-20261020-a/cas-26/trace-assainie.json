@@ -1,0 +1,92 @@
+{
+  "case_id": "cas-26",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053371416",
+          "title": "Article null - Avis relatif aux seuils de procédure et à la liste des autorités publiques centrales en droit de la commande publique (1) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723786/2026-04-05/",
+          "title": "Titre II : CHOIX DE LA PROCÉDURE DE PASSATION (Articles R2121-1 à R2124-6) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037730857",
+          "title": "Section 1 : Conditions de recours à une procédure adaptée (Articles R2123-1 à R2123-2) - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/daj/commande-publique-nouveaux-seuils-europeens-applicables-au-1er-janvier-2026",
+          "title": "Commande publique : nouveaux seuils européens applicables au 1er janvier 2026 | economie.gouv.fr"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/daj/commande-publique-les-seuils-europeens-de-procedure-formalisee-changent-au-1er-janvier-2026",
+          "title": "Commande publique : les seuils européens de procédure formalisée changent au 1er janvier 2026 | economie.gouv.fr"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 211853,
+        "cached_input_tokens": 172800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 940,
+        "reasoning_output_tokens": 13
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 23073,
+        "cached_input_tokens": 10112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043316424",
+    "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053346567"
+  ],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}
