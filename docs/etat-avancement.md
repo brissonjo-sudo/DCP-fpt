@@ -1,4 +1,12 @@
-# État d'avancement — dcp-fpt v0.1.4
+# État d'avancement — dcp-fpt v0.1.5
+
+## Candidat 0.1.5 — 2026-10-23
+
+Non mesuré, non relu par un praticien ; aucun score transféré.
+Correction de traçabilité et barème suivant les décisions de Jo du 23/10.
+Contrôle de citation informatif pour chaque réponse ; seuil et critères
+critiques inchangés. Pré-vol local de 28 cas / 56 rôles, aucune mesure.
+Statut : `docs/statut-0.1.5.json` ; décisions : ADR 0008.
 
 ## Candidat 0.1.4 — 2026-10-20
 

@@ -1,0 +1,14 @@
+{
+  "version": "0.1.5",
+  "date": "2026-10-23",
+  "statut": "non mesuré, non relu par un praticien",
+  "run": null,
+  "totals": null,
+  "sessions": 0,
+  "input_tokens": null,
+  "human_review_done": false,
+  "practitioner_reviewed": false,
+  "plugin_qualified": false,
+  "publication_ready": false,
+  "historical_score_transferred": false
+}

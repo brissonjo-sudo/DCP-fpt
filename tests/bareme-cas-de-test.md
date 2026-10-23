@@ -33,7 +33,11 @@ réelle et statut. Registre daté distinct d'un appel en session. Sans accès,
 abstention ciblée et méthode utile, aucune valeur donnée malgré une réserve.
 BASCULE nomme le skill et arrête le volet, sauf délégataire effectivement
 chargé sous responsabilité explicite. Non éliminatoires à fond correct :
-chemin interne, risque/confiance ou proposition de capitalisation omis.
+référence interne par nom et section omise ; lien ou chemin de fichier de
+skill dans la réponse ; risque/confiance ou proposition de capitalisation omis.
+Un lien ou chemin de fichier de skill est un défaut non éliminatoire :
+un fond correct reste RÉUSSITE. Le contrôle automatique signale chaque
+occurrence pour la relecture de Jo, sans modifier le verdict ni le score.
 
 ## Preuves et seuil
 

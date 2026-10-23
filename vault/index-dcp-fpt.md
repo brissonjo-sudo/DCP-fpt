@@ -1,10 +1,10 @@
 ---
 title: "Index dcp-fpt"
-version: 0.1.4
-statut: "mesuré (28/28, protocole autonome Codex), relu par Jo (non praticien)"
+version: 0.1.5
+statut: "non mesuré, non relu par un praticien"
 ---
 
-# Index — dcp-fpt v0.1.4
+# Index — dcp-fpt v0.1.5
 
 Notes compatibles Obsidian ; aucune configuration de vault local ni
 synchronisation attestée. Suivi hors paquet runtime.
@@ -16,7 +16,8 @@ synchronisation attestée. Suivi hors paquet runtime.
 - [Cadrage](../docs/cadrage.md)
 - [Passation](../docs/passation-redaction.md)
 - [État et preuves](../docs/etat-avancement.md)
-- [Statut 0.1.4](../docs/statut-0.1.4.json)
+- [Statut 0.1.5](../docs/statut-0.1.5.json)
+- [Statut historique 0.1.4](../docs/statut-0.1.4.json)
 - [Mesure et avis Jo 0.1.4](../docs/qualification-0.1.4-2026-10-20.md)
 - [Mesure 0.1.1 et réserves](../docs/qualification-0.1.1-2026-10-07.md)
 - [Relecture](../docs/relecture-praticien.md)

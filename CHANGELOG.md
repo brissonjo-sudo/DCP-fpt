@@ -1,5 +1,13 @@
 # Historique — dcp-fpt
 
+## [0.1.5] — non mesuré
+
+Préparé le 2026-10-23 : références internes par nom du skill et section,
+sans lien ni chemin dans la réponse. Liens officiels permis ; fond et STOP inchangés.
+Décision de Jo : défaut de citation non éliminatoire à fond correct, avec
+contrôle automatique informatif exporté pour relecture. Seuil 25/28 et
+absence d’ÉCHEC critique inchangés. Aucun score historique transféré.
+
 ## [0.1.4] — 2026-10-20 — STOP en première ligne visible
 
 Gabarit explicite et priorité dans la description pour les deux garde-fous.

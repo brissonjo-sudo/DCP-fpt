@@ -1,6 +1,10 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.4
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.5
 
-> **0.1.4 mesuré : 28/28, protocole autonome Codex ; relu par Jo (non praticien).**
+> **0.1.5 : non mesuré, non relu par un praticien.**
+> Références internes par nom et section ; aucun score historique transféré.
+> [Statut 0.1.5](docs/statut-0.1.5.json).
+
+> **Historique 0.1.4 mesuré : 28/28, protocole autonome Codex ; relu par Jo (non praticien).**
 > 28 cas conformes selon Jo, aucune réserve. Aucune relecture praticien ni qualification du plugin revendiquée.
 > [Rapport 0.1.4](docs/qualification-0.1.4-2026-10-20.md) · [statut du skill](docs/statut-0.1.4.json) · [preuves publiques](tests/runs/codex-web-v0.1.4-dcp-stop-20261020-a/summary.json).
 
@@ -69,7 +73,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.3.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.1.5.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.
