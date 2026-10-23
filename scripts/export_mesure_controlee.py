@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+from datetime import date, datetime, UTC
 import hashlib
 import json
 from pathlib import Path
@@ -88,7 +89,69 @@ def protocol_from_sources(kit: Path):
     return tuple(modules)
 
 
-def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, commit: str) -> dict:
+def review_filename(review: dict, version: str, review_date: str | None = None) -> str:
+    """Date explicite et calendaire en 0.1.5 ; nom historique inchangé en 0.1.4."""
+    if version != "0.1.5" and review_date is None:
+        return "avis-humain-jo-20261020.json"
+    if (not isinstance(review_date, str)
+            or not re.fullmatch(r"[0-9]{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01])", review_date)):
+        raise ValueError("Date d'avis invalide : YYYY-MM-DD explicite requis")
+    try:
+        chosen = date.fromisoformat(review_date)
+        observed = datetime.fromisoformat(review["date_utc"])
+        if observed.tzinfo is None or observed.astimezone(UTC).date() != chosen:
+            raise ValueError
+    except (KeyError, TypeError, ValueError):
+        raise ValueError("Date d'avis invalide ou différente de l'avis lié") from None
+    if version != "0.1.5" and review_date != "2026-10-20":
+        raise ValueError("Date historique 0.1.4 différente")
+    return "avis-humain-jo-" + chosen.isoformat().replace("-", "") + ".json"
+
+
+def validate_review(review: dict, cases: list[dict], version: str) -> None:
+    """Conserve le texte exact et exige une réserve motivée pour chaque cas réservé."""
+    ids = {case["id"] for case in cases}
+    verdicts, reserves = review.get("verdicts"), review.get("reserves")
+    if (review.get("decideur") != "Jo" or not isinstance(verdicts, dict)
+            or set(verdicts) != ids or not isinstance(reserves, dict)):
+        raise ValueError("Avis de Jo incomplet ou réserve invalide")
+    if version != "0.1.5":
+        if any(value != "conforme" for value in verdicts.values()) or reserves:
+            raise ValueError("Avis de Jo historique incomplet ou avec réserve")
+        return
+    if (any(value not in ("conforme", "en réserve") for value in verdicts.values())
+            or set(reserves) != {case_id for case_id, value in verdicts.items() if value == "en réserve"}
+            or any(not isinstance(text, str) or not text.strip() for text in reserves.values())):
+        raise ValueError("Réserve vide, inconnue ou non liée au verdict humain")
+
+
+def validate_summary(folder: Path, cases: list[dict], totals: dict, summary: dict) -> None:
+    """Recalcule le seuil et les ÉCHEC critiques depuis les jugements, sans les réécrire."""
+    failures = [case["id"] for case in cases if case["type"] == "critique"
+                and load(folder / case["id"] / "judgment.json")["verdict"] == "ÉCHEC"]
+    passed = len(cases) == 28 and totals["RÉUSSITE"] >= 25 and not failures
+    if (totals != summary["totals"] or summary["case_count"] != 28
+            or summary["critical_failures"] != failures
+            or summary["threshold_passed"] is not passed or not passed):
+        raise ValueError("Synthèse incohérente : seuil non atteint ou ÉCHEC critique")
+
+
+def review_report(review: dict, judgments: dict[str, str], review_date: str) -> bytes:
+    """Preuve lisible des demi-réussites et réserves ; leur texte JSON reste exact."""
+    halves = [case_id for case_id, value in judgments.items() if value == "DEMI-RÉUSSITE"]
+    lines = ["# Relecture humaine — résultats et réserves", "", "Date : " + review_date,
+             "", "DEMI-RÉUSSITE : " + (", ".join(halves) or "aucune"),
+             "", "Les verdicts automatiques sont conservés ; les réserves humaines ne les réécrivent pas.", ""]
+    if not review["reserves"]:
+        lines.append("Aucune réserve humaine.")
+    for case_id, text in review["reserves"].items():
+        fence = "`" * max(3, 1 + max((len(m[0]) for m in re.finditer(r"`+", text)), default=0))
+        lines.extend(["## " + case_id + " — en réserve", "", fence + "text", text, fence, ""])
+    return ("\n".join(lines) + "\n").encode("utf-8")
+
+
+def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, commit: str,
+           review_date: str | None = None) -> dict:
     """Vérifie le contrôleur, chaque rôle, le budget et l'avis avant tout export."""
     output = output.resolve()
     if not output.is_relative_to(ROOT / "tests/runs") or output.exists() or not re.fullmatch(r"[a-f0-9]{40}", commit):
@@ -125,10 +188,10 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
     kit = attempt / "kit"
     evaluation, protocol, control = protocol_from_sources(kit)
     cases = protocol.verify_kit(kit)
-    ids = [case["id"] for case in cases]
-    if (review["decideur"] != "Jo" or set(review["verdicts"]) != set(ids)
-            or any(value != "conforme" for value in review["verdicts"].values()) or review["reserves"]):
-        raise ValueError("Avis de Jo incomplet ou avec réserve")
+    version = load(kit / "resultats/manifest.json")["skill_version"]
+    modern = version == "0.1.5"
+    validate_review(review, cases, version)
+    review_name = review_filename(review, version, review_date)
     settings = {"engine": "codex", "cli_version": plan["requested_cli"]["version"],
                 "responder_model": plan["models"]["respondant"], "judge_model": plan["models"]["juge"], "web": True}
     manifest = load(kit / "resultats/manifest.json")
@@ -193,6 +256,9 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
             files[f"{case_id}/trace-assainie.json"] = encoded(trace)
             progression.append({"case_id": case_id, "verdict": load(folder / "judgment.json")["verdict"],
                                 "response_sha256": digest((folder / "response.md").read_bytes()), "citation_alerts": len(cited - opened)})
+            if modern:
+                progression[-1].update(human_verdict=review["verdicts"][case_id],
+                                       reserve=review["reserves"].get(case_id))
             if case_id in stop_ids:
                 result = control.audit_run(kit / "resultats", [case_id])
                 original = folder / "controle-stop.json"
@@ -203,7 +269,9 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
         raise ValueError("Cumul de consommation incohérent")
     totals = evaluation.validate_run(kit / "resultats")
     summary = load(kit / "resultats/summary.json")
-    if totals != summary["totals"] or totals["RÉUSSITE"] != len(cases) or not summary["threshold_passed"] or summary["critical_failures"]:
+    if modern:
+        validate_summary(kit / "resultats", cases, totals, summary)
+    if totals != summary["totals"] or (not modern and totals["RÉUSSITE"] != len(cases)) or not summary["threshold_passed"] or summary["critical_failures"]:
         raise ValueError("Synthèse de mesure incohérente")
     public_manifest = {**manifest, "source_runtime_commit": commit, "execution_settings": settings,
         "measurement_status": "mesuré en autonome Codex ; relu par Jo non praticien",
@@ -228,16 +296,26 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
     public_plan["public_projection"] = "Chemin personnel CLI et inventaire de cache privé omis ; profil et empreintes conservés."
     files["plan-mesure.json"] = encoded(public_plan)
     files["autorisation-jo.json"] = auth_path.read_bytes()
-    files["avis-humain-jo-20261020.json"] = review_path.read_bytes()
+    files[review_name] = review_path.read_bytes()
     files["fiche-relecture.md"] = review_sheet.read_bytes()
     files["provenance.json"] = encoded({"policy": POLICY, "source_runtime_commit": commit,
         "private_sources_sha256": {"resume-final.json": digest(summary_path.read_bytes()), "PLAN-D1.json": digest((plan_dir / "PLAN-D1.json").read_bytes()),
-            "autorisation-jo.json": digest(auth_path.read_bytes()), "avis-humain-jo-20261020.json": digest(review_path.read_bytes()),
+            "autorisation-jo.json": digest(auth_path.read_bytes()), review_name: digest(review_path.read_bytes()),
             "fiche-relecture.md": digest(review_sheet.read_bytes()), "manifest.json": digest((kit / "resultats/manifest.json").read_bytes())},
         "source_launcher_manifest_sha256": controller["launcher_manifest_sha256"],
         "excluded": ["homes", "credentials", "flux bruts", "pensées", "signatures", "identifiants de thread", "chemins personnels"],
         "human_review": {"reviewer": "Jo", "practitioner": False, "case_count": 28, "reserves": {}},
         "publication_ready": False, "plugin_qualified": False})
+    if modern:
+        judgments = {item["case_id"]: item["verdict"] for item in progression}
+        files["relecture-reserves.md"] = review_report(review, judgments, review_date)
+        provenance = json.loads(files["provenance.json"])
+        provenance["human_review"].update(
+            review_file=review_name, review_date=review_date,
+            verdicts=copy.deepcopy(review["verdicts"]), reserves=copy.deepcopy(review["reserves"]),
+            demi_reussites=[case_id for case_id, value in judgments.items() if value == "DEMI-RÉUSSITE"],
+            reserve_report="relecture-reserves.md")
+        files["provenance.json"] = encoded(provenance)
     # Audit informatif des originaux, sans filtrer ni transformer de verdict.
     audit = controle_citations.audit_run(kit / "resultats")
     files["controle-citations.json"] = encoded(audit)
@@ -278,6 +356,11 @@ def verify_public_run(folder: Path) -> dict:
     totals = eval_suite.validate_run(folder)
     if totals != summary["totals"] or summary["publication_ready"] is not False:
         raise ValueError("Synthèse publique incohérente")
+    modern = manifest["skill_version"] == "0.1.5"
+    if modern:
+        validate_summary(folder, cases, totals, summary)
+    elif totals["RÉUSSITE"] != 28:
+        raise ValueError("Synthèse historique différente de 28 RÉUSSITE")
     for name, expected in manifest["runtime_sha256"].items():
         blob = subprocess.run(["git", "--no-optional-locks", "-c", "safe.directory=" + str(ROOT),
                               "show", f"{manifest['source_runtime_commit']}:{name}"], cwd=ROOT,
@@ -308,13 +391,33 @@ def verify_public_run(folder: Path) -> dict:
         if not result["passed"] or result != load(folder / case_id / "controle-stop.json"):
             raise ValueError("STOP public non conforme")
     provenance = load(folder / "provenance.json")
-    review_path = folder / "avis-humain-jo-20261020.json"
+    human = provenance["human_review"]
+    review_path = safe_relative(folder, human["review_file"]) if modern else folder / "avis-humain-jo-20261020.json"
     review = load(review_path)
+    if modern:
+        validate_review(review, cases, manifest["skill_version"])
+        if (review["tete"] != manifest["source_runtime_commit"] or review["tete"] != controller["head"]
+                or review["tentative"] != controller["attempt_id"]):
+            raise ValueError("Avis public non lié à la mesure")
+        if review_path.name != review_filename(review, "0.1.5", human["review_date"]):
+            raise ValueError("Nom d'avis public invalide")
+        judgments = {case["id"]: load(folder / case["id"] / "judgment.json")["verdict"] for case in cases}
+        if (human["verdicts"] != review["verdicts"] or human["reserves"] != review["reserves"]
+                or human["demi_reussites"] != [case_id for case_id, value in judgments.items() if value == "DEMI-RÉUSSITE"]
+                or human["reserve_report"] != "relecture-reserves.md"
+                or (folder / "relecture-reserves.md").read_bytes() != review_report(review, judgments, human["review_date"])):
+            raise ValueError("Réserves publiques ou demi-réussites incohérentes")
+        progress = load(folder / "progression.json")["cases"]
+        if ([item["case_id"] for item in progress] != [case["id"] for case in cases]
+                or any(item["verdict"] != judgments[item["case_id"]]
+                       or item["human_verdict"] != review["verdicts"][item["case_id"]]
+                       or item["reserve"] != review["reserves"].get(item["case_id"]) for item in progress)):
+            raise ValueError("Réserves de progression incohérentes")
     if (digest(review_path.read_bytes()) != provenance["private_sources_sha256"][review_path.name]
             or review["resume_final_sha256"] != provenance["private_sources_sha256"]["resume-final.json"]
             or review["fiche_relecture_sha256"] != digest((folder / "fiche-relecture.md").read_bytes())
             or set(review["verdicts"]) != {case["id"] for case in cases}
-            or any(value != "conforme" for value in review["verdicts"].values()) or review["reserves"]
+            or (not modern and (any(value != "conforme" for value in review["verdicts"].values()) or review["reserves"]))
             or provenance["human_review"]["practitioner"] is not False or provenance["plugin_qualified"] is not False):
         raise ValueError("Relecture publique incohérente")
     return {"totals": totals, "sessions": role_count, "input_tokens": total, "stop_checks": len(expected_stops)}
@@ -328,9 +431,10 @@ def main() -> int:
     parser.add_argument("--review-sheet", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--source-commit", required=True)
+    parser.add_argument("--review-date", help="date YYYY-MM-DD de l'avis, obligatoire pour 0.1.5")
     args = parser.parse_args()
     try:
-        result = export(args.attempt.resolve(), args.review.resolve(), args.review_sheet.resolve(), args.output, args.source_commit)
+        result = export(args.attempt.resolve(), args.review.resolve(), args.review_sheet.resolve(), args.output, args.source_commit, args.review_date)
         print(json.dumps(result, ensure_ascii=True))
         return 0
     except (OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as error:
