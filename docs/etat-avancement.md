@@ -1,12 +1,20 @@
 # État d'avancement — dcp-fpt v0.1.5
 
-## Candidat 0.1.5 — 2026-10-23
+## Candidat 0.1.5 — 2026-10-24
 
-Non mesuré, non relu par un praticien ; aucun score transféré.
-Correction de traçabilité et barème suivant les décisions de Jo du 23/10.
-Contrôle de citation informatif pour chaque réponse ; seuil et critères
-critiques inchangés. Pré-vol local de 28 cas / 56 rôles, aucune mesure.
-Statut : `docs/statut-0.1.5.json` ; décisions : ADR 0008.
+**Mesuré 25/28, relu par Jo (non praticien) avec réserves.** Deux
+DEMI-RÉUSSITE (cas-08, cas-15), un ÉCHEC non critique (cas-17), huit
+critiques réussis. Les jugements restent inchangés. Avis Jo : 22 conformes,
+six réserves, inscrites dans les preuves. 56 sessions, 5 463 220 jetons
+d’entrée et six contrôles STOP réussis. Zéro lien/chemin de skill dans les
+28 réponses, contre 116 occurrences en 0.1.4. Aucun score transféré.
+
+Statut : [statut-0.1.5.json](statut-0.1.5.json) ; [rapport et suivi de la règle
+d’abstention](qualification-0.1.5-2026-10-24.md). Incohérence du juge sur
+cas-09/17/26 arbitrée par Jo ; réserve maintenue. Runtime et paquet restent
+aux octets mesurés à `f5c9095f3183dff8e5a1fe56c54bde953a9b91c0`.
+Relecture praticien en attente, plugin non qualifié, `publication_ready=false`.
+Décisions : ADR 0008 et 0009. Export local seulement ; aucune poussée.
 
 - SHA-256 du paquet 0.1.5 : `6cccf0970a9fe6c5708f70c953b8cb3fd2c3d64b4e8153f55e60fdeb15e417da`.
 
