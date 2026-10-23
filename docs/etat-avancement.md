@@ -8,6 +8,8 @@ Contrôle de citation informatif pour chaque réponse ; seuil et critères
 critiques inchangés. Pré-vol local de 28 cas / 56 rôles, aucune mesure.
 Statut : `docs/statut-0.1.5.json` ; décisions : ADR 0008.
 
+- SHA-256 du paquet 0.1.5 : `6cccf0970a9fe6c5708f70c953b8cb3fd2c3d64b4e8153f55e60fdeb15e417da`.
+
 ## Candidat 0.1.4 — 2026-10-20
 
 STOP en première ligne visible selon ADR 0007. **Mesuré : 28/28, protocole

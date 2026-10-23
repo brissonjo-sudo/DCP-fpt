@@ -14,6 +14,7 @@ import uuid
 
 import eval_suite
 import export_preuves
+import controle_citations
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY = "mesure-controlee-publique-v1"
@@ -237,6 +238,11 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
         "excluded": ["homes", "credentials", "flux bruts", "pensées", "signatures", "identifiants de thread", "chemins personnels"],
         "human_review": {"reviewer": "Jo", "practitioner": False, "case_count": 28, "reserves": {}},
         "publication_ready": False, "plugin_qualified": False})
+    # Audit informatif des originaux, sans filtrer ni transformer de verdict.
+    audit = controle_citations.audit_run(kit / "resultats")
+    files["controle-citations.json"] = encoded(audit)
+    for check in audit["checks"]:
+        files[check["case_id"] + "/controle-citations.json"] = encoded(check)
     for name, raw in files.items():
         findings = scan_public(raw)
         if findings:

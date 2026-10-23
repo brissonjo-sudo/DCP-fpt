@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import eval_suite as public_eval
+import controle_citations
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAINS = ("legifrance.gouv.fr", "eur-lex.europa.eu", "curia.europa.eu",
@@ -184,6 +185,12 @@ def export(kit: Path, output: Path, commit: str) -> dict:
     manifest["source_runtime_commit"] = commit
     manifest["public_trace_policy"] = "Flux bruts hors dépôt ; réponses, jugements, empreintes et traces assainies exportés."
     save(output / "manifest.json", manifest)
+    # Addition informative uniquement ; réponse originale liée par empreinte.
+    if complete:
+        audit = controle_citations.audit_run(kit / "resultats", [case["id"] for case, _ in complete])
+        save(output / "controle-citations.json", audit)
+        for check in audit["checks"]:
+            save(output / check["case_id"] / "controle-citations.json", check)
     result = {"case_count": len(cases), "completed_count": len(progress), "cases": progress,
               "publication_ready": False, "human_legal_validation": False}
     save(output / "progression.json", result)
