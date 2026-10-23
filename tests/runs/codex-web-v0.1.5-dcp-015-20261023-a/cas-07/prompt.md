@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Le titulaire d'un marché fictif annonce un nouveau sous-traitant en cours d'exécution et demande le paiement direct. Le contrat et les pièces de sous-traitance manquent. Comment traiter la demande ?
