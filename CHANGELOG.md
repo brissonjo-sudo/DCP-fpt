@@ -1,5 +1,22 @@
 # Historique — dcp-fpt
 
+## [0.1.5] — 2026-10-24 — mesuré avec réserves
+
+Préparé le 2026-10-23 : références internes par nom du skill et section,
+sans lien ni chemin dans la réponse. Liens officiels permis ; fond et STOP inchangés.
+Décision de Jo : défaut de citation non éliminatoire à fond correct, avec
+contrôle automatique informatif exporté pour relecture. Seuil 25/28 et
+absence d’ÉCHEC critique inchangés. Aucun score historique transféré.
+**Mesuré le 2026-10-23 : 25/28 ; relu par Jo (non praticien) avec réserves le 2026-10-24.**
+Deux DEMI-RÉUSSITE (cas-08, cas-15), un ÉCHEC non critique (cas-17) ;
+huit critiques réussis. 56 sessions, 5 463 220 jetons d’entrée, six STOP réussis.
+Zéro lien ou chemin de skill sur 28 réponses (116 occurrences en 0.1.4).
+Avis humain : 22 conformes, six réserves exactes exportées ; jugement inchangé.
+Incohérence du juge sur cas-09/17/26 arbitrée par Jo ; règle d’abstention
+à préciser pour la suite. Runtime mesuré préservé. Relecture praticien en
+attente ; `publication_ready=false`, plugin non qualifié.
+[Rapport et suivi](docs/qualification-0.1.5-2026-10-24.md).
+
 ## [0.1.4] — 2026-10-20 — STOP en première ligne visible
 
 Gabarit explicite et priorité dans la description pour les deux garde-fous.

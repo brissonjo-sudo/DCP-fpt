@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. La commune envisage des travaux sur un bâtiment public. Le périmètre, l'estimation globale, les lots et la date de lancement ne sont pas arrêtés. Le service veut choisir tout de suite une procédure adaptée. Quelle décision préparer ?

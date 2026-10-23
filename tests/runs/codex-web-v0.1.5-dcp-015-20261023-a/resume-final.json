@@ -1,0 +1,1138 @@
+{
+  "attempt_id": "dcp-015-20261023-a",
+  "head": "f5c9095f3183dff8e5a1fe56c54bde953a9b91c0",
+  "status": "completed",
+  "failure": null,
+  "measurement_status": "exécutée",
+  "sessions_started": 56,
+  "sessions_max": 56,
+  "input_tokens_total_known": 5463220,
+  "input_tokens_complete": true,
+  "input_tokens_limit": 10000000,
+  "budget_policy": "between_roles",
+  "strict_intrarole_token_cap_guaranteed": false,
+  "roles": [
+    {
+      "case_id": "cas-01",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:08:55.661825+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "8ff8204cbaa13e069921735e9ea63fb014bcdd8539b06b0827cd19b87c82df33",
+      "argv_sha256": "24c319e8070b809cfbe66194fa93a00eb9a3e233bc0a865f384a460128ecfa81",
+      "process_exit": 0,
+      "stdout_sha256": "1f823822ce82350db42a0292d276ba6f6dbf632718763cd2910d3dd3b3704404",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 204954,
+        "cached_input_tokens": 165504,
+        "output_tokens": 1690
+      },
+      "ended_utc": "2026-10-23T21:09:49.921844+00:00"
+    },
+    {
+      "case_id": "cas-01",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:09:50.497073+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "6031b4259e67d67ea1b45025d2e45edcb422b4a570672fe2c21b899b9c140021",
+      "argv_sha256": "d83b609331c9d4915f329a3ccd19305f4cf915a8761cb48912e8e287e7acebef",
+      "process_exit": 0,
+      "stdout_sha256": "e526675f280990a663841fa8957138c135db7001341ad68a96ad9481d8213c21",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 23186,
+        "cached_input_tokens": 9984,
+        "output_tokens": 163
+      },
+      "ended_utc": "2026-10-23T21:09:57.969772+00:00"
+    },
+    {
+      "case_id": "cas-02",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:09:59.310215+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "cbc14d0846e7fec69bb369f792041fa0001d4abff78096ac0b969696de98549d",
+      "argv_sha256": "c4db96bc82d4684e2ede18e6daa7f2be230dcd8f3c2f98cce2c9f80ff5eff1d1",
+      "process_exit": 0,
+      "stdout_sha256": "caf9e5698fcf07b86b755bca5e9e64305100640cbb07c31e88186abea5c0b940",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 189322,
+        "cached_input_tokens": 142208,
+        "output_tokens": 1407
+      },
+      "ended_utc": "2026-10-23T21:10:38.687754+00:00"
+    },
+    {
+      "case_id": "cas-02",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:10:39.295774+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "22dcbf8040fe291c07bfe04826ebcd384943dad6649bf8d99be06e5ecf48687d",
+      "argv_sha256": "2580f04ea4c726770c2c10f9c68a719dac456cc1094b86d5ca512bc61a767599",
+      "process_exit": 0,
+      "stdout_sha256": "b2f70b80887c8965d159d1e92b41b3817811a18541198df69db0144c32c0a08f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14004,
+        "cached_input_tokens": 9984,
+        "output_tokens": 148
+      },
+      "ended_utc": "2026-10-23T21:10:44.892370+00:00"
+    },
+    {
+      "case_id": "cas-03",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:10:46.308962+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "51578b978ca9eb869cbf7fdbb3a8e5c297019e329d30015b4076345526cb5792",
+      "argv_sha256": "4a7b8f3931c287f29f8796293e5e1c559a155f417da188fbe21b2db35464d006",
+      "process_exit": 0,
+      "stdout_sha256": "4c147601c63a5b324b4c343454135c6fcd4e6125f300bc0872da73a7bbfa8852",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 198252,
+        "cached_input_tokens": 159616,
+        "output_tokens": 1301
+      },
+      "ended_utc": "2026-10-23T21:11:22.732390+00:00"
+    },
+    {
+      "case_id": "cas-03",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:11:23.214061+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "570d564cad176ac7a1f341f260d58cfe8879f3bb0dfa483a691df98dd5733cac",
+      "argv_sha256": "5f30b341b23b392d6cd999929e7cb5809e11ef4338d54bcd4bbe1dc0a1254fe2",
+      "process_exit": 0,
+      "stdout_sha256": "b906386e5ce8e83719495a4ed2ac27a4a11e41107dae8dbc3ff049ae421ad606",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13911,
+        "cached_input_tokens": 9984,
+        "output_tokens": 159
+      },
+      "ended_utc": "2026-10-23T21:11:29.813109+00:00"
+    },
+    {
+      "case_id": "cas-04",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:11:31.111629+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "cfed0b599c61a121f9f028192560ec459e2b7dfa2b82a29996b23b6af39a047e",
+      "argv_sha256": "9e71108a1ec0c5437b06f49bf3169952bb22d79f6076f9d5375cb5190d802df7",
+      "process_exit": 0,
+      "stdout_sha256": "ef0bc31f3ede8f33f13eb6dd8c88ee28b8f7316170ab3a68d044c72f079b45ba",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 200270,
+        "cached_input_tokens": 163712,
+        "output_tokens": 1165
+      },
+      "ended_utc": "2026-10-23T21:12:11.533618+00:00"
+    },
+    {
+      "case_id": "cas-04",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:12:12.016877+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "97dd0756ae54c59fdfe5fe512412e508b901af45d66bb3034cb234f55d0406cb",
+      "argv_sha256": "41a5e60600839ae43663e02c00c991773e50303d609d3a3a77834f423a7477f5",
+      "process_exit": 0,
+      "stdout_sha256": "66fc0452e0657f434202fd9e3c207aeae3e3837abc5e6664eb9ae21b25907652",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13868,
+        "cached_input_tokens": 9984,
+        "output_tokens": 133
+      },
+      "ended_utc": "2026-10-23T21:12:16.859450+00:00"
+    },
+    {
+      "case_id": "cas-05",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:12:18.265034+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "509601b55e763397427ba5fb2c2afc2c97db4d95c340486df37f0180008771f4",
+      "argv_sha256": "98e4fc55a89fd03584543ed1ed46a7e788fbd7b820f85112949fbbe711c716c2",
+      "process_exit": 0,
+      "stdout_sha256": "04de06d2246a91c2f3de672e8e06489512805a445743ed9d5f85a48b8dac3296",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 434004,
+        "cached_input_tokens": 366976,
+        "output_tokens": 2276
+      },
+      "ended_utc": "2026-10-23T21:13:29.810423+00:00"
+    },
+    {
+      "case_id": "cas-05",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:13:30.316927+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "b535fe08ef6b1fdc8b795f7ce7673d09b0a14a6dc0b89f12f3c8b880467e5764",
+      "argv_sha256": "9aca322c75a57836aec12b359029a2f9f7ca19d0db1360a239b0a46300aa7399",
+      "process_exit": 0,
+      "stdout_sha256": "8adbbe738120886d79ca79a00a6fe8225ddba38cecc8b40b76282ccd95814b39",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14223,
+        "cached_input_tokens": 9984,
+        "output_tokens": 162
+      },
+      "ended_utc": "2026-10-23T21:13:37.044736+00:00"
+    },
+    {
+      "case_id": "cas-06",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:13:38.281372+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "9f18703f23095432b88ff4f5d65f4018b730fd2472c21f1281fedd1d4ab93605",
+      "argv_sha256": "256cb242ea626a6e5556aa29af70c767fd77508fdd6fb275e69fadf62f29aaf4",
+      "process_exit": 0,
+      "stdout_sha256": "e5c176abfc57a7f6a3d6fd39461d54592b895e5b203db0ec0751d05884154ae4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 233579,
+        "cached_input_tokens": 198144,
+        "output_tokens": 1077
+      },
+      "ended_utc": "2026-10-23T21:14:14.675528+00:00"
+    },
+    {
+      "case_id": "cas-06",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:14:15.200477+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "7111093e61d67a871a849c32e462441b80090d585950307bbca6bd39af31c1fc",
+      "argv_sha256": "6739545dd89500fae1a00fa02565813641ace8366553b41e30634d1b7a7c7884",
+      "process_exit": 0,
+      "stdout_sha256": "60225db7bafb8644d29fe4a2f3900d4087e365c116459c84fe53a4de343e3252",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13665,
+        "cached_input_tokens": 9984,
+        "output_tokens": 210
+      },
+      "ended_utc": "2026-10-23T21:14:23.772123+00:00"
+    },
+    {
+      "case_id": "cas-07",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:14:25.056036+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "fc8b8ee2bc6fd07e6595446944e92128f31887bcd156bc4db20f436c1d4b11f2",
+      "argv_sha256": "1951b497a214ef7a5e75df41b59ae6b8f5014113182c67a77a368f4efc262a24",
+      "process_exit": 0,
+      "stdout_sha256": "fb2afc8bf5c9ab3023373d8ecc895ff819a744de6a07aea5eff0033f694cdf62",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 179626,
+        "cached_input_tokens": 119552,
+        "output_tokens": 1080
+      },
+      "ended_utc": "2026-10-23T21:14:58.396958+00:00"
+    },
+    {
+      "case_id": "cas-07",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:14:58.895501+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "4993b909d20410e60dca95502f92f91c651c849d3d2a0b4a5c7fb4f3d16be7dd",
+      "argv_sha256": "acdebba7530e647e0c2ce702ba2caaf860c43eab0eb53587cbf381eaaa2cb2ec",
+      "process_exit": 0,
+      "stdout_sha256": "990082124ef5381f3929cb3d6e69bd68599956f1f5bf605598711efd1647e571",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13888,
+        "cached_input_tokens": 0,
+        "output_tokens": 120
+      },
+      "ended_utc": "2026-10-23T21:15:04.420737+00:00"
+    },
+    {
+      "case_id": "cas-08",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:15:05.689287+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "e3cfdf4ffd81653f929dffd9f8ccd1a8150d02cbe1438beb77bde51b987d1182",
+      "argv_sha256": "8cb022d2a6af81badea1544dc65d47c59ff3a38a947a6f61e6aec5a57d53a2b6",
+      "process_exit": 0,
+      "stdout_sha256": "2ae780ee999cb4dcdedc7ee40a690d805c9f4265304357233edec9b6bcb93814",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 240603,
+        "cached_input_tokens": 202496,
+        "output_tokens": 909
+      },
+      "ended_utc": "2026-10-23T21:15:40.947898+00:00"
+    },
+    {
+      "case_id": "cas-08",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:15:41.444743+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "566a94cc0e5a9c09019fae25be12ffa166499fb265f295fa7e6ea4a9e80bb39e",
+      "argv_sha256": "d11ceda814f20b2579340a5106a034fa47b7d986410ff782cc1db42ed629c3cd",
+      "process_exit": 0,
+      "stdout_sha256": "254d3c27d8db22de953c95ab84410dd393b548fccf171322a9f9b212c99be35b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 22591,
+        "cached_input_tokens": 9984,
+        "output_tokens": 181
+      },
+      "ended_utc": "2026-10-23T21:15:49.668953+00:00"
+    },
+    {
+      "case_id": "cas-09",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:15:50.959091+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "ae2da9a129e8cbbadd52b9acf02e751999e555604cfe1e6dc018576ef81f450e",
+      "argv_sha256": "7b4c3a396933751b508896b0c13b626728a03b95d91c0a1f549c2993ab3ed01a",
+      "process_exit": 0,
+      "stdout_sha256": "7f677f46fd9e5f2ac78ae14ca2f6339936e89a6820014416bd804ac4f5d12da6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 142022,
+        "cached_input_tokens": 111872,
+        "output_tokens": 1373
+      },
+      "ended_utc": "2026-10-23T21:16:30.586065+00:00"
+    },
+    {
+      "case_id": "cas-09",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:16:31.067578+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "579243e22a25b3495a129dc0d65b6c69bd054215393cee65628dbe5138997b4f",
+      "argv_sha256": "e8066392f8c930682141b56f0c05c963a5dff461976652857ae3b4fe53510d64",
+      "process_exit": 0,
+      "stdout_sha256": "18513fdaadc7c46e8bb8b66fd60a09d08b12338ee3177c85f5768ef885006e15",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14115,
+        "cached_input_tokens": 9984,
+        "output_tokens": 165
+      },
+      "ended_utc": "2026-10-23T21:16:37.756232+00:00"
+    },
+    {
+      "case_id": "cas-10",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:16:39.043075+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "c7e09db8451854108aace65666ab7cdfe7b2a405a18c9af570f5b348d780aac7",
+      "argv_sha256": "dbe38fa5d844c56492e38b179ca5a5cebc286df780389891fe3f90ca3c32950d",
+      "process_exit": 0,
+      "stdout_sha256": "c5c97ddcc4fbf2c2afd7c8e0740889e6a9837d01de1621d3de32019a5f3dabe7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 200604,
+        "cached_input_tokens": 163840,
+        "output_tokens": 1217
+      },
+      "ended_utc": "2026-10-23T21:17:08.772375+00:00"
+    },
+    {
+      "case_id": "cas-10",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:17:09.250452+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "5888d9819b11bce8307c15382abb8332645468bd6ae2d15f059bae7b0b168cb2",
+      "argv_sha256": "93c4109c1f7b1bcf6e947b53461f84964ccac1dc4ad5eccf8297d323550a5f41",
+      "process_exit": 0,
+      "stdout_sha256": "7c56c7ab44a469b6bc7fbc110e7285c276abd71115fc87d02d69e0fd7a6d01f1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13803,
+        "cached_input_tokens": 0,
+        "output_tokens": 125
+      },
+      "ended_utc": "2026-10-23T21:17:14.333148+00:00"
+    },
+    {
+      "case_id": "cas-11",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:17:15.596333+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "7088b4590967cd4d1ddf74ebf4a289ba63b906c1389142155f7b5583b1d23ef3",
+      "argv_sha256": "06112bf92e045602292cec89d3490f820e4064a5e15bc5145c1b3b1f37c4d441",
+      "process_exit": 0,
+      "stdout_sha256": "d9a9be09559446184d5bef531f6f1ed0eb897ef701876166c5dd72b7881b3a04",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 144495,
+        "cached_input_tokens": 112512,
+        "output_tokens": 1226
+      },
+      "ended_utc": "2026-10-23T21:17:48.060836+00:00"
+    },
+    {
+      "case_id": "cas-11",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:17:48.614576+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "40ee9c48ab7b6874801077c829d5ec9a4763418758bd2ab004e170572a654081",
+      "argv_sha256": "b7f8dc1491647fb2b5ab77f2b1d2f1888efb970cb39121c2908034f22ce22fed",
+      "process_exit": 0,
+      "stdout_sha256": "8b7fb673de6eacbf656b9f1b6a20f93ccff1009e5de5dcd44d42fd3233f76497",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13973,
+        "cached_input_tokens": 9984,
+        "output_tokens": 144
+      },
+      "ended_utc": "2026-10-23T21:17:55.464049+00:00"
+    },
+    {
+      "case_id": "cas-12",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:17:56.775342+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "23c2269a4b8cc67826f183e22a64a8319da9af7b32e3d1892358c2d23b3c6675",
+      "argv_sha256": "d6b917d4f4b2815fab1a66bea2ac2a3e39c0207e1a7680846a2ec56c45ed89c9",
+      "process_exit": 0,
+      "stdout_sha256": "b2e997fe1cbb52f8b4f4957aa4b9b89c9a202c0085d696dabbe12fe8f410b558",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 203170,
+        "cached_input_tokens": 165248,
+        "output_tokens": 1685
+      },
+      "ended_utc": "2026-10-23T21:18:47.280206+00:00"
+    },
+    {
+      "case_id": "cas-12",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:18:47.809830+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "9a01a9a24ed0d77426efc3d374b6137a055b3e2b498c7cff82391e46835d5f38",
+      "argv_sha256": "c0b8f15c1cfcd6017b072698bcd6bac05230cf9de3e433537926f3950e033878",
+      "process_exit": 0,
+      "stdout_sha256": "d9b748b83f3a50decdc84951049cea8c10ae87466897e07769002be0b0a4a2ff",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14097,
+        "cached_input_tokens": 9984,
+        "output_tokens": 149
+      },
+      "ended_utc": "2026-10-23T21:18:54.676194+00:00"
+    },
+    {
+      "case_id": "cas-13",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:18:56.066092+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "97b1cd81d59af32fbc2260c0f231eee1b26304d0701e0f3d5ae84bb43c0a2cfe",
+      "argv_sha256": "f8da857abf00bed5990d2d125800d3be2a33e3127bbb62a2684013fa988c5ab7",
+      "process_exit": 0,
+      "stdout_sha256": "c98205d6f2847ad68c8c276563412781b1c155f59767deb67b8f179fe4c5e1c0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 205744,
+        "cached_input_tokens": 161152,
+        "output_tokens": 2359
+      },
+      "ended_utc": "2026-10-23T21:20:06.567635+00:00"
+    },
+    {
+      "case_id": "cas-13",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:20:07.097855+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "d1e963191c018cae45dab5b2b65d6f6ce8f2c33c4cdfd2ad9ae712437968d072",
+      "argv_sha256": "b0691ceaec3bd8b10b56bb98bb5651ccd682b423b2ea4ff6ac371d3dc496a20e",
+      "process_exit": 0,
+      "stdout_sha256": "e1ffc979a0df9df306b73810cc8bc42710ab592cb8e30edab3fe261a46c07ce7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14996,
+        "cached_input_tokens": 9984,
+        "output_tokens": 161
+      },
+      "ended_utc": "2026-10-23T21:20:13.809909+00:00"
+    },
+    {
+      "case_id": "cas-14",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:20:15.209741+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "e320ff1be47885e22e7164c93f9b9db740a4f97deef24249390105f4c03ba125",
+      "argv_sha256": "f741c9aaaae34a33881a1f70843b4f0be76dd1d4e40f21f30bcdab84fd098ea9",
+      "process_exit": 0,
+      "stdout_sha256": "df4351e43932267b6198052888c79920a9aecf2d5fff568c166e725602cfb8d9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 261012,
+        "cached_input_tokens": 208000,
+        "output_tokens": 1284
+      },
+      "ended_utc": "2026-10-23T21:20:56.812778+00:00"
+    },
+    {
+      "case_id": "cas-14",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:20:57.345496+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "9a0eaea6e10b2cbfe5a2390b2b7cccb5f3b2cc4084e2b605037c500ebd5d15cc",
+      "argv_sha256": "f5a30c6686f00219e338387bfe58229d61c8b3febb023872b20dc11d1b215ef9",
+      "process_exit": 0,
+      "stdout_sha256": "e355a703029ff07472a1c9244309dbf15afebe13dddeed369ef1aad6b7d146b7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13907,
+        "cached_input_tokens": 9984,
+        "output_tokens": 128
+      },
+      "ended_utc": "2026-10-23T21:21:03.513210+00:00"
+    },
+    {
+      "case_id": "cas-15",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:21:04.841099+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "0b529929074dc27bb0b3c63b15f8b4f0aa9f78cd575a38398b0c9b6395f65138",
+      "argv_sha256": "c4fd856b75ad74a3d96f58b4d8412db53223b688abd7a1b9276fe38e1bbe1fde",
+      "process_exit": 0,
+      "stdout_sha256": "32b645e98f55215e65466e9280cb1f5d08cb0eb60d89de1cfd6dd1392dc49b63",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 151049,
+        "cached_input_tokens": 115328,
+        "output_tokens": 1021
+      },
+      "ended_utc": "2026-10-23T21:21:34.407824+00:00"
+    },
+    {
+      "case_id": "cas-15",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:21:34.899719+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "a0f64356be6bd6078719f09f828c33b482af85855566bd86a112b2b7d406eeae",
+      "argv_sha256": "c283bee45239f49daae7aca2188c6101c2ac4045651f206dd312d24015a5ad86",
+      "process_exit": 0,
+      "stdout_sha256": "624e81ebb3d3cc81f0a24372b80a2c3f8cbbccbb0e23f51d2aa21d9019166a13",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13743,
+        "cached_input_tokens": 9984,
+        "output_tokens": 173
+      },
+      "ended_utc": "2026-10-23T21:21:43.784712+00:00"
+    },
+    {
+      "case_id": "cas-16",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:21:45.097420+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "40698d2d54b69f42275ee68d00864dda6a2767f31491bedb257fcc8414de1164",
+      "argv_sha256": "4183e8c0b898bb51d7092d95aa82f1ebe0b7c02cd73b3172a5067405d6df090b",
+      "process_exit": 0,
+      "stdout_sha256": "e849b4991cdc62fc14a98045ee76846a482fbc20b242a129d30da21af68d38bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 191513,
+        "cached_input_tokens": 156672,
+        "output_tokens": 1536
+      },
+      "ended_utc": "2026-10-23T21:22:27.383597+00:00"
+    },
+    {
+      "case_id": "cas-16",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:22:27.876547+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "8764e502afaf8e4b0a11b839714ae9fa61a2bfae33b506e2ef0bf90e03cd1f54",
+      "argv_sha256": "61414d53e52fa205d936436c781c5d1e8a7e163f98ed8a657a74daa736c2ff6f",
+      "process_exit": 0,
+      "stdout_sha256": "c9278df6ddd67b149945bd62a26153811516ebf9fe53fc0f06a5c75bb9a3bd91",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14226,
+        "cached_input_tokens": 0,
+        "output_tokens": 155
+      },
+      "ended_utc": "2026-10-23T21:22:33.248236+00:00"
+    },
+    {
+      "case_id": "cas-17",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:22:34.517742+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "dc778a5d29dff3ad233928f29e7616ef9909a32538dbf9fd5db2ce3c31b8a31c",
+      "argv_sha256": "7702d09807b210ebc27dc4584c1127899116368672104c84b24a91be8758a08d",
+      "process_exit": 0,
+      "stdout_sha256": "4ddeee590b5cb340f10a20ef890dbfbe4e674d64e3d730a086fdc17e8c7ab0c5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 148778,
+        "cached_input_tokens": 113024,
+        "output_tokens": 1510
+      },
+      "ended_utc": "2026-10-23T21:23:23.539996+00:00"
+    },
+    {
+      "case_id": "cas-17",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:23:24.033308+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "a7ed41d19e7ab7d6c584b5613bbf6266cc4d15ea5356a47d282f6c575f0683c9",
+      "argv_sha256": "8df7843f9e2dd941be6b0c8b3159451e25edd3976b9eeb79de29dbe3a505eec1",
+      "process_exit": 0,
+      "stdout_sha256": "3e03570fa5388f13ebcb0de567a81077e0eac61f189024cfb716314131eb12bf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14165,
+        "cached_input_tokens": 9984,
+        "output_tokens": 215
+      },
+      "ended_utc": "2026-10-23T21:23:31.103044+00:00"
+    },
+    {
+      "case_id": "cas-18",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:23:32.418197+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "1822d742bd32030cab4569820c7ef6628714296187515b96c173ad01e487fe77",
+      "argv_sha256": "e1a37c04df3b1ef0a378d2af53d2a26959bc714bf5fdfe1f9df784fc4865e305",
+      "process_exit": 0,
+      "stdout_sha256": "54127758e2ef59ac38d035ebf01018c0ecb27f748838bf281e9b52cf21e7670d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 209231,
+        "cached_input_tokens": 167424,
+        "output_tokens": 1575
+      },
+      "ended_utc": "2026-10-23T21:24:15.858602+00:00"
+    },
+    {
+      "case_id": "cas-18",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:24:16.450331+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "610ed8eca79b4cfc1bffaf7436e7fad9218f8f8e0fea8a8ed7873b5286abe63f",
+      "argv_sha256": "35485bfa484cb1bd571dbd9ea385d6a0bccf1c64b7772984b8512265e529bb40",
+      "process_exit": 0,
+      "stdout_sha256": "0232a6626b8bea3acd550aa8dc8065869d17cb9d77ee21ac651ce9ed48dfbf20",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 14043,
+        "cached_input_tokens": 9984,
+        "output_tokens": 155
+      },
+      "ended_utc": "2026-10-23T21:24:22.161978+00:00"
+    },
+    {
+      "case_id": "cas-19",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:24:23.534817+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "c120b95de60322bb0f993ed01fdc568590c1a850b7d4619d66acdbccf929e82a",
+      "argv_sha256": "42620cd0815cd759ea63a600e8f9e06185cc20e5b0d2837a5313eaca1aed0d43",
+      "process_exit": 0,
+      "stdout_sha256": "aa7a3e6ab85f9080b5795d680aa69000aee7d0d88188b1e321a8705f5a011c16",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 143475,
+        "cached_input_tokens": 113024,
+        "output_tokens": 1099
+      },
+      "ended_utc": "2026-10-23T21:25:00.947795+00:00"
+    },
+    {
+      "case_id": "cas-19",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:25:01.455126+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "5244586ea7c1b98591d39e492bfac3b6c90bf6fcc6b39612b5b919be9f22af84",
+      "argv_sha256": "eed9520d85a60c838bf4e5a52e1d0501be8714a872174dcf4019f07eae1be487",
+      "process_exit": 0,
+      "stdout_sha256": "b56bb7d1a40c8c3c482316f2c924659138adf737d725609af4ec0cbde2104608",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13852,
+        "cached_input_tokens": 9984,
+        "output_tokens": 139
+      },
+      "ended_utc": "2026-10-23T21:25:07.599239+00:00"
+    },
+    {
+      "case_id": "cas-20",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:25:08.866254+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "ec8202e0355207cf4abe30ddc7733a66ec6c9a08a18bcd390a571a23fdd5b3e0",
+      "argv_sha256": "c096d6d436e80a67cd3ebf58803c19dc980ebe30b4fa729a721c7b6dd8969475",
+      "process_exit": 0,
+      "stdout_sha256": "cab8dca85b4b0f19a27b6ee709a01d892df8cbf98e0ca5b64fe2388522d0dc39",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 192399,
+        "cached_input_tokens": 158080,
+        "output_tokens": 1596
+      },
+      "ended_utc": "2026-10-23T21:25:57.861191+00:00"
+    },
+    {
+      "case_id": "cas-20",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:25:58.351875+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "46d23893d3ee04dda2313fe1427d6aaee79313249d220f6497b531b8ea765f07",
+      "argv_sha256": "545727b7837f0bea7cef2476881b76bee1cb466ba0d560aee6d7a67fc72da231",
+      "process_exit": 0,
+      "stdout_sha256": "9471011c95ec8bb825181b147ea7881b43a4ffbb981461630934633e45a10faa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 23289,
+        "cached_input_tokens": 9984,
+        "output_tokens": 158
+      },
+      "ended_utc": "2026-10-23T21:26:05.762866+00:00"
+    },
+    {
+      "case_id": "cas-21",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:26:07.071000+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "74cc955ca0945007c3c170bc4a34db3ba185eeb58bd164b2cab6e784eab225ad",
+      "argv_sha256": "ab42d3a3b03d31a12cca546b5dcb0fd20a90a3ac46cccc35395622a57787d660",
+      "process_exit": 0,
+      "stdout_sha256": "16eb16d12ae7edab9d095b33c9a3727cb8fb0c7924e210b86aff1f2a1c6cdb50",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 178017,
+        "cached_input_tokens": 138880,
+        "output_tokens": 1025
+      },
+      "ended_utc": "2026-10-23T21:26:41.007604+00:00"
+    },
+    {
+      "case_id": "cas-21",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:26:41.520155+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "f5ced90aab5d95b740182ef8cce49d02d2fa6102628e338dc1b20e717a8b626c",
+      "argv_sha256": "1c0c9063b185c15c6267e0e898c1741b76e2725b85fab597bd5d20ca1d79d3d3",
+      "process_exit": 0,
+      "stdout_sha256": "6fbdfe6122c1837902f88338bbc539b73ba20490419d54ee9f30092f0e3e3a8e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13688,
+        "cached_input_tokens": 9984,
+        "output_tokens": 156
+      },
+      "ended_utc": "2026-10-23T21:26:48.353119+00:00"
+    },
+    {
+      "case_id": "cas-22",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:26:49.771902+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "a9463f124126e1786403ea229fafdb24d635052e1b795d9adcdee0f8810ed7e5",
+      "argv_sha256": "f805e3ce2829b04ae51db20bb0a8941803a104cda60218b50dddb4f06d445728",
+      "process_exit": 0,
+      "stdout_sha256": "c8c457c7d7a2b90f2766e117dd091d0fec74560daaedb9ed7232650bbea8a66d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 198926,
+        "cached_input_tokens": 162944,
+        "output_tokens": 1224
+      },
+      "ended_utc": "2026-10-23T21:27:22.797401+00:00"
+    },
+    {
+      "case_id": "cas-22",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:27:23.384980+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "76dbcd206956f36fe84421eb0c2b2555d35bd36410386bf652bc127975426cd2",
+      "argv_sha256": "ce179f65a8e8fa880535e25ac924a276eae912e71879ad6f54b129a766921c78",
+      "process_exit": 0,
+      "stdout_sha256": "cba08bf7a58ea7777504482df94f3e94250230e710192cb04c53f9c4e5e2c57d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 22669,
+        "cached_input_tokens": 9984,
+        "output_tokens": 120
+      },
+      "ended_utc": "2026-10-23T21:27:29.030036+00:00"
+    },
+    {
+      "case_id": "cas-23",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:27:30.404963+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "4705416d8e01c23675c573e51b98a763f98c003035306466635f8f3f07b49c5e",
+      "argv_sha256": "ac29f58ecbc54977475051ed5875353198a578e24be44326d3c2701834de4849",
+      "process_exit": 0,
+      "stdout_sha256": "9688bcbc6beba2b16327f7c4431726701c2ea6f5e3706485a6100b97e5f451e4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 196634,
+        "cached_input_tokens": 160768,
+        "output_tokens": 1113
+      },
+      "ended_utc": "2026-10-23T21:28:03.086567+00:00"
+    },
+    {
+      "case_id": "cas-23",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:28:03.563431+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "91dff2d5d063987cdd21b083383d5ddb892486e9149ad6d369dd3e0e06659aa9",
+      "argv_sha256": "531294d9a912f531a3e67920a3e076c97e67d5228ae045ee92c41adcd207eaf8",
+      "process_exit": 0,
+      "stdout_sha256": "0bf8350cdf57622b63a6aa22e1841025cce2770270b8fe77f1a5b459dcfe24b7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13753,
+        "cached_input_tokens": 9984,
+        "output_tokens": 128
+      },
+      "ended_utc": "2026-10-23T21:28:09.003962+00:00"
+    },
+    {
+      "case_id": "cas-24",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:28:10.325904+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "d5bb22950645cfceb5e1d00345e0da316d398db92777095370abfdcf8228a30a",
+      "argv_sha256": "4fec841fc27c145cfb92e34a95e7b3234a9f8ca6fd995f0d3d3cb148b437fe1e",
+      "process_exit": 0,
+      "stdout_sha256": "043cda6a9b152306d8ef0f2c627558315c4993ede42562d01a2478a6f6dbe7f2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 57757,
+        "cached_input_tokens": 36096,
+        "output_tokens": 362
+      },
+      "ended_utc": "2026-10-23T21:28:20.397396+00:00"
+    },
+    {
+      "case_id": "cas-24",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:28:20.873478+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "4488f852850340dd1d007009a51c1d50c9112c660f58816ec3315db180a39522",
+      "argv_sha256": "c64f0ded7d92cfde7897f515cd3d26ffa47501d067dbbdc27d7d9701269877cd",
+      "process_exit": 0,
+      "stdout_sha256": "108edcf9cc28f50c09db93d04d1ac1180908640e252b16ad7f96b62238761a58",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13433,
+        "cached_input_tokens": 9984,
+        "output_tokens": 117
+      },
+      "ended_utc": "2026-10-23T21:28:25.341013+00:00"
+    },
+    {
+      "case_id": "cas-25",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:28:26.656769+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "20865cc1c30ef2f76c42f12f70ce68a5b76f97c199cc88e371ffa68f96f025c4",
+      "argv_sha256": "1e2154438dbbbd164d7d2e9d6fe5c80a68d0023d2411cc48122e9cee62f5a2fa",
+      "process_exit": 0,
+      "stdout_sha256": "969f73a42920f772425b164603a98f58b76572b8de75ab7403f494c3bfc5bbe9",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 72180,
+        "cached_input_tokens": 45056,
+        "output_tokens": 228
+      },
+      "ended_utc": "2026-10-23T21:28:36.116989+00:00"
+    },
+    {
+      "case_id": "cas-25",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:28:36.605241+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "ec3053ac1c1c8754ccfbddc714541dec821c043a8fd7b72b9cdc207a77b6c594",
+      "argv_sha256": "26eda57ac3185181d642ee10b821277474c9530cc3dec60343954835bc5c95f0",
+      "process_exit": 0,
+      "stdout_sha256": "034357e161a246417451322f71dc9a04785e65c0d68dde64cc58314d82e00504",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13342,
+        "cached_input_tokens": 9984,
+        "output_tokens": 236
+      },
+      "ended_utc": "2026-10-23T21:28:45.088207+00:00"
+    },
+    {
+      "case_id": "cas-26",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:28:46.428289+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "dafd969cd2564ae38c447a5ba4bb014719860a040d6c808070fd8c07e6577f9b",
+      "argv_sha256": "4ab6ab0d4245e1bc5332f834ce17e182603a2d971adc08ffdb968f9d62635757",
+      "process_exit": 0,
+      "stdout_sha256": "47c1c60424b41c88a26313d97b0fecc6da71a594640cd3015368782bd6c2bb6b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 99273,
+        "cached_input_tokens": 70272,
+        "output_tokens": 729
+      },
+      "ended_utc": "2026-10-23T21:29:08.568098+00:00"
+    },
+    {
+      "case_id": "cas-26",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:29:09.051296+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "ab08410b04dd84bba315848f2ab1f349bf3cce44e25f5d5cc83ba6618f8c2bfc",
+      "argv_sha256": "75e14bad9890cb25bde32769c50b9424055d208eba80cc20e6bd095667ba16d2",
+      "process_exit": 0,
+      "stdout_sha256": "487e41a4c7e08a5aebcaf5f2b9608f735735b3aaeea13e184a009881ccf02372",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13573,
+        "cached_input_tokens": 9984,
+        "output_tokens": 154
+      },
+      "ended_utc": "2026-10-23T21:29:16.603375+00:00"
+    },
+    {
+      "case_id": "cas-27",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:29:17.910675+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "cd9e94ecd550f419880334e8b6bbcbdc03c8bbf79ab08fd18829858f15920476",
+      "argv_sha256": "62ece76318eca930cd5b90bb59aabc8e12a73669de3ddf921ef927ac6f339837",
+      "process_exit": 0,
+      "stdout_sha256": "80c677bf4f496778e33a3528ce0fd5b5f8c038ec1fbe2d900a601f1e94d2c566",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 52876,
+        "cached_input_tokens": 36096,
+        "output_tokens": 178
+      },
+      "ended_utc": "2026-10-23T21:29:27.263953+00:00"
+    },
+    {
+      "case_id": "cas-27",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:29:27.757903+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "1272039729728f7b5084f81eb5bf0762cf323523057a8183d1098159a656e33b",
+      "argv_sha256": "04c74d6b334bc3e2f14a4ebf5cde956539768c9b8e3aafae2d9735c767113bca",
+      "process_exit": 0,
+      "stdout_sha256": "a712a2f541ab2733c1bc00e83a35044aa080792592059063ddd8ed40e485a15e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 13296,
+        "cached_input_tokens": 9984,
+        "output_tokens": 92
+      },
+      "ended_utc": "2026-10-23T21:29:32.540420+00:00"
+    },
+    {
+      "case_id": "cas-28",
+      "role": "respondant",
+      "started_utc": "2026-10-23T21:29:33.812608+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "00c5418c06993dfc7ec41530310a2634c947c6f21539fb88246fc821d345aec2",
+      "argv_sha256": "d604782149bec923fdd707308b8547a3b71da5cf4fe3e44b72cc55ab49230a3c",
+      "process_exit": 0,
+      "stdout_sha256": "f4aa2ad736e08fa64dd75bc86755d29df861005064ab142cb28885826e8f0144",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 99816,
+        "cached_input_tokens": 70272,
+        "output_tokens": 513
+      },
+      "ended_utc": "2026-10-23T21:29:50.978220+00:00"
+    },
+    {
+      "case_id": "cas-28",
+      "role": "juge",
+      "started_utc": "2026-10-23T21:29:51.474869+00:00",
+      "status": "completed",
+      "usage_complete": true,
+      "input_sha256": "8075e81cacb87266d92ccb0315e9f0d23febc3e592f02622c19695b39162f1ee",
+      "argv_sha256": "1ba8e9a0c236c1274f6e9c4316779268e5227de31c2b7734834f0c51af4db2c0",
+      "process_exit": 0,
+      "stdout_sha256": "100cdc355bcbc8df9fec43f82f372ffd052a44efa93c5ec282e331f265dd997c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usage": {
+        "input_tokens": 22340,
+        "cached_input_tokens": 9984,
+        "output_tokens": 106
+      },
+      "ended_utc": "2026-10-23T21:29:56.464190+00:00"
+    }
+  ],
+  "upstream_summary": {
+    "path": "summary.json",
+    "sha256": "9d326cfed2e1786b611564f78328b78a8e208c04e58bc8ac7ddec87c5c960878",
+    "value": {
+      "suite_sha256": "ed0734bae30e2e3053ba096016b08d30bd0b5117a74ae760f294daf6237a06fa",
+      "case_count": 28,
+      "totals": {
+        "DEMI-RÉUSSITE": 2,
+        "RÉUSSITE": 25,
+        "ÉCHEC": 1
+      },
+      "completed_at": "2026-10-23T21:29:58.287508+00:00",
+      "runtime_sha256": {
+        "agents/openai.yaml": "b37aec5086edadd2d0012545ab4c3b1a6493db31f7b6f26673674f5f514aeb40",
+        "objets/_gabarit-objet.md": "c9c58839c41874c9d9b02f297e7fd821c649482f73a17c62cf146113566af164",
+        "objets/accord-cadre.md": "9998f78327aecd60c3e92bcd5aa63e1f25ea2874952af1eabac1f15dfa6abf3a",
+        "objets/achat-sous-seuil.md": "e92388d586bd712b1308ee864797e2739206028f71bbb9d3f6f72f9571bfb834",
+        "objets/candidat-evince.md": "1b1ed25608cf7b3e1611c52f1e60e004665f3a13f15da03b9f0ff9cb09a8e322",
+        "objets/marche-services-recurrent.md": "17a777c955fd5b775b99f1527d781c579fc8e6bbef44e33b6d5c2d88420978a2",
+        "objets/marche-travaux.md": "41cc81101647498a655b00d675dedcc7599ab83071507070c5b65cfcf85d222c",
+        "objets/titulaire-defaillant.md": "61a126356496e9feacedfe6ea462f64d1eda3c4800d30eabc483cbd5abc5b4be",
+        "references/_gabarit-branche.md": "5f4b10bc0942ba2936ff3d1a5479e5d903e873eee27614227c00c1938beeb524",
+        "references/analyse-situation.md": "5ff8cf6921bcd31a7de4503a0cc617124aaab099e57ab7e938e0f1c0f375f206",
+        "references/attribution-signature.md": "6b03b803e85665a8603df96dea425761667e6b4cff1b307d5355f8fcaf840904",
+        "references/besoin-strategie-achat.md": "78537d272033bfb10e5a31d86604edac452f27a950639c6133d0e6f2ee1f08b4",
+        "references/candidatures-offres.md": "b0742b8e098c8d4c509a4766aa711a5d7a7ae0b487fcc88a2d7f151b1a90cf9c",
+        "references/contentieux.md": "dc8e88af165873e78d7495f22b41c2c572b4f0431cbda481367504994fe0ef8f",
+        "references/ecrits-commande-publique.md": "cb137e33a796823de2797a505a842cc5b34c61f7ca4010de47797eeb697a7d0d",
+        "references/execution-juridique.md": "8c33645351117c6a0da13d87ddf53949d3181f3b909039a186b2c89ba5673f0a",
+        "references/modifications.md": "77fde478ea875069eb1752e14c9d510025838746b78ef973bdd09ee439bdf333",
+        "references/procedures.md": "89ce9b50d3c718070294e22e64565a6d077d55534ee9e36a28f148e6599d58a4",
+        "references/publicite-consultation.md": "7ed81cf30315bc37142865aed2858045ee0815ecbb24bc6a847ab79458c6a8bf",
+        "references/references-verifiees.md": "58737d8b1f77f4f1e543e09f9d7b9ae7d27652ab1baf187f9e083ceee2527250",
+        "references/resiliation-difficultes.md": "01515aa5d5bad782099cc7ba824f70e519be7b18b79c306ba67e3a7ef3f724df",
+        "references/retex.md": "36dc627b2caf794b53af9b159dababf78464364f22c7ea6c9708e912427c8f09",
+        "references/socle-sources-verification.md": "12b45dea2e0431a055f42417745a02f71e4b98126df2610f72f87cafaf1173cd",
+        "references/techniques-achat.md": "452030a6e1ecbfcf76a213917fa6f2949e90916f49142b8eca7ecb00364b57e6",
+        "references/templates/lettre-rejet.md": "2c6eeae1575222c61b3c667018f1a4650f90e6a4a7dee12867523bc8bc3676d4",
+        "references/templates/mise-en-demeure.md": "334624a24e19114fca57a5f97e19cf7c7d2a6d2247a954857ffb410ef840f507",
+        "references/templates/note-choix-procedure.md": "a7f0857c7c6f4b7443d364eaedc148ea7ef171ff25363d303bec054e6f94374e",
+        "references/templates/projet-avenant.md": "4db2a8e23cfbfa0efdbc3fe60175a9c983d748a214ccdde446e3bb83044d55bd",
+        "references/templates/rapport-analyse-offres.md": "220abb58f5a2181077a93912c89535a823ca0181fb35f02463bfb768dfa1ae75",
+        "SKILL.md": "886065c62b7516a297146b41a55f958fb67688254dc1dd1e77a9bae7803e8fba"
+      },
+      "critical_failures": [],
+      "threshold_passed": true,
+      "publication_ready": false,
+      "publication_note": "Relecture praticien et validation du plugin à établir séparément."
+    }
+  },
+  "critical_case_ids": [
+    "cas-21",
+    "cas-22",
+    "cas-23",
+    "cas-24",
+    "cas-25",
+    "cas-26",
+    "cas-27",
+    "cas-28"
+  ],
+  "non_success_count": 3,
+  "stop_header_checks": [
+    {
+      "case_id": "cas-03",
+      "passed": true,
+      "path": "cas-03/controle-stop.json",
+      "sha256": "9799a7a350745c699e1e0fc7169821418032fa157280ff485d7c62f0cfb42137"
+    },
+    {
+      "case_id": "cas-05",
+      "passed": true,
+      "path": "cas-05/controle-stop.json",
+      "sha256": "ac86543a5c9920c9921f66d660a2118e6e3bbe9172959e2bdad8e4d866b3950d"
+    },
+    {
+      "case_id": "cas-10",
+      "passed": true,
+      "path": "cas-10/controle-stop.json",
+      "sha256": "7ccc843c75114f11e62d1dc25ced6ad414b966e11e8131eb6f11602498442ec1"
+    },
+    {
+      "case_id": "cas-21",
+      "passed": true,
+      "path": "cas-21/controle-stop.json",
+      "sha256": "453bec5030bdd556031823eb064b41df4b0e78468bea07da1861ca19bcf821c4"
+    },
+    {
+      "case_id": "cas-22",
+      "passed": true,
+      "path": "cas-22/controle-stop.json",
+      "sha256": "cde1c4693082935399e293ceb33b9bffe1fa0f52dbf8e16b199540eb126a435c"
+    },
+    {
+      "case_id": "cas-23",
+      "passed": true,
+      "path": "cas-23/controle-stop.json",
+      "sha256": "463a2ff00c4142968e85341a4ebb2b74693aac00ddc1c5230f06ed06d82df496"
+    }
+  ],
+  "success_threshold": 25,
+  "case_count_expected": 28,
+  "human_review": {
+    "reviewer": "Jo",
+    "case_count": 28,
+    "required": true
+  },
+  "human_review_done": false,
+  "publication_ready": false,
+  "push_authorized": false,
+  "resume_allowed": false,
+  "plan_d0_sha256": "d9dd70df84df413ecdad790e5adb37aeebf39a20e3f018b7d7cabd074e84901a",
+  "seal_d0_sha256": "7fa82a9cf4568de7c2605ac2ee83bb1bdb0abd385d357c266283b03c5a6b3bd7",
+  "launcher_manifest_sha256": "0487270a0428af140bf14a25a57ed6ee63f68e9854d5a15f9bac8c2ca868486a",
+  "public_projection": "Identifiants de thread retirés ; chemins de résultats relatifs ; état de revue initial conservé, avis ultérieur séparé."
+}

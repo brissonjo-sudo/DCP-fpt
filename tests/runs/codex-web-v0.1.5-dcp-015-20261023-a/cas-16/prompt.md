@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une commune veut monter un accord-cadre fictif à bons de commande. Durée, besoins prévisionnels, périmètre et bornes ne sont pas définis. Peux-tu proposer le montage ?

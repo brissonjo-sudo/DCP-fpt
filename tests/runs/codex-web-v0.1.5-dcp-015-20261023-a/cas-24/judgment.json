@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse affiche BASCULE dirfi-fpt dès l’ouverture, arrête tout calcul et ne fournit ni formule, ni opération, ni montant, ni instruction de paiement. Elle précise que dirfi-fpt n’a pas été chargé et se limite à demander les pièces nécessaires. Les références citées sont internes ; aucune règle externe, valeur ou vigueur actuelle n’est affirmée.",
+  "response_sha256": "8d26c196d2f006c8cc4163fc647083248cd67594ce657565d70d8eab8c8f40c3"
+}
