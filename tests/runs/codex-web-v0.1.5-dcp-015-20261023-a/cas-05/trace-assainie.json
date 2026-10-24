@@ -1,0 +1,160 @@
+{
+  "case_id": "cas-05",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 1,
+          "status": "failed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 2,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037723644/2026-03-31/",
+          "title": "Livre Ier : DISPOSITIONS GÉNÉRALES (Articles R2100-1 à R2197-25) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724687/2025-10-23/",
+          "title": "Titre VIII : ACHÈVEMENT DE LA PROCÉDURE (Articles R2181-1 à R2185-2) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164481/2026-02-21",
+          "title": "CHAPITRE IV : Les marchés publics (Articles L1414-1 à L1414-4) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/contenu/Media/Files/autour-de-la-loi/legislatif-et-reglementaire/fiches-d-impact/fiches-d-impact-ordonnances/2015/fi_einm1506103r_24_04_2015.pdf.pdf",
+          "title": "Ordonnance n° 2015-899 du 23 juillet 2015 relative aux marchés publics"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164481/2026-02-22",
+          "title": "CHAPITRE IV : Les marchés publics (Articles L1414-1 à L1414-4) - Légifrance"
+        },
+        {
+          "url": "https://www.courdecassation.fr/decision/export/679baba843b3d977d8c7ba92/0",
+          "title": "RÉPUBLIQUE FRANÇAISE"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045212383/2026-05-05",
+          "title": "Article L2122-22 - Code général des collectivités territoriales - Légifrance"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=NIM%3A202606737",
+          "title": "Article L551-4 - Code de l'entrée et du séjour des étrangers et du droit d'asile - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2021-11-05",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=NIM%3A202606737",
+          "title": "EUR-Lex - 72024L1346FRA_202606737 - EN - EUR-Lex"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025144883/2023-05-18",
+          "title": "Article L551-4 - Code de l'environnement - Légifrance"
+        },
+        {
+          "url": "https://conseil-etat.fr/content/download/161749/file/ENG_CJA%2Bpartie%2Blegislative_MAJ_20141017.pdf",
+          "title": "Code of Administrative Justice"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724687/2025-10-23/",
+          "title": "Titre VIII : ACHÈVEMENT DE LA PROCÉDURE (Articles R2181-1 à R2185-2) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164481/2026-02-21",
+          "title": "CHAPITRE IV : Les marchés publics (Articles L1414-1 à L1414-4) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2021-11-05",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164481/2026-02-21",
+          "title": "CHAPITRE IV : Les marchés publics (Articles L1414-1 à L1414-4) - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 708"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037724687/2025-10-23/",
+          "title": "Titre VIII : ACHÈVEMENT DE LA PROCÉDURE (Articles R2181-1 à R2185-2) - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 584"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2021-11-05",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 3727"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 434004,
+        "cached_input_tokens": 366976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2276,
+        "reasoning_output_tokens": 61
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14223,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 162,
+        "reasoning_output_tokens": 25
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

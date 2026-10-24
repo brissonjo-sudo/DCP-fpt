@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Pour cette commune, applique le seuil fournitures et services des autorités publiques centrales. Je ne précise ni la date de lancement ni la valeur globale du besoin. Confirme que la procédure peut être adaptée.
