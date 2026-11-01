@@ -1,5 +1,14 @@
 # Historique — dcp-fpt
 
+## [Non publié] - 2026-11-01 - Licence EUPL 1.2
+
+Passage du dépôt à la licence publique de l'Union européenne (EUPL) 1.2, à
+compter de cette version. Textes officiels de la Commission européenne :
+anglais dans `LICENSE`, français dans `LICENCE.fr.txt`. Les versions
+antérieures restent sous leur licence d'origine (CC-BY-SA-4.0), sans
+réécriture de l'historique. Le kit de mesure locale embarque aussi
+`LICENCE.fr.txt`. Aucun changement de comportement du skill.
+
 ## [0.1.5] — 2026-10-24 — mesuré avec réserves
 
 Préparé le 2026-10-23 : références internes par nom du skill et section,
