@@ -78,3 +78,13 @@ mesuré préservés. Statut actuel hors paquet selon la convention du
 dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
+
+## 2026-11-03 — Veille juridique, version 0.1.6
+
+Relecture par l'API des articles et décisions de la veille : aucune valeur
+modifiée. Intégration de deux décisions du Conseil d'État du 19/10/2026
+(seuils de dispense ; imputation des paiements partiels), de cinq articles au
+registre et des valeurs correspondantes au cache. Décision inédite écartée.
+Identifiants uniquement au registre (consigne du dépôt) ; branches et cache
+renvoient au registre. Runtime modifié : 0.1.5 reste la dernière version
+mesurée, 0.1.6 non mesurée. Aucune preuve ni run touché.

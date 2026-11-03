@@ -1,4 +1,6 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.5
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.6
+
+> **0.1.6 non mesuré** (veille juridique du 2026-11-03 : deux décisions du Conseil d'État ajoutées aux branches et au registre, aucune valeur modifiée). Les mesures ci-dessous portent sur 0.1.5 et ne sont pas transférées.
 
 > **0.1.5 mesuré : 25/28, relu par Jo (non praticien) avec réserves.**
 > Deux DEMI-RÉUSSITE, un ÉCHEC non critique ; six réserves humaines. Relecture praticien en attente, `publication_ready=false`.
@@ -74,7 +76,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.5.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.1.6.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.
