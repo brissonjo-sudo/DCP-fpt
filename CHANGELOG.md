@@ -1,5 +1,18 @@
 # Historique — dcp-fpt
 
+## [0.1.6] — 2026-11-03 — Veille juridique, non mesuré
+
+Veille du 2026-11-03 : textes relus par l'API Légifrance, aucune valeur
+modifiée. Deux décisions du Conseil d'État intégrées (19/10/2026, n° 513188 :
+seuils de dispense confirmés, L. 3 maintenu ; n° 508690 : paiements partiels
+imputés d'abord sur le principal), dans `procedures.md`, `execution-juridique.md`
+et le registre. Registre : cinq articles ajoutés (R. 2122-9-1, R. 2191-3,
+R. 2191-7, R. 2191-33, R. 2192-31) ; cache : règle des intérêts moratoires
+sans taux chiffré, avances, retenue de garantie, dispense innovation. Décision
+inédite non intégrée. Intègre le passage à l'EUPL 1.2 (entrée suivante).
+Aucun garde-fou ni STOP modifié. Runtime différent de 0.1.5 : aucun score
+transféré, mesure à refaire avant toute revendication.
+
 ## [Non publié] - 2026-11-01 - Licence EUPL 1.2
 
 Passage du dépôt à la licence publique de l'Union européenne (EUPL) 1.2, à

@@ -89,9 +89,13 @@ def protocol_from_sources(kit: Path):
     return tuple(modules)
 
 
+# Versions soumises au protocole 0.1.5 (avis daté, réserves, synthèse publique) ; 0.1.4 reste historique.
+MODERNES = ("0.1.5", "0.1.6")
+
+
 def review_filename(review: dict, version: str, review_date: str | None = None) -> str:
-    """Date explicite et calendaire en 0.1.5 ; nom historique inchangé en 0.1.4."""
-    if version != "0.1.5" and review_date is None:
+    """Date explicite et calendaire dès 0.1.5 ; nom historique inchangé en 0.1.4."""
+    if version not in MODERNES and review_date is None:
         return "avis-humain-jo-20261020.json"
     if (not isinstance(review_date, str)
             or not re.fullmatch(r"[0-9]{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12][0-9]|3[01])", review_date)):
@@ -103,7 +107,7 @@ def review_filename(review: dict, version: str, review_date: str | None = None) 
             raise ValueError
     except (KeyError, TypeError, ValueError):
         raise ValueError("Date d'avis invalide ou différente de l'avis lié") from None
-    if version != "0.1.5" and review_date != "2026-10-20":
+    if version not in MODERNES and review_date != "2026-10-20":
         raise ValueError("Date historique 0.1.4 différente")
     return "avis-humain-jo-" + chosen.isoformat().replace("-", "") + ".json"
 
@@ -115,7 +119,7 @@ def validate_review(review: dict, cases: list[dict], version: str) -> None:
     if (review.get("decideur") != "Jo" or not isinstance(verdicts, dict)
             or set(verdicts) != ids or not isinstance(reserves, dict)):
         raise ValueError("Avis de Jo incomplet ou réserve invalide")
-    if version != "0.1.5":
+    if version not in MODERNES:
         if any(value != "conforme" for value in verdicts.values()) or reserves:
             raise ValueError("Avis de Jo historique incomplet ou avec réserve")
         return
@@ -189,7 +193,7 @@ def export(attempt: Path, review_path: Path, review_sheet: Path, output: Path, c
     evaluation, protocol, control = protocol_from_sources(kit)
     cases = protocol.verify_kit(kit)
     version = load(kit / "resultats/manifest.json")["skill_version"]
-    modern = version == "0.1.5"
+    modern = version in MODERNES
     validate_review(review, cases, version)
     review_name = review_filename(review, version, review_date)
     settings = {"engine": "codex", "cli_version": plan["requested_cli"]["version"],
@@ -356,7 +360,7 @@ def verify_public_run(folder: Path) -> dict:
     totals = eval_suite.validate_run(folder)
     if totals != summary["totals"] or summary["publication_ready"] is not False:
         raise ValueError("Synthèse publique incohérente")
-    modern = manifest["skill_version"] == "0.1.5"
+    modern = manifest["skill_version"] in MODERNES
     if modern:
         validate_summary(folder, cases, totals, summary)
     elif totals["RÉUSSITE"] != 28:
@@ -399,7 +403,7 @@ def verify_public_run(folder: Path) -> dict:
         if (review["tete"] != manifest["source_runtime_commit"] or review["tete"] != controller["head"]
                 or review["tentative"] != controller["attempt_id"]):
             raise ValueError("Avis public non lié à la mesure")
-        if review_path.name != review_filename(review, "0.1.5", human["review_date"]):
+        if review_path.name != review_filename(review, manifest["skill_version"], human["review_date"]):
             raise ValueError("Nom d'avis public invalide")
         judgments = {case["id"]: load(folder / case["id"] / "judgment.json")["verdict"] for case in cases}
         if (human["verdicts"] != review["verdicts"] or human["reserves"] != review["reserves"]

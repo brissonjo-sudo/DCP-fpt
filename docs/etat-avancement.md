@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.5
+# État d'avancement — dcp-fpt v0.1.6
+
+## Version 0.1.6 — 2026-11-03
+
+Veille juridique : deux décisions du Conseil d'État du 19/10/2026 intégrées, cinq
+articles ajoutés au registre, cache complété ; aucune valeur modifiée. **Non
+mesuré** : le runtime diffère de 0.1.5 (aucun score transféré). Mesure, relecture
+praticien et qualification du plugin restent ouvertes ; aucune poussée.
+
+- SHA-256 du paquet 0.1.6 : `38bae5d5f06f4aa72b31d544586ee6add81683ecb21979634604f2a80679a3a9`.
 
 ## Candidat 0.1.5 — 2026-10-24
 

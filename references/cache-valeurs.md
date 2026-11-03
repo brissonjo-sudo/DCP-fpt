@@ -15,7 +15,8 @@
 > À chaque révision, relire les deux et mettre à jour ce fichier.
 >
 > Toutes les valeurs ci-dessous ont été lues le **2026-10-06** (sources et
-> identifiants : `references-verifiees.md` et `docs/socle/`).
+> identifiants : `references-verifiees.md` et `docs/socle/`), sauf la section
+> « Ajouts de la veille du 2026-11-03 », lue à cette date.
 
 ## Synthèse des seuils de procédure formalisée (applicables au 2026-01-01)
 
@@ -73,6 +74,20 @@ Valeurs lues dans le texte des articles (champ `text` de `get_article`) ; aucune
 | Seuil de procédure formalisée, marchés de travaux (toutes catégories de pouvoirs adjudicateurs) : 5 404 000 euros HT | Avis du 13 janvier 2026 (lu par WebFetch, repli) ; même valeur rapportée dans l'avis du 26 décembre 2025 | 2026-10-06 | 2026-01-01 |
 | Seuil de procédure formalisée, fournitures et services, entités adjudicatrices (non applicable à une collectivité pouvoir adjudicateur) : 432 000 euros HT | Avis du 13 janvier 2026 (lu par WebFetch, repli) | 2026-10-06 | 2026-01-01 |
 | Seuil des contrats de concession (hors périmètre du socle) : 5 404 000 euros HT | Avis du 13 janvier 2026 (lu par WebFetch, repli) | 2026-10-06 | 2026-01-01 |
+
+## Ajouts de la veille du 2026-11-03
+
+Valeurs lues dans le texte des articles (champ `text` de `get_article`, API Légifrance) ; identifiants dans `references-verifiees.md` (§3 et §8). Volet financier : `dirfi-fpt`. Aucune de ces valeurs n'est reprise de la mémoire ni recopiée telle quelle dans une réponse.
+
+| Valeur | Source exacte | Date de lecture | Date de début d'application (version lue) |
+|---|---|---|---|
+| Intérêts moratoires : règle de calcul (taux d'intérêt appliqué par la Banque centrale européenne à ses opérations principales de refinancement les plus récentes, en vigueur au premier jour du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de huit points de pourcentage). **Aucun taux chiffré inscrit** : le taux BCE n'est pas lu à la source ; taux du semestre à lire sur la source BCE à la date d'usage | CCP, art. R. 2192-31 (registre §8) | 2026-11-03 | 2019-04-01 |
+| Avance obligatoire : montant initial du marché supérieur à 50 000 euros hors taxes et délai d'exécution supérieur à deux mois | CCP, art. R. 2191-3 (registre §8) | 2026-11-03 | 2019-04-01 |
+| Montant de l'avance : entre 5 % et 30 % du montant initial toutes taxes comprises (durée du marché inférieure ou égale à douze mois) ; durée supérieure à douze mois : entre 5 % et 30 % de douze fois le montant initial toutes taxes comprises divisé par la durée en mois | CCP, art. R. 2191-7 (registre §8) | 2026-11-03 | 2025-01-01 |
+| Taux minimal de l'avance porté à 10 % pour une PME, marchés des collectivités territoriales, de leurs établissements publics et groupements dont les dépenses réelles de fonctionnement (compte de gestion du budget principal, avant-dernier exercice clos) sont supérieures à 60 millions d'euros | CCP, art. R. 2191-7, 3° (registre §8) | 2026-11-03 | 2025-01-01 |
+| Retenue de garantie : au plus 5 % du montant initial du marché augmenté, le cas échéant, des modifications en cours d'exécution | CCP, art. R. 2191-33 (registre §8) | 2026-11-03 | 2025-01-01 |
+| Retenue de garantie, PME, mêmes collectivités (dépenses réelles de fonctionnement supérieures à 60 millions d'euros) : au plus 3 % | CCP, art. R. 2191-33, 3° (registre §8) | 2026-11-03 | 2025-01-01 |
+| Dispense innovation (travaux, fournitures ou services innovants) : besoin dont la valeur estimée est inférieure à 100 000 euros hors taxes ; lots inférieurs à 80 000 euros hors taxes (fournitures ou services innovants) ou à 100 000 euros hors taxes (travaux innovants), sous la condition du b du 2° de R. 2123-1 | CCP, art. R. 2122-9-1 (registre §3) | 2026-11-03 | 2021-12-16 |
 
 ## Valeurs du droit de l'Union, du CJA, du CGCT et du code pénal
 
