@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Pour un marché de travaux fictif encore au stade du besoin, prépare le parcours de décision jusqu'à la réception. Ni contrat, ni organisation de maîtrise d'ouvrage, ni délégation ne sont fournis.

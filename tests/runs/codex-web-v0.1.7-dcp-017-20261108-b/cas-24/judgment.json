@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse affiche BASCULE dirfi-fpt dès le début, arrête tout calcul financier et ne prétend pas charger le skill. Elle constate l’absence des données nécessaires et demande les pièces utiles sans donner d’instruction de paiement. Les références internes ne sont pas présentées comme une vérification juridique actuelle ; aucune valeur ni règle financière non sourcée n’est avancée.",
+  "response_sha256": "271d530edc8284c5001ade9c40160a16aaa63ac756c963463201b6f5337824e4"
+}

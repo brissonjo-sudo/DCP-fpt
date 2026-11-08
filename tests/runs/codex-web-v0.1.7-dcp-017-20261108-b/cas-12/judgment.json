@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse identifie les motifs et pièces manquants, distingue les situations juridiques et sépare le RETEX, les corrections objectives et la décision de relance. Elle n’autorise aucun choix automatique du fournisseur habituel et propose une traçabilité des causes, preuves, actions et responsables sans justification artificielle. Les références officielles sont accompagnées d’une déclaration de lecture en session, d’une date et d’un statut ; cette provenance reste à contrôler sur les traces avant promotion, sans pouvoir être confirmée indépendamment dans ce jugement.",
+  "response_sha256": "274d189c507a420ae6c8fc563c43cb5f2c0910f75d10a733644ee3bae463ccb3"
+}

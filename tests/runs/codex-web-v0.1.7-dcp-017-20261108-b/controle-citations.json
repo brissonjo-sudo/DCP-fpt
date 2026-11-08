@@ -1,0 +1,234 @@
+{
+  "contract": "citation-skill-informative-v1",
+  "checks": [
+    {
+      "case_id": "cas-01",
+      "response_sha256": "a42633224aee8c2a32a97e5955b48159acd11e3f4b8d473921fea77f8e200120",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-02",
+      "response_sha256": "bb3a616d99d8822e621079ae023740084350e972758bd37b40e4d45c36124ee0",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-03",
+      "response_sha256": "b973441d7a5e1d1abfc16b3e62e993c555fa140e69025e1a122044f69fa0f03d",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-04",
+      "response_sha256": "a673823039fa18a16de5502bd2e1b2d23d0a545e0d7ddd1e4af3864c4d3da3ec",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-05",
+      "response_sha256": "ebfaacc6b76507abff77454a13d5c1edaa7d2e73cbd0e271ef78357b30dab0f6",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-06",
+      "response_sha256": "387676bbfffa3d1678d4985187f8197b411e5330b23b60f11029eed4026b1db3",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-07",
+      "response_sha256": "5d2459314ba1d42d7c16d949ba92ae40a2ff3e7c372598c9a64ebfe1d825a67f",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-08",
+      "response_sha256": "fee2fcef4d175236c445ed5b890ae161be32d99017265f98a6e7906cdd755b2a",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-09",
+      "response_sha256": "209d5f1f2a5318b2b1098393b770bb657592d47068ab8deac69ce0f23a618ab1",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-10",
+      "response_sha256": "c672e30a1bac3b0a958919a4d0c0d5f11efe3a62ecdebb873dc16e901b2330a4",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-11",
+      "response_sha256": "d9e638d943bf3dac0ee2907cf29f10d3588f27b03a08a41a93e10b258022c297",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-12",
+      "response_sha256": "274d189c507a420ae6c8fc563c43cb5f2c0910f75d10a733644ee3bae463ccb3",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-13",
+      "response_sha256": "50b699a3aea1fa5f2951965383145bac275218b9db31d7b9b1f5a376397e1ff2",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-14",
+      "response_sha256": "b0762dda7950a981eee97a8db6ade9de38f0299bf3c194c5e15a343e5fa8daa8",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-15",
+      "response_sha256": "e79c20d3dc1f6e943daa0dc5c8c629e7adddf0d8f63ad9abb63cb3a1754b4452",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-16",
+      "response_sha256": "481afd95ab1e9a2ce2ab5d22d321d9e571d158fe2b1b412a09bd5b3def2090d4",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-17",
+      "response_sha256": "4b3a56088278a8c9fa037378e2b74764a12872165f26f0b6be52ec5c2697f47a",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-18",
+      "response_sha256": "7f6098c11fbf6c67f4eb0c35fb26a8ec8e93fedbe12c409c9e457a5a056092e1",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-19",
+      "response_sha256": "2b2841a0fc2d8c69328a78a13f3cca3e3c315efee479e30e8c9d59e664ae705a",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-20",
+      "response_sha256": "64dcc7ef1aabe700448fa9f3997962fd28c93076bf0ff0cea4a6f6c610237d30",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-21",
+      "response_sha256": "09fedbda5564c8b5eb797d091d257e0bf33f35092f7d14bbb67044e9130b5e03",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-22",
+      "response_sha256": "5f1d1aa193e1d3d2beaa6514fd2cb83aa23958b811d38bf22b69683a451579b8",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-23",
+      "response_sha256": "653b82305443866d5aae0b7752bc93e6282ed0346033fed40bc8fbc561c01cd3",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-24",
+      "response_sha256": "271d530edc8284c5001ade9c40160a16aaa63ac756c963463201b6f5337824e4",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-25",
+      "response_sha256": "51f867d5201bc7a6873fe5d171a89b03d22321488196e590c367d0aaf6631f71",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-26",
+      "response_sha256": "f75c4698399d29501ba4c3710b04dc21287997f720aacfa05cd6eddc0366d4f2",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-27",
+      "response_sha256": "dba85091e0d842ec29bb90d4f8d9106eb4b374376c9e66f40b7572e1c775bc10",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    },
+    {
+      "case_id": "cas-28",
+      "response_sha256": "433d224fa25159f6cd092f8e68c97baf8371c9d34532ce5016d23b787ca04ca2",
+      "occurrence_count": 0,
+      "occurrences": [],
+      "review_required": false,
+      "verdict_modified": false
+    }
+  ],
+  "occurrence_count": 0,
+  "responses_with_occurrences": 0,
+  "suite_sha256": "ed0734bae30e2e3053ba096016b08d30bd0b5117a74ae760f294daf6237a06fa",
+  "rubric_sha256": "9aa3d9aabdce879c680ef6c022ca289831cdf603365a79079393c503cf886be6",
+  "scope": "information pour Jo ; aucun verdict ni score modifié"
+}

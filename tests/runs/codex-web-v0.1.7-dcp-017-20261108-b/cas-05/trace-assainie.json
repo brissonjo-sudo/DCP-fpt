@@ -1,0 +1,154 @@
+{
+  "case_id": "cas-05",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730011/2026-04-01",
+          "title": "Article R2181-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730011/2026-08-21",
+          "title": "Article R2181-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006135480/2026-03-13/",
+          "title": "LIVRE IV : SERVICES PUBLICS LOCAUX (Articles L1410-1 à L1441-2) - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/conseil_acheteurs/fiches-techniques/preparation-procedure/FT_32_Intervention-de-la-CAO_310723.pdf",
+          "title": "L'article L. 1414-2 du code général des collectivités territoriales dispose désormais que « Toutefois, pour les marchés publics passés par les offices publics de l'habitat, la commission d'appel d'offres est régie par les dispositions du code de la construction et de l'habitation applicables aux commissions d'appel d'offres des organismes privés d'habitations à loyer modéré »."
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/media-document/FT49_La_commission_d_appel_d_offres.pdf",
+          "title": "Deux règles introduites à cette occasion doivent être soulignées :"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/daj/commande-publique/reglementation-de-la-commande-publique/code-de-la-commande-publique-et-autres",
+          "title": "Code de la commande publique et autres textes | economie.gouv.fr"
+        }
+      ],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730011",
+          "title": "Article R2181-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038327414",
+          "title": "Article R2181-3 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037739193",
+          "title": "Article L1414-2 - Code général des collectivités territoriales - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045212383",
+          "title": "Article L2122-22 - Code général des collectivités territoriales - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730011",
+          "title": "Article R2181-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 197"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038327414",
+          "title": "Article R2181-3 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 206"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037739193",
+          "title": "Article L1414-2 - Code général des collectivités territoriales - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 205"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045212383",
+          "title": "Article L2122-22 - Code général des collectivités territoriales - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 247"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 191"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 282295,
+        "cached_input_tokens": 228096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2127,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14413,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 167,
+        "reasoning_output_tokens": 25
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

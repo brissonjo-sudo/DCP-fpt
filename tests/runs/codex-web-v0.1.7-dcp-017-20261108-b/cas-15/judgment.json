@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse exige une estimation globale du besoin, précise sa nature et la période pertinente, conditionne la dispense à la date de lancement et rappelle les obligations qui subsistent. Le calcul indépendamment des commandes et fournisseurs prévient implicitement le fractionnement, sans l’interdire expressément. Les sources officielles et leur lecture en session sont déclarées ; cette provenance reste à contrôler dans les traces avant promotion, conformément au barème.",
+  "response_sha256": "e79c20d3dc1f6e943daa0dc5c8c629e7adddf0d8f63ad9abb63cb3a1754b4452"
+}

@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une consultation fictive est ouverte. Un candidat pose une question technique susceptible de modifier la compréhension du dossier. Le service veut lui répondre directement sans informer les autres. Comment traiter cette question ?
