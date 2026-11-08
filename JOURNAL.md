@@ -79,6 +79,15 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-08 — Réserve R6, version 0.1.7
+
+Correction de l'ordre des opérations de la branche attribution-signature :
+transmission au contrôle de légalité avant notification pour un marché soumis
+à transmission. Sources lues par l'API Légifrance : CGCT L. 2131-2, L. 2131-13,
+L. 1411-9, D. 2131-5-1 et CCP R. 2182-5. Identifiants uniquement au registre.
+Runtime modifié : 0.1.5 reste la dernière version mesurée, 0.1.7 non mesurée.
+Aucune preuve ni run touché.
+
 ## 2026-11-03 — Veille juridique, version 0.1.6
 
 Relecture par l'API des articles et décisions de la veille : aucune valeur
