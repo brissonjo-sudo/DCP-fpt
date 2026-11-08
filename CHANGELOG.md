@@ -1,6 +1,17 @@
 # Historique — dcp-fpt
 
-## [0.1.7] — 2026-11-08 — Réserve R6, non mesuré
+## [0.1.7] — 2026-11-08 — Réserve R6, mesuré 25/28 avec réserves
+
+Mesure `dcp-017-20261108-b` sur `5debffd` : 25 RÉUSSITE, deux DEMI-RÉUSSITE
+(cas-06, cas-08), un ÉCHEC non critique (cas-18) ; huit critiques et six
+contrôles STOP réussis ; 56 sessions, 6 115 143 jetons d'entrée. Avis de Jo
+(non praticien) du 2026-11-08 : 25 conformes, trois en réserve sur la frontière
+dirfi-fpt. Jugements inchangés ; tentative a arrêtée au cas 02 (incident de
+sandbox), non retenue. Preuves : `tests/runs/codex-web-v0.1.7-dcp-017-20261108-b` ;
+rapport : `docs/qualification-0.1.7-2026-11-08.md`. Relecture praticien en
+attente, `publication_ready=false`.
+
+Correction (avant mesure) :
 
 Réserve R6 de la relecture humaine du plugin collectivite-territoriale 1.5.0
 (campagne j) : le contrôle de légalité était placé après la notification.

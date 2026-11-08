@@ -1,7 +1,7 @@
 ---
 title: "Index dcp-fpt"
 version: 0.1.7
-statut: "0.1.7 non mesuré (réserve R6, 2026-11-08) ; 0.1.5 mesuré 25/28, relu par Jo (non praticien) avec réserves ; praticien en attente"
+statut: "0.1.7 mesuré 25/28, relu par Jo (non praticien) avec réserves (2026-11-08) ; praticien en attente"
 ---
 
 # Index — dcp-fpt v0.1.7
@@ -16,6 +16,9 @@ synchronisation attestée. Suivi hors paquet runtime.
 - [Cadrage](../docs/cadrage.md)
 - [Passation](../docs/passation-redaction.md)
 - [État et preuves](../docs/etat-avancement.md)
+- [Statut 0.1.7](../docs/statut-0.1.7.json)
+- [Mesure, réserves de Jo et suivi 0.1.7](../docs/qualification-0.1.7-2026-11-08.md)
+- [Preuve et réserves exactes 0.1.7](../tests/runs/codex-web-v0.1.7-dcp-017-20261108-b/relecture-reserves.md)
 - [Statut 0.1.5](../docs/statut-0.1.5.json)
 - [Mesure, réserves de Jo et suivi 0.1.5](../docs/qualification-0.1.5-2026-10-24.md)
 - [Preuve et réserves exactes 0.1.5](../tests/runs/codex-web-v0.1.5-dcp-015-20261023-a/relecture-reserves.md)
