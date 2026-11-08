@@ -1,4 +1,14 @@
-# État d'avancement — dcp-fpt v0.1.6
+# État d'avancement — dcp-fpt v0.1.7
+
+## Version 0.1.7 — 2026-11-08
+
+Réserve R6 du plugin 1.5.0 corrigée dans `attribution-signature.md` :
+transmission au contrôle de légalité avant notification ; trois articles
+ajoutés au registre. **Non mesuré** : le runtime diffère de 0.1.6 (aucun score
+transféré). Mesure, relecture et qualification du plugin restent ouvertes ;
+aucune poussée.
+
+- SHA-256 du paquet 0.1.7 : `dbe4ba9b7cd9472ce502933beebbbddb33a80e197fcc3dfd36571323338e6023`.
 
 ## Version 0.1.6 — 2026-11-03
 

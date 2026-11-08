@@ -1,5 +1,19 @@
 # Historique — dcp-fpt
 
+## [0.1.7] — 2026-11-08 — Réserve R6, non mesuré
+
+Réserve R6 de la relecture humaine du plugin collectivite-territoriale 1.5.0
+(campagne j) : le contrôle de légalité était placé après la notification.
+`attribution-signature.md` : pour un marché soumis à transmission, la
+transmission prouvée précède la notification ; mention de la transmission sur
+le contrat notifié, puis information du représentant de l'État de la date de
+notification (CGCT L. 2131-13 et L. 1411-9 pour les communes et leurs
+établissements publics) ; prise d'effet sous réserve du contrôle de légalité
+(CCP R. 2182-5). Équivalents départemental, régional et intercommunal non lus,
+laissés à vérifier. Registre : trois articles ajoutés, lus par l'API Légifrance
+le 2026-11-08 ; cache : délais de L. 1411-9. Aucun garde-fou ni STOP modifié.
+Runtime différent de 0.1.6 : aucun score transféré, mesure à refaire.
+
 ## [0.1.6] — 2026-11-03 — Veille juridique, non mesuré
 
 Veille du 2026-11-03 : textes relus par l'API Légifrance, aucune valeur

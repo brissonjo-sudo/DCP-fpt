@@ -13,9 +13,9 @@ description: >-
   police municipale (dpm-fpt), les concessions et délégations de service public.
 ---
 
-# Skill : dcp-fpt (v0.1.6)
+# Skill : dcp-fpt (v0.1.7)
 
-> Métadonnées — version : **0.1.6** · langue : français · statut : **non mesuré, non relu par un praticien**.
+> Métadonnées — version : **0.1.7** · langue : français · statut : **non mesuré, non relu par un praticien**.
 > Aide à la décision ; aucune réponse ne vaut autorisation de signer ni source autonome de droit positif.
 
 ## 1. Déclenchement

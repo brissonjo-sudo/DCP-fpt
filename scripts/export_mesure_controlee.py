@@ -90,7 +90,7 @@ def protocol_from_sources(kit: Path):
 
 
 # Versions soumises au protocole 0.1.5 (avis daté, réserves, synthèse publique) ; 0.1.4 reste historique.
-MODERNES = ("0.1.5", "0.1.6")
+MODERNES = ("0.1.5", "0.1.6", "0.1.7")
 
 
 def review_filename(review: dict, version: str, review_date: str | None = None) -> str:
