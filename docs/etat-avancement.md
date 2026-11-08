@@ -4,9 +4,19 @@
 
 Réserve R6 du plugin 1.5.0 corrigée dans `attribution-signature.md` :
 transmission au contrôle de légalité avant notification ; trois articles
-ajoutés au registre. **Non mesuré** : le runtime diffère de 0.1.6 (aucun score
-transféré). Mesure, relecture et qualification du plugin restent ouvertes ;
-aucune poussée.
+ajoutés au registre.
+
+**Mesuré 25/28, relu par Jo (non praticien) avec réserves.** Deux
+DEMI-RÉUSSITE (cas-06, cas-08), un ÉCHEC non critique (cas-18), huit
+critiques réussis. Les jugements restent inchangés. Avis Jo : 25 conformes,
+trois réserves, toutes sur la frontière dirfi-fpt. 56 sessions, 6 115 143
+jetons d’entrée et six contrôles STOP réussis. Zéro lien/chemin de skill dans
+les 28 réponses. Aucun score transféré.
+
+Statut : [statut-0.1.7.json](statut-0.1.7.json) ; [rapport et suivi](qualification-0.1.7-2026-11-08.md).
+Runtime et paquet restent aux octets mesurés à
+`5debffd54a6d76e86c79ab261446f9123e564494`. Relecture praticien en attente,
+plugin non qualifié, `publication_ready=false`.
 
 - SHA-256 du paquet 0.1.7 : `dbe4ba9b7cd9472ce502933beebbbddb33a80e197fcc3dfd36571323338e6023`.
 

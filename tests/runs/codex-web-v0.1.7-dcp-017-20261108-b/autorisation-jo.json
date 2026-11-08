@@ -1,0 +1,35 @@
+{
+  "lot": "DCP-017",
+  "decideur": "Jo",
+  "date_decision": "2026-11-08",
+  "provenance": "Décision de Jo donnée en chat le 2026-11-08, transcrite par Claude ; sans signature indépendante.",
+  "decision_transcrite": "« Oui, tentative b (Recommandé) » — réponse de Jo du 2026-11-08 à la demande d'autorisation de la mesure DCP 0.1.7, tentative b (56 sessions au plus, environ 5,5 M jetons, un seul onglet, pas de Codex pendant la mesure).",
+  "plan_d0": "../PLAN-MESURE-D0.md",
+  "plan_d0_sha256": "51903e799fd1fe1c969eed5fd28566baed59211f4c1c6445bc575fdb55e0c56f",
+  "seal_d0": "../preuves/SCELLEMENT-D0.json",
+  "seal_d0_sha256": "c89b545729e02383cb6ef623d7b54ed3b01b5da8690f250a6a3ced1ec5bb68c6",
+  "candidate_commit": "5debffd54a6d76e86c79ab261446f9123e564494",
+  "attempt_id": "dcp-017-20261108-b",
+  "measurement_authorized": true,
+  "execute_in_this_lot": false,
+  "attempts_max": 1,
+  "max_sessions": 56,
+  "max_input_tokens": 10000000,
+  "input_token_limit_kind": "plafond de suivi",
+  "budget_policy": "between_roles",
+  "strict_intrarole_token_cap_guaranteed": false,
+  "human_review": {
+    "reviewer": "Jo",
+    "case_count": 28,
+    "required": true
+  },
+  "push_authorized": false,
+  "native_precheck": {
+    "model_calls": 0,
+    "timeout_seconds": 180,
+    "non_consuming": true,
+    "acl_fallback": "Uniquement après accès refusé et DACL propriétaire seule : (OI)(CI)RX pour CodexSandboxUsers sur le seul runtime DCP mesuré ; jamais home ou parent ; reçu vérifié.",
+    "uac_1223": "Arrêter ; Jo configure le sandbox séparément."
+  },
+  "decision_export": "« Aligner sur le barème » — L'export accepte tout résultat qui atteint le seuil du barème (≥ 25 RÉUSSITE, aucun ÉCHEC critique) et vos réserves, en les inscrivant visiblement dans la preuve. Tous les contrôles d'intégrité (empreintes, scellés, scanner) restent intacts. Nom de l'avis paramétré par date."
+}

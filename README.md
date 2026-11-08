@@ -1,6 +1,9 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.7
 
-> **0.1.7 non mesuré** (réserve R6 du plugin 1.5.0 : transmission au contrôle de légalité avant notification, trois articles ajoutés au registre). Les mesures ci-dessous portent sur 0.1.5 et ne sont pas transférées.
+> **0.1.7 mesuré : 25/28, relu par Jo (non praticien) avec réserves** (réserve R6 du plugin 1.5.0 corrigée : transmission au contrôle de légalité avant notification).
+> Deux DEMI-RÉUSSITE, un ÉCHEC non critique ; trois réserves humaines, toutes sur la frontière dirfi-fpt. Relecture praticien en attente, `publication_ready=false`.
+> Zéro lien ou chemin de skill dans les 28 réponses. Aucun score historique transféré.
+> [Rapport et suivi 0.1.7](docs/qualification-0.1.7-2026-11-08.md) · [statut](docs/statut-0.1.7.json) · [preuves](tests/runs/codex-web-v0.1.7-dcp-017-20261108-b/summary.json).
 
 > **0.1.6 non mesuré, remplacé par 0.1.7** (veille juridique du 2026-11-03 : deux décisions du Conseil d'État ajoutées aux branches et au registre, aucune valeur modifiée). Les mesures ci-dessous portent sur 0.1.5 et ne sont pas transférées.
 
