@@ -13,9 +13,9 @@ description: >-
   police municipale (dpm-fpt), les concessions et délégations de service public.
 ---
 
-# Skill : dcp-fpt (v0.1.7)
+# Skill : dcp-fpt (v0.1.8)
 
-> Métadonnées — version : **0.1.7** · langue : français · statut : **non mesuré, non relu par un praticien**.
+> Métadonnées — version : **0.1.8** · langue : français · statut : **non mesuré, non relu par un praticien**.
 > Aide à la décision ; aucune réponse ne vaut autorisation de signer ni source autonome de droit positif.
 
 ## 1. Déclenchement
@@ -93,11 +93,12 @@ Objets transverses : [objets/marche-travaux.md](objets/marche-travaux.md),
 [objets/candidat-evince.md](objets/candidat-evince.md),
 [objets/titulaire-defaillant.md](objets/titulaire-defaillant.md).
 
-**Traçabilité interne obligatoire** : nommer chaque branche, objet ou gabarit
-mobilisé par le nom du skill et sa section (par exemple « dcp-fpt, objet
-accord-cadre, §3 »), là où sa règle est utilisée ; jamais par un lien Markdown
-ni un chemin, relatif ou absolu. Les chemins servent uniquement à la lecture
-interne. Un renvoi interne ne remplace pas la provenance officielle d'une
+**Traçabilité interne obligatoire** : nommer chaque branche, objet, gabarit
+ou section de ce fichier mobilisé par le nom du skill et sa section (par
+exemple « dcp-fpt, objet accord-cadre, §3 » ou « dcp-fpt, §5.5 »), là où sa
+règle est utilisée ; jamais par un lien Markdown ni un chemin, relatif ou
+absolu, y compris vers ce `SKILL.md`. Les chemins servent uniquement à la
+lecture interne. Un renvoi interne ne remplace pas la provenance officielle d'une
 règle de droit ; les liens vers les sources officielles restent permis.
 
 ## 5. Dispositifs transverses
@@ -210,9 +211,12 @@ Afficher le bloc correspondant puis arrêter ce volet :
 
 La méthode juridique d'estimation du besoin et le choix de procédure restent
 dans DCP. Le chiffrage, les crédits et la validation de l'engagement relèvent
-de `dirfi-fpt`. Dans une note d'estimation ou de montage, nommer cette
-séparation et afficher la BASCULE financière avant ce volet, même si les
-données manquent et qu'aucun calcul ne peut encore être produit.
+de `dirfi-fpt`. Dès que la décision d'achat a une incidence financière
+(estimation ou montage, adhésion ou recours à une centrale d'achat,
+modification ou avenant, exécution par un tiers aux frais et risques du
+titulaire), nommer cette séparation et afficher la BASCULE financière avant ce
+volet, même si les données manquent et qu'aucun calcul ne peut encore être
+produit.
 
 ```text
 BASCULE dirfi-fpt — Volet financier du marché.
@@ -246,7 +250,10 @@ BASCULE recherche-juridique — Validité, vigueur ou portée d'une référence.
 ```
 
 **Une frontière ne s'illustre pas.** Aucun aperçu, clause exemple ou calcul
-sur le volet délégué, même si le skill est disponible. Concessions,
+sur le volet délégué, même si le skill est disponible. Après la BASCULE
+dirfi-fpt, DCP ne dit plus quelles sommes sont imputables, récupérables ou
+dues, ni sur quelle assiette : il nomme seulement le mécanisme contractuel à
+vérifier (clause, mise en demeure, décision) et laisse le reste au renvoi. Concessions,
 délégations de service public, contrats de l'État et droit étranger : signaler
 le hors périmètre et nommer le conseil compétent, puis s'arrêter. Pour un
 indice de pratique anticoncurrentielle entre entreprises, signaler sans
@@ -295,9 +302,9 @@ interne habilité. Ne jamais présenter un brouillon comme une décision signée
 7. Version applicable au lancement et dispositions transitoires confirmées ou réservées ?
 8. Aucune valeur de mémoire, aucun nouvel identifiant reconstitué ?
 9. Jurisprudence avec juridiction, date et numéro ; réserves et absence de citation respectées ?
-10. BASCULE explicite avant tout volet délégué, sans illustration ?
+10. BASCULE explicite avant tout volet délégué, sans illustration ni sommes imputables après elle ?
 11. Aucune aide à orienter la concurrence, justifier après coup ou dissimuler ?
-12. Chemins internes nommés, écrit demandé produit ou marqué [INCOMPLET] ?
+12. Sources internes nommées sans lien ni chemin, écrit demandé produit ou marqué [INCOMPLET] ?
 13. Aucune donnée nominative, entreprise candidate ou consultation identifiable ?
 14. Risque/confiance, point non conclu, autorité et contrôle suivant explicites ?
 

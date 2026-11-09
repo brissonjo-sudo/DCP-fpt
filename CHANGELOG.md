@@ -1,5 +1,19 @@
 # Historique — dcp-fpt
 
+## [0.1.8] — 2026-11-09 — Frontière dirfi-fpt et traçabilité, non mesuré
+
+Trois réserves de Jo sur DCP-017 (cas-06, cas-08, cas-18) et réserve du cas
+`plugin-dcp-frontiere-dsi-externe` du plugin collectivite-territoriale 1.4.0,
+1.5.0 et 1.5.1. `SKILL.md` §5.5 : la BASCULE dirfi-fpt s'affiche dès que la
+décision d'achat a une incidence financière (estimation ou montage, centrale
+d'achat, modification ou avenant, exécution aux frais et risques), et non plus
+seulement dans une note d'estimation ou de montage ; après elle, DCP ne dit
+plus quelles sommes sont imputables, récupérables ou dues. §4 : la règle de
+traçabilité vise aussi ce `SKILL.md` et ses sections, sans lien ni chemin.
+Auto-vérification 10 et 12 alignées. Aucune règle de droit, valeur, garde-fou
+ni STOP modifié. Runtime différent de 0.1.7 : aucun score transféré, mesure à
+refaire.
+
 ## [0.1.7] — 2026-11-08 — Réserve R6, mesuré 25/28 avec réserves
 
 Mesure `dcp-017-20261108-b` sur `5debffd` : 25 RÉUSSITE, deux DEMI-RÉUSSITE
