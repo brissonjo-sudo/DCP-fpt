@@ -79,6 +79,15 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-09 — Frontière dirfi-fpt et traçabilité, version 0.1.8
+
+Suivi des trois réserves de Jo sur DCP-017, toutes sur la frontière dirfi-fpt,
+et du lien local vers `SKILL.md` relevé au cas 8 du plugin (1.4.0 à 1.5.1).
+Déclencheurs de la BASCULE financière élargis, arrêt après elle précisé,
+traçabilité étendue aux sections de `SKILL.md`. Aucune source juridique lue :
+aucune règle de droit touchée. Runtime modifié : 0.1.7 reste la dernière
+version mesurée, 0.1.8 non mesurée. Aucune preuve ni run touché.
+
 ## 2026-11-08 — Réserve R6, version 0.1.7
 
 Correction de l'ordre des opérations de la branche attribution-signature :

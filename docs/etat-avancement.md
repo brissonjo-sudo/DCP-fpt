@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.7
+# État d'avancement — dcp-fpt v0.1.8
+
+## Version 0.1.8 — 2026-11-09
+
+Suivi des trois réserves de Jo sur DCP-017 (frontière dirfi-fpt) et du lien
+local relevé au cas 8 du plugin : `SKILL.md` §4, §5.5 et §7 (points 10 et 12).
+**Non mesuré** : le runtime diffère de 0.1.7 (aucun score transféré). Mesure,
+relecture et qualification du plugin restent ouvertes.
+
+- SHA-256 du paquet 0.1.8 : `559b1a91fd863036d9fa18769f08065a5bd28a7cfe84320d1fcfe86881409a30`.
 
 ## Version 0.1.7 — 2026-11-08
 
