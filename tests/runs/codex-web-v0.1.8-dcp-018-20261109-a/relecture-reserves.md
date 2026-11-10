@@ -1,6 +1,6 @@
 # Relecture humaine — résultats et réserves
 
-Date : 2026-11-10
+Date : 2026-11-11
 
 DEMI-RÉUSSITE : aucune
 
@@ -22,11 +22,5 @@ Fond correct et conditionnel. Le juge a sanctionné la liste « À reprendre » 
 
 ```text
 STOP, qualification prudente et abstention corrects. Réserve de traçabilité : la trace ne montre qu'un échec d'accès (« Internal Error »), pas l'erreur 403 annoncée par la réponse. Ne jamais préciser un code d'erreur absent de la trace.
-```
-
-## cas-19 — en réserve
-
-```text
-❌ Non conforme — erreur de droit présentée comme vérifiée : la réponse affirme que le contenu prévu par l'article R. 2181-3 relève des procédures formalisées. Le texte de R. 2181-3 ne pose pas cette restriction ; seul l'article R. 2182-1 (délai minimal avant signature) vise les procédures formalisées. Risque : omettre les motifs du rejet hors procédure formalisée. Impact limité, le brouillon étant marqué INCOMPLET et non envoyable.
 ```
 

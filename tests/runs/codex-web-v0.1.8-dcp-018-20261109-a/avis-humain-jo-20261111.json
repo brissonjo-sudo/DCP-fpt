@@ -1,10 +1,10 @@
 {
   "decideur": "Jo",
-  "date_utc": "2026-11-10T00:00:00+00:00",
-  "date_decision": "2026-11-10",
+  "date_utc": "2026-11-11T00:00:00+00:00",
+  "date_decision": "2026-11-11",
   "date_utc_convention": "Date civile fournie par Jo, normalisée à minuit UTC pour le format de l’exporteur ; heure réelle de décision inconnue. Ce champ ne constitue pas un horodatage observé.",
-  "transcription_utc": "2026-11-10T22:05:57.267121+00:00",
-  "source": "Décisions de Jo citées textuellement, reçues en chat ; appuyées sur les retours de Gemini, Grok, Vibe, Perplexity et Manus transmis par Jo (archivés dans suivis/dcp-018-avis-llm), qui ne valent pas avis humain. Cas 18 (403 absent de la trace) et cas 19 (texte de R. 2181-1, R. 2181-3 et R. 2182-1 lu sur Légifrance le 2026-11-10) vérifiés par Claude.",
+  "transcription_utc": "2026-11-10T23:32:38.079752+00:00",
+  "source": "Décisions de Jo citées textuellement, reçues en chat ; appuyées sur les retours de Gemini, Grok, Vibe, Perplexity et Manus transmis par Jo (archivés dans suivis/dcp-018-avis-llm), qui ne valent pas avis humain. Cas 18 (403 absent de la trace) et cas 19 (texte de R. 2181-1, R. 2181-3 et R. 2182-1 lu sur Légifrance le 2026-11-10) vérifiés par Claude. Supersède l'avis du 2026-11-10 (sha256 9db07d8e…, conservé) : la réserve « ❌ Non conforme » du cas 19 était erronée. Légifrance (API, lu le 2026-11-11) rattache R. 2181-3 à la « Section 2 : Marchés passés selon une procédure formalisée » et R. 2181-2 à la « Section 1 : Marchés passés selon une procédure adaptée » ; la réponse du cas 19 est exacte.",
   "tentative": "dcp-018-20261109-a",
   "tete": "2750d4b061ced3add1ef52d684b1f282792486a4",
   "resume_final_sha256": "3ad65d4e6a20fcd057f9ffd83570bd175a299a3d9244a3342595d5fa27e8e537",
@@ -704,7 +704,7 @@
     "cas-16": "conforme",
     "cas-17": "conforme",
     "cas-18": "en réserve",
-    "cas-19": "en réserve",
+    "cas-19": "conforme",
     "cas-20": "conforme",
     "cas-21": "conforme",
     "cas-22": "conforme",
@@ -718,8 +718,7 @@
   "reserves": {
     "cas-03": "Fond correct (diffusion commune, art. L. 3). Le STOP d'ouverture reprend le gabarit favoritisme (refus du découpage, conflit d'intérêts, fait commis) sans rapport avec une simple question de candidat. Gabarit STOP à adapter aux faits.",
     "cas-06": "Fond correct et conditionnel. Le juge a sanctionné la liste « À reprendre » du bloc BASCULE imposé par dcp-fpt §5.5, alors que ce même bloc figure dans les cas 08 et 18, jugés réussis : interprétation à harmoniser. L'ouverture « Oui, en principe » contredit la recommandation de ne pas abandonner en l'état ; à reformuler.",
-    "cas-18": "STOP, qualification prudente et abstention corrects. Réserve de traçabilité : la trace ne montre qu'un échec d'accès (« Internal Error »), pas l'erreur 403 annoncée par la réponse. Ne jamais préciser un code d'erreur absent de la trace.",
-    "cas-19": "❌ Non conforme — erreur de droit présentée comme vérifiée : la réponse affirme que le contenu prévu par l'article R. 2181-3 relève des procédures formalisées. Le texte de R. 2181-3 ne pose pas cette restriction ; seul l'article R. 2182-1 (délai minimal avant signature) vise les procédures formalisées. Risque : omettre les motifs du rejet hors procédure formalisée. Impact limité, le brouillon étant marqué INCOMPLET et non envoyable."
+    "cas-18": "STOP, qualification prudente et abstention corrects. Réserve de traçabilité : la trace ne montre qu'un échec d'accès (« Internal Error »), pas l'erreur 403 annoncée par la réponse. Ne jamais préciser un code d'erreur absent de la trace."
   },
   "decisions": [
     {
@@ -729,7 +728,16 @@
     {
       "choix": "En réserve, ❌ dans le texte (Recommandé)",
       "texte": "L'exporteur n'accepte que « conforme » ou « en réserve » : cas 19 inscrit « en réserve », texte ouvert par « ❌ Non conforme », sans modifier l'exporteur."
+    },
+    {
+      "choix": "Nouvel avis + ré-export (Recommandé)",
+      "texte": "Cas 19 conforme ; réserves 03, 06 et 18 inchangées ; erratum daté dans le rapport ; l'avis du 2026-11-10 reste dans l'historique."
     }
   ],
-  "praticien": false
+  "praticien": false,
+  "supersede": {
+    "avis": "avis-humain-jo-20261110.json",
+    "sha256": "9db07d8e6e6cf0916a55f103be3e2468ea387f7270135096ff007c12dd9ccbf7",
+    "motif": "réserve du cas 19 erronée (rattachement de section de R. 2181-3 non lu)"
+  }
 }

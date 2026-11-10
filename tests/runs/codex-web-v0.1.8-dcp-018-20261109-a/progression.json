@@ -151,8 +151,8 @@
       "verdict": "RÉUSSITE",
       "response_sha256": "6eed914f906dd597c008b20fe80f4c8b89a3e0369ebe518f2d2fc521c2ffa9cb",
       "citation_alerts": 0,
-      "human_verdict": "en réserve",
-      "reserve": "❌ Non conforme — erreur de droit présentée comme vérifiée : la réponse affirme que le contenu prévu par l'article R. 2181-3 relève des procédures formalisées. Le texte de R. 2181-3 ne pose pas cette restriction ; seul l'article R. 2182-1 (délai minimal avant signature) vise les procédures formalisées. Risque : omettre les motifs du rejet hors procédure formalisée. Impact limité, le brouillon étant marqué INCOMPLET et non envoyable."
+      "human_verdict": "conforme",
+      "reserve": null
     },
     {
       "case_id": "cas-20",

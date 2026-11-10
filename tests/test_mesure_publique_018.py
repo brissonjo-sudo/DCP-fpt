@@ -14,10 +14,10 @@ class MesurePublique018(unittest.TestCase):
         result = export.verify_public_run(RUN)
         self.assertEqual(result, {"totals": {"RÉUSSITE": 27, "DEMI-RÉUSSITE": 0, "ÉCHEC": 1},
                                   "sessions": 56, "input_tokens": 6_024_179, "stop_checks": 6})
-        review = export.load(RUN / "avis-humain-jo-20261110.json")
-        self.assertEqual(set(review["reserves"]), {"cas-03", "cas-06", "cas-18", "cas-19"})
+        review = export.load(RUN / "avis-humain-jo-20261111.json")
+        self.assertEqual(set(review["reserves"]), {"cas-03", "cas-06", "cas-18"})
         self.assertEqual(export.load(RUN / "cas-06/judgment.json")["verdict"], "ÉCHEC")
         self.assertEqual(export.load(RUN / "cas-19/judgment.json")["verdict"], "RÉUSSITE")
-        self.assertTrue(review["reserves"]["cas-19"].startswith("❌ Non conforme"))
+        self.assertEqual(review["verdicts"]["cas-19"], "conforme")
         self.assertEqual(export.load(RUN / "controle-citations.json")["occurrence_count"], 0)
         self.assertFalse(export.load(RUN / "provenance.json")["publication_ready"])

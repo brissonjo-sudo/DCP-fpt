@@ -5,9 +5,9 @@
 Mesure `dcp-018-20261109-a` sur `2750d4b` : 27 RÉUSSITE, un ÉCHEC non
 critique (cas-06) ; huit critiques et six contrôles STOP réussis ; 56
 sessions, 6 024 179 jetons d'entrée ; zéro lien ou chemin de skill. Cas 08 et
-18 désormais réussis. Avis de Jo (non praticien) du 2026-11-10 : 24 conformes,
-quatre en réserve (cas-03, cas-06, cas-18, cas-19), dont le cas 19 non
-conforme (lecture erronée de R. 2181-3, non vue par le juge). Jugements
+18 désormais réussis. Avis de Jo (non praticien) du 2026-11-11 : 25 conformes,
+trois en réserve (cas-03, cas-06, cas-18). Il remplace l'avis du 2026-11-10,
+qui notait à tort le cas 19 non conforme (erratum dans le rapport). Jugements
 inchangés. Preuves : `tests/runs/codex-web-v0.1.8-dcp-018-20261109-a` ;
 rapport : `docs/qualification-0.1.8-2026-11-10.md`. Relecture praticien en
 attente, `publication_ready=false`.
