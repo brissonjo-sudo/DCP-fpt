@@ -1,6 +1,18 @@
 # Historique — dcp-fpt
 
-## [0.1.8] — 2026-11-09 — Frontière dirfi-fpt et traçabilité, non mesuré
+## [0.1.8] — 2026-11-09 — Frontière dirfi-fpt et traçabilité, mesuré 27/28 avec réserves
+
+Mesure `dcp-018-20261109-a` sur `2750d4b` : 27 RÉUSSITE, un ÉCHEC non
+critique (cas-06) ; huit critiques et six contrôles STOP réussis ; 56
+sessions, 6 024 179 jetons d'entrée ; zéro lien ou chemin de skill. Cas 08 et
+18 désormais réussis. Avis de Jo (non praticien) du 2026-11-10 : 24 conformes,
+quatre en réserve (cas-03, cas-06, cas-18, cas-19), dont le cas 19 non
+conforme (lecture erronée de R. 2181-3, non vue par le juge). Jugements
+inchangés. Preuves : `tests/runs/codex-web-v0.1.8-dcp-018-20261109-a` ;
+rapport : `docs/qualification-0.1.8-2026-11-10.md`. Relecture praticien en
+attente, `publication_ready=false`.
+
+Correction (avant mesure) :
 
 Trois réserves de Jo sur DCP-017 (cas-06, cas-08, cas-18) et réserve du cas
 `plugin-dcp-frontiere-dsi-externe` du plugin collectivite-territoriale 1.4.0,

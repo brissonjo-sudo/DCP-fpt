@@ -4,8 +4,18 @@
 
 Suivi des trois réserves de Jo sur DCP-017 (frontière dirfi-fpt) et du lien
 local relevé au cas 8 du plugin : `SKILL.md` §4, §5.5 et §7 (points 10 et 12).
-**Non mesuré** : le runtime diffère de 0.1.7 (aucun score transféré). Mesure,
-relecture et qualification du plugin restent ouvertes.
+
+**Mesuré 27/28, relu par Jo (non praticien) avec réserves.** Un ÉCHEC non
+critique (cas-06), huit critiques réussis ; cas 08 et 18 désormais réussis.
+Les jugements restent inchangés. Avis Jo : 24 conformes, quatre réserves
+(cas-03, cas-06, cas-18, cas-19), dont le cas 19 non conforme. 56 sessions,
+6 024 179 jetons d’entrée et six contrôles STOP réussis. Zéro lien/chemin de
+skill dans les 28 réponses. Aucun score transféré.
+
+Statut : [statut-0.1.8.json](statut-0.1.8.json) ; [rapport et suivi](qualification-0.1.8-2026-11-10.md).
+Runtime et paquet restent aux octets mesurés à
+`2750d4b061ced3add1ef52d684b1f282792486a4`. Relecture praticien en attente,
+plugin non qualifié, `publication_ready=false`.
 
 - SHA-256 du paquet 0.1.8 : `559b1a91fd863036d9fa18769f08065a5bd28a7cfe84320d1fcfe86881409a30`.
 
