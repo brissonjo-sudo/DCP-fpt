@@ -7,7 +7,7 @@ Suivi des trois réserves de Jo sur DCP-018 : `SKILL.md` §2.3, §5.2, §5.4,
 0.1.8 (aucun score transféré). Mesure, relecture et qualification du plugin
 restent ouvertes.
 
-- SHA-256 du paquet 0.1.9 : `d6319ee91ff565ba683095d7e636830da5ba83beae48d02b9c9b620110cd50c4`.
+- SHA-256 du paquet 0.1.9 : `0fef200841a83a65083db728121ec5c312aa7ebeae6dfceb40eaeb9d231a82ea`.
 
 ## Version 0.1.8 — 2026-11-09
 
