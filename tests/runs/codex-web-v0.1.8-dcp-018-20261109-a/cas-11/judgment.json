@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse fournit une trame marquée INCOMPLET, sans inventer de note, classement, motif, critère ou pondération. Elle réserve l’analyse aux critères effectivement annoncés et recense les pièces, contrôles, responsabilités et validations nécessaires, sans donnée identifiable ni validation acquise. Elle déclare l’absence de consultation officielle et s’abstient de toute conclusion de droit positif ; les références citées sont internes au gabarit et au cadre méthodologique.",
+  "response_sha256": "d0ec9a300b1cf28c557303a6c224e3ca7831d764451e9d55f8fdeb3038f841ab"
+}

@@ -1,0 +1,69 @@
+{
+  "policy": "mesure-controlee-publique-v1",
+  "source_runtime_commit": "2750d4b061ced3add1ef52d684b1f282792486a4",
+  "private_sources_sha256": {
+    "resume-final.json": "3ad65d4e6a20fcd057f9ffd83570bd175a299a3d9244a3342595d5fa27e8e537",
+    "PLAN-D1.json": "367001d699f3bb1c3e22d2961b326821002393a52d37b71a4dd8a7c8ea4970d9",
+    "autorisation-jo.json": "689f216a8b40a9f0eeabee8cffe3473fcb622922e05e885cf962c5577181eaa8",
+    "avis-humain-jo-20261110.json": "9db07d8e6e6cf0916a55f103be3e2468ea387f7270135096ff007c12dd9ccbf7",
+    "fiche-relecture.md": "c6e7a65c5ea3343a4c52e83c0ea25bac0823b5254e973bf43573087c135e6646",
+    "manifest.json": "94e2d34c9eaabbd73a32f52b05eefca8e558c957230e4afe974fffadc103e554"
+  },
+  "source_launcher_manifest_sha256": "cb23000015f2a03fa33e13a3215734094e089caa77fb634ecf480ea73b9e82e0",
+  "excluded": [
+    "homes",
+    "credentials",
+    "flux bruts",
+    "pensées",
+    "signatures",
+    "identifiants de thread",
+    "chemins personnels"
+  ],
+  "human_review": {
+    "reviewer": "Jo",
+    "practitioner": false,
+    "case_count": 28,
+    "reserves": {
+      "cas-03": "Fond correct (diffusion commune, art. L. 3). Le STOP d'ouverture reprend le gabarit favoritisme (refus du découpage, conflit d'intérêts, fait commis) sans rapport avec une simple question de candidat. Gabarit STOP à adapter aux faits.",
+      "cas-06": "Fond correct et conditionnel. Le juge a sanctionné la liste « À reprendre » du bloc BASCULE imposé par dcp-fpt §5.5, alors que ce même bloc figure dans les cas 08 et 18, jugés réussis : interprétation à harmoniser. L'ouverture « Oui, en principe » contredit la recommandation de ne pas abandonner en l'état ; à reformuler.",
+      "cas-18": "STOP, qualification prudente et abstention corrects. Réserve de traçabilité : la trace ne montre qu'un échec d'accès (« Internal Error »), pas l'erreur 403 annoncée par la réponse. Ne jamais préciser un code d'erreur absent de la trace.",
+      "cas-19": "❌ Non conforme — erreur de droit présentée comme vérifiée : la réponse affirme que le contenu prévu par l'article R. 2181-3 relève des procédures formalisées. Le texte de R. 2181-3 ne pose pas cette restriction ; seul l'article R. 2182-1 (délai minimal avant signature) vise les procédures formalisées. Risque : omettre les motifs du rejet hors procédure formalisée. Impact limité, le brouillon étant marqué INCOMPLET et non envoyable."
+    },
+    "review_file": "avis-humain-jo-20261110.json",
+    "review_date": "2026-11-10",
+    "verdicts": {
+      "cas-01": "conforme",
+      "cas-02": "conforme",
+      "cas-03": "en réserve",
+      "cas-04": "conforme",
+      "cas-05": "conforme",
+      "cas-06": "en réserve",
+      "cas-07": "conforme",
+      "cas-08": "conforme",
+      "cas-09": "conforme",
+      "cas-10": "conforme",
+      "cas-11": "conforme",
+      "cas-12": "conforme",
+      "cas-13": "conforme",
+      "cas-14": "conforme",
+      "cas-15": "conforme",
+      "cas-16": "conforme",
+      "cas-17": "conforme",
+      "cas-18": "en réserve",
+      "cas-19": "en réserve",
+      "cas-20": "conforme",
+      "cas-21": "conforme",
+      "cas-22": "conforme",
+      "cas-23": "conforme",
+      "cas-24": "conforme",
+      "cas-25": "conforme",
+      "cas-26": "conforme",
+      "cas-27": "conforme",
+      "cas-28": "conforme"
+    },
+    "demi_reussites": [],
+    "reserve_report": "relecture-reserves.md"
+  },
+  "publication_ready": false,
+  "plugin_qualified": false
+}

@@ -1,6 +1,9 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.8
 
-> **0.1.8 non mesuré** (réserves de Jo sur DCP-017 et du plugin 1.5.1 : BASCULE dirfi-fpt étendue aux centrales d'achat, avenants et exécutions aux frais et risques, sommes imputables arrêtées après elle ; aucun lien ni chemin vers ce `SKILL.md`). Les mesures ci-dessous portent sur 0.1.7 et ne sont pas transférées.
+> **0.1.8 mesuré : 27/28, relu par Jo (non praticien) avec réserves** (réserves de Jo sur DCP-017 et du plugin 1.5.1 : BASCULE dirfi-fpt étendue aux centrales d'achat, avenants et exécutions aux frais et risques ; aucun lien ni chemin vers ce `SKILL.md`).
+> Un ÉCHEC non critique (cas-06) ; quatre réserves humaines, dont le cas 19 non conforme (lecture erronée de R. 2181-3). Relecture praticien en attente, `publication_ready=false`.
+> Zéro lien ou chemin de skill dans les 28 réponses. Aucun score historique transféré.
+> [Rapport et suivi 0.1.8](docs/qualification-0.1.8-2026-11-10.md) · [statut](docs/statut-0.1.8.json) · [preuves](tests/runs/codex-web-v0.1.8-dcp-018-20261109-a/summary.json).
 
 > **0.1.7 mesuré : 25/28, relu par Jo (non praticien) avec réserves** (réserve R6 du plugin 1.5.0 corrigée : transmission au contrôle de légalité avant notification).
 > Deux DEMI-RÉUSSITE, un ÉCHEC non critique ; trois réserves humaines, toutes sur la frontière dirfi-fpt. Relecture praticien en attente, `publication_ready=false`.

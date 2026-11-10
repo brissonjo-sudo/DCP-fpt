@@ -1,0 +1,35 @@
+{
+  "lot": "DCP-018",
+  "decideur": "Jo",
+  "date_decision": "2026-11-09",
+  "provenance": "Décision de Jo donnée en chat le 2026-11-09, transcrite par Claude ; sans signature indépendante.",
+  "decision_transcrite": "« Autoriser la mesure (Recommandé) » — mesure dcp-fpt 0.1.8, tête 2750d4b, tentative dcp-018-20261109-a, 56 sessions, plafond 10 000 000 jetons d'entrée",
+  "plan_d0": "../PLAN-MESURE-D0.md",
+  "plan_d0_sha256": "6758bbb08716b5ffbdb9cad7dbcd079bb11f08bd6dd03272b1afe95bec285b52",
+  "seal_d0": "../preuves/SCELLEMENT-D0.json",
+  "seal_d0_sha256": "be36347f92a435f80d42bc5fedb3e88999673b4887d0be56720ffc58142efe50",
+  "candidate_commit": "2750d4b061ced3add1ef52d684b1f282792486a4",
+  "attempt_id": "dcp-018-20261109-a",
+  "measurement_authorized": true,
+  "execute_in_this_lot": false,
+  "attempts_max": 1,
+  "max_sessions": 56,
+  "max_input_tokens": 10000000,
+  "input_token_limit_kind": "plafond de suivi",
+  "budget_policy": "between_roles",
+  "strict_intrarole_token_cap_guaranteed": false,
+  "human_review": {
+    "reviewer": "Jo",
+    "case_count": 28,
+    "required": true
+  },
+  "push_authorized": false,
+  "native_precheck": {
+    "model_calls": 0,
+    "timeout_seconds": 180,
+    "non_consuming": true,
+    "acl_fallback": "Uniquement après accès refusé et DACL propriétaire seule : (OI)(CI)RX pour CodexSandboxUsers sur le seul runtime DCP mesuré ; jamais home ou parent ; reçu vérifié.",
+    "uac_1223": "Arrêter ; Jo configure le sandbox séparément."
+  },
+  "decision_export": "« Aligner sur le barème » — L'export accepte tout résultat qui atteint le seuil du barème (≥ 25 RÉUSSITE, aucun ÉCHEC critique) et vos réserves, en les inscrivant visiblement dans la preuve. Tous les contrôles d'intégrité (empreintes, scellés, scanner) restent intacts. Nom de l'avis paramétré par date."
+}
