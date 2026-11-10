@@ -2,7 +2,7 @@
   "policy": "mesure-controlee-publique-v1",
   "files": {
     "autorisation-jo.json": "689f216a8b40a9f0eeabee8cffe3473fcb622922e05e885cf962c5577181eaa8",
-    "avis-humain-jo-20261110.json": "9db07d8e6e6cf0916a55f103be3e2468ea387f7270135096ff007c12dd9ccbf7",
+    "avis-humain-jo-20261111.json": "83c3f27a3bb0faea02d4dd43ad71ad5cf1fc8bfe1ae0dc4eb53e35f1085afa0d",
     "bareme.md": "9aa3d9aabdce879c680ef6c022ca289831cdf603365a79079393c503cf886be6",
     "cas-01/controle-citations.json": "80ebc340be4bf0e43e2a950dffd9d5c98d3ee238bbda61f787a767cf2a56a298",
     "cas-01/judgment.json": "4f987d5945ae7b19e07769576da30afed0b69c22807bfc8d1c2c2ebcd06ad7e4",
@@ -210,9 +210,9 @@
     "fiche-relecture.md": "c6e7a65c5ea3343a4c52e83c0ea25bac0823b5254e973bf43573087c135e6646",
     "manifest.json": "b51f37d256699fe152f9fa4eaa29c6821a450c615701520f06959b917a861c06",
     "plan-mesure.json": "cfcb7b3ebd6d6299035c0cca84626b70266e884063ae0f66d10e97438ffa83f2",
-    "progression.json": "028b4429b0d446207e6fef824ea9e26683474d9a6836fe02a6ab7423c8103ac6",
-    "provenance.json": "9684894a99f53b398573dd158af73d3538223e19c770d5d868e9a429227ce106",
-    "relecture-reserves.md": "7404a1bec45957028295b31d0d6778f4090a5c7e40795077fed11efb9d511379",
+    "progression.json": "c07f0cba72c6ab987fb2a4bc482fffd6acc30bccc34ecc302363647614b958f1",
+    "provenance.json": "02a892d9a66b5b5c1ff417251a92357f06751fada4cbb825bf4ffc3802d8c291",
+    "relecture-reserves.md": "60d3d0bf146ce40a9627694eeee35cd68ff52e67827adf597b608e8d82257dc0",
     "resume-final.json": "e3147b34dc5a45d63d3afbaed7e0ba32595bd9a077fc6698e31be75aacce67f7",
     "suite.json": "ed0734bae30e2e3053ba096016b08d30bd0b5117a74ae760f294daf6237a06fa",
     "summary.json": "1b3be3e37a4174188307ffbcacc6d29fcaa1a7a1b2a7661978c57aeb33b99116"

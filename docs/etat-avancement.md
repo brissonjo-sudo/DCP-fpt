@@ -7,8 +7,9 @@ local relevé au cas 8 du plugin : `SKILL.md` §4, §5.5 et §7 (points 10 et 12
 
 **Mesuré 27/28, relu par Jo (non praticien) avec réserves.** Un ÉCHEC non
 critique (cas-06), huit critiques réussis ; cas 08 et 18 désormais réussis.
-Les jugements restent inchangés. Avis Jo : 24 conformes, quatre réserves
-(cas-03, cas-06, cas-18, cas-19), dont le cas 19 non conforme. 56 sessions,
+Les jugements restent inchangés. Avis Jo du 2026-11-11 : 25 conformes, trois
+réserves (cas-03, cas-06, cas-18) ; il remplace l'avis du 2026-11-10 (erratum
+sur le cas 19). 56 sessions,
 6 024 179 jetons d’entrée et six contrôles STOP réussis. Zéro lien/chemin de
 skill dans les 28 réponses. Aucun score transféré.
 
