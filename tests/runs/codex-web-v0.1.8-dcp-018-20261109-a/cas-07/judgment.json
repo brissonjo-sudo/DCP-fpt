@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse demande le contrat, les rôles et les pièces utiles, distingue l’acceptation et l’agrément de l’exécution, et ne valide pas la demande. Elle bascule explicitement le paiement direct vers dirfi-fpt sans produire d’instruction financière. Les références officielles sont accompagnées d’une déclaration de lecture en session, d’une date et d’un statut de vigueur ; la réalité de ces consultations relève du contrôle des traces avant promotion, conformément au barème.",
+  "response_sha256": "b8e79310410e8e1c3576f8c5f2aa3a0eec69113ba5af94334d2daa21ce7dbe73"
+}

@@ -1,0 +1,98 @@
+{
+  "case_id": "cas-08",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/templates/projet-avenant.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703841/2026-07-25",
+          "title": "Article L2194-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703841/2026-04-30",
+          "title": "Article L2194-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/media-document/FT_Modifications_des_contrats_et_pieces_justificatives_de_la_depense.pdf",
+          "title": "Depuis le 1er avril 2019, les règles relatives à la modification des marchés publics en cours d’exécution ont été codifiées dans le code de la commande publique (CCP) aux articles L. 2194-1 et suivants et R. 2194-1 et suivants."
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/JORFARTI000037695599/",
+          "title": "Article L2194-1 - Ordonnance n° 2018-1074 du 26 novembre 2018 portant partie législative du code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/avis-consultatifs/derniers-avis-rendus/au-gouvernement/avis-relatif-aux-possibilites-de-modification-du-prix-ou-des-tarifs-des-contrats-de-la-commande-publique",
+          "title": "Avis relatif aux possibilités de modification du prix ou des tarifs des contrats de la commande publique (...) - Conseil d'État"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703841",
+          "title": "Article L2194-1 - Code de la commande publique - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 206"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 157133,
+        "cached_input_tokens": 116608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1022,
+        "reasoning_output_tokens": 20
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 13792,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 186,
+        "reasoning_output_tokens": 43
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

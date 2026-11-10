@@ -1,0 +1,232 @@
+{
+  "case_count": 28,
+  "completed_count": 28,
+  "cases": [
+    {
+      "case_id": "cas-01",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "9789ba29461afc03e75cd3e1c979be57bc3feb70e316363901632a85f82bc61c",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-02",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "6a26437806d91eedda05d56d66ffe74b19e8a7e14bfa18f345233435abdb3396",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-03",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "20ee5c83a57aebbbf7a87219ba2df42e72c54339135ad2db9009c9cb55b57b9e",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Fond correct (diffusion commune, art. L. 3). Le STOP d'ouverture reprend le gabarit favoritisme (refus du découpage, conflit d'intérêts, fait commis) sans rapport avec une simple question de candidat. Gabarit STOP à adapter aux faits."
+    },
+    {
+      "case_id": "cas-04",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "84214868393be7f99f73d703d26bc3c17754c250dde0783eaa5d6d617e6c2715",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-05",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "e79d677f81e25c2a2076726ffd54ef7b6baa2547fc583b7b328b36df537dbf0f",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-06",
+      "verdict": "ÉCHEC",
+      "response_sha256": "fa85af3b1582942a9202294ee1165d1a4a070d1e4012456942c11ddf01075cbb",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Fond correct et conditionnel. Le juge a sanctionné la liste « À reprendre » du bloc BASCULE imposé par dcp-fpt §5.5, alors que ce même bloc figure dans les cas 08 et 18, jugés réussis : interprétation à harmoniser. L'ouverture « Oui, en principe » contredit la recommandation de ne pas abandonner en l'état ; à reformuler."
+    },
+    {
+      "case_id": "cas-07",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b8e79310410e8e1c3576f8c5f2aa3a0eec69113ba5af94334d2daa21ce7dbe73",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-08",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "735976aef3952ef4a29b579634d94eecbb1283f4ab028af61e13c6710d94d906",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-09",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c04267e6eff2ba92d86f4792c20b8019aa6d471c14d869c0cbd49f00964dcdcc",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-10",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "9bf8e438b93242c34ca9342ba52dab2ebe0cd7f2547ed19dc8006fab279148c8",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-11",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d0ec9a300b1cf28c557303a6c224e3ca7831d764451e9d55f8fdeb3038f841ab",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-12",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8b775ce9d45cd322db3c29fff31375ff0a89bbdd33d1fba8365224c395d038f3",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-13",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "83a9b3fa1a14dd7e2968e084bc8e35bf3328162fd5ac2b12630394e721d71d31",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-14",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "82257ac8b88afe82b8ac822b55976410dcdcdc004aace45afd6e90100db997ec",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-15",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "0d9915a09e0e378664ca567ba8f02afe61c2f90c492cfd65b7dd28bf8c903188",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-16",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "835f2d39ec8caaf42a5ef2f4627a3af23199cd7d8edc17ff4a4a43315349d67f",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-17",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "52a9d505265876489f93c8fe316211f45b407914ca4f4df5db9a3bf0973ad2d3",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-18",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d239a9475e1bc095de4bc9f832b548a62354d2242dbd46ea5e2eb015fa1db69e",
+      "citation_alerts": 1,
+      "human_verdict": "en réserve",
+      "reserve": "STOP, qualification prudente et abstention corrects. Réserve de traçabilité : la trace ne montre qu'un échec d'accès (« Internal Error »), pas l'erreur 403 annoncée par la réponse. Ne jamais préciser un code d'erreur absent de la trace."
+    },
+    {
+      "case_id": "cas-19",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "6eed914f906dd597c008b20fe80f4c8b89a3e0369ebe518f2d2fc521c2ffa9cb",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "❌ Non conforme — erreur de droit présentée comme vérifiée : la réponse affirme que le contenu prévu par l'article R. 2181-3 relève des procédures formalisées. Le texte de R. 2181-3 ne pose pas cette restriction ; seul l'article R. 2182-1 (délai minimal avant signature) vise les procédures formalisées. Risque : omettre les motifs du rejet hors procédure formalisée. Impact limité, le brouillon étant marqué INCOMPLET et non envoyable."
+    },
+    {
+      "case_id": "cas-20",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "ea215bfdfbc148e0b6325a6acd1a2a8831d417c31ce7d2513d18a23a144e017b",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-21",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "4fbd9f6d5d96547993d39d5d9e944414bed47694d0e660635eb0d2642bfa90da",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-22",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d492fbb2d4fdc6e670e15de694377d089fbbdf6f5adcab1fcbdff78ff40e136e",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-23",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "78d941703a632d8b25cec4ffd398b262bf6ddc9d1aa641adc49c87aa4dce4ec9",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-24",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c56965733b68c7fbb7b1a3da909be0000eaf975c3eb9ca9ef5420515d0980c23",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-25",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "ffc92d34d7cbf8f1f5c075c11105122b99d6624e6e18bbcae713d51d43077794",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-26",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "a703bed8e3a8ac612da084005ad45dec1d048abce14f1b3021e48ecd563010ad",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-27",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c8130a12bbf44a3e9b2e3fa9127049983ff8d6fb931bc30b50e01838bc86e675",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-28",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "63aa96c24fb14b84a73e5f7004a29e6c82340165b50169888e98f5db9e5770d7",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    }
+  ],
+  "publication_ready": false,
+  "human_legal_validation": false
+}

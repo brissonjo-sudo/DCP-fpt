@@ -1,0 +1,107 @@
+{
+  "case_id": "cas-13",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/modifications.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        }
+      ],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 2344"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2344"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 346306,
+        "cached_input_tokens": 280960,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2726,
+        "reasoning_output_tokens": 74
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14942,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 18
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

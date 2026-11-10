@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une consultation fictive a été déclarée infructueuse. Le service veut relancer en négociant directement avec son fournisseur habituel. Les motifs d'infructuosité et pièces ne sont pas fournis. Quel retour d'expérience proposer ?
