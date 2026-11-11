@@ -1,4 +1,13 @@
-# État d'avancement — dcp-fpt v0.1.8
+# État d'avancement — dcp-fpt v0.1.9
+
+## Version 0.1.9 — 2026-11-11
+
+Suivi des trois réserves de Jo sur DCP-018 : `SKILL.md` §2.3, §5.2, §5.4,
+§5.5 et §7 (points 1, 6, 10 et 14). **Non mesuré** : le runtime diffère de
+0.1.8 (aucun score transféré). Mesure, relecture et qualification du plugin
+restent ouvertes.
+
+- SHA-256 du paquet 0.1.9 : `0fef200841a83a65083db728121ec5c312aa7ebeae6dfceb40eaeb9d231a82ea`.
 
 ## Version 0.1.8 — 2026-11-09
 

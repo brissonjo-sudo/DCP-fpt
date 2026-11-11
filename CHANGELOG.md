@@ -1,5 +1,17 @@
 # Historique — dcp-fpt
 
+## [0.1.9] — 2026-11-11 — Réserves DCP-018, non mesuré
+
+Trois réserves de Jo sur DCP-018 (cas-03, cas-06, cas-18). `SKILL.md` §5.2 :
+les points 3 à 5 du STOP égalité ne s'affichent que si les faits les
+déclenchent, et le refus vise aussi l'information réservée. §5.5 : le bloc
+BASCULE dirfi-fpt porte une ligne de renvoi et se recopie sans développement.
+§2.3 : la première phrase annonce la conclusion réelle. §5.4 : un échec de
+lecture se décrit tel que la trace le montre, sans code ni cause ajoutés.
+Auto-vérification 1, 6, 10 et 14 alignées. Barème, règles de droit, valeurs
+et en-têtes STOP inchangés. Runtime différent de 0.1.8 : aucun score
+transféré, mesure à refaire.
+
 ## [0.1.8] — 2026-11-09 — Frontière dirfi-fpt et traçabilité, mesuré 27/28 avec réserves
 
 Mesure `dcp-018-20261109-a` sur `2750d4b` : 27 RÉUSSITE, un ÉCHEC non

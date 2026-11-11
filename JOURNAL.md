@@ -79,6 +79,17 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-11 — Réserves de Jo sur DCP-018, version 0.1.9
+
+Suivi des trois réserves de Jo sur DCP-018 (avis du 2026-11-11). Cas 03 :
+points 3 à 5 du STOP égalité affichés seulement si les faits les déclenchent,
+« aucune information réservée » ajouté au refus. Cas 06 : bloc BASCULE
+dirfi-fpt complété d'une ligne de renvoi et recopié sans développement ;
+première phrase cohérente avec la recommandation. Cas 18 : un échec de lecture
+se décrit tel que la trace le montre. Barème inchangé. Aucune source juridique
+lue : aucune règle de droit touchée. Runtime modifié : 0.1.8 reste la dernière
+version mesurée, 0.1.9 non mesurée. Aucune preuve ni run touché.
+
 ## 2026-11-09 — Frontière dirfi-fpt et traçabilité, version 0.1.8
 
 Suivi des trois réserves de Jo sur DCP-017, toutes sur la frontière dirfi-fpt,
