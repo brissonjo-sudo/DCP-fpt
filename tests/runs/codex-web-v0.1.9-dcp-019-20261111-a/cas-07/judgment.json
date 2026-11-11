@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse demande le contrat, précise les rôles, les prestations et les pièces nécessaires, distingue acceptation, agrément et exécution sans valider la demande. Elle bascule explicitement le paiement direct vers dirfi-fpt et arrête le volet financier sans calcul ni instruction financière. Les références officielles sont accompagnées d’une date de consultation déclarée et d’une réserve sur leur applicabilité. La réalité des lectures en session reste à contrôler dans les traces avant promotion, conformément au protocole ; les éléments fournis ne permettent pas de constater une fausse provenance.",
+  "response_sha256": "e91c7cdb18ae0f07eca9e04449bff4c68dbf33a7f3427b4ff8d5da8e6bf8071a"
+}

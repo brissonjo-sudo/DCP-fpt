@@ -1,0 +1,95 @@
+{
+  "case_id": "cas-17",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 1,
+          "status": "failed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/candidat-evince.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md",
+            ".agents/skills/dcp-fpt/references/templates/lettre-rejet.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602079",
+          "title": "Article L551-13 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 190"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602074",
+          "title": "Article L551-14 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 190"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000028823786",
+          "title": "Conseil d'État, Assemblée, 04/04/2014, 358994, Publié au recueil Lebon - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 202"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 258447,
+        "cached_input_tokens": 203520,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1749,
+        "reasoning_output_tokens": 25
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 23205,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 174,
+        "reasoning_output_tokens": 37
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

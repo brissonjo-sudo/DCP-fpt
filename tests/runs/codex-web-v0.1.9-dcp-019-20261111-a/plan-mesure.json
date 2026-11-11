@@ -1,0 +1,81 @@
+{
+  "lot": "DCP-019",
+  "candidate_commit": "e9e32a592af83b8a70033b412050be955b6073ab",
+  "branch": "mesure/dcp-0-1-9",
+  "attempt_id": "dcp-019-20261111-a",
+  "plan_d0_sha256": "486d18165da69dc476eb8efa5351768d4ab7fced0a4c687c5f1591ffa4c3c2df",
+  "seal_d0_sha256": "d2ff7280f90c7f991b89a5aa79ace4da1d5781fe3354e3d7613a677a97f3187e",
+  "output_relative": "dcp-019-20261111-a",
+  "sessions_max": 56,
+  "max_input_tokens": 10000000,
+  "budget_policy": "between_roles",
+  "models": {
+    "respondant": "gpt-6.1-sol",
+    "juge": "gpt-6.1-sol"
+  },
+  "web": {
+    "respondant": true,
+    "juge": false
+  },
+  "mcp": false,
+  "requested_cli": {
+    "sha256": "1103e9e09c71fa2cd0afd6d8f3b9a2d63174fe8efd7cb5bd09f1cb14ef58a098",
+    "companions": {
+      "codex-command-runner.exe": "598fbfbad52ccd717b60aa94185541ccecf27e849349026f93884e9519f7ac61",
+      "codex-windows-sandbox-setup.exe": "5765c3951b2c247611dec18176660bd3d2e81f20baba61096b454888ee821b2c"
+    },
+    "version": "codex-cli 0.164.0-alpha.11.1",
+    "version_stdout_sha256": "230c7fb4eaba503976290892b76e256e03f47a421b784363888ac852cceeb4cf",
+    "exec_help_stdout_sha256": "df0d864ca2076f7654288c6a1e3394e3eaa2ea8f15021df2524efdd90c70986c"
+  },
+  "runtime_sha256": {
+    "agents/openai.yaml": "b37aec5086edadd2d0012545ab4c3b1a6493db31f7b6f26673674f5f514aeb40",
+    "objets/_gabarit-objet.md": "c9c58839c41874c9d9b02f297e7fd821c649482f73a17c62cf146113566af164",
+    "objets/accord-cadre.md": "9998f78327aecd60c3e92bcd5aa63e1f25ea2874952af1eabac1f15dfa6abf3a",
+    "objets/achat-sous-seuil.md": "e92388d586bd712b1308ee864797e2739206028f71bbb9d3f6f72f9571bfb834",
+    "objets/candidat-evince.md": "1b1ed25608cf7b3e1611c52f1e60e004665f3a13f15da03b9f0ff9cb09a8e322",
+    "objets/marche-services-recurrent.md": "17a777c955fd5b775b99f1527d781c579fc8e6bbef44e33b6d5c2d88420978a2",
+    "objets/marche-travaux.md": "41cc81101647498a655b00d675dedcc7599ab83071507070c5b65cfcf85d222c",
+    "objets/titulaire-defaillant.md": "61a126356496e9feacedfe6ea462f64d1eda3c4800d30eabc483cbd5abc5b4be",
+    "references/_gabarit-branche.md": "5f4b10bc0942ba2936ff3d1a5479e5d903e873eee27614227c00c1938beeb524",
+    "references/analyse-situation.md": "5ff8cf6921bcd31a7de4503a0cc617124aaab099e57ab7e938e0f1c0f375f206",
+    "references/attribution-signature.md": "abad36903033196bd3569de31e9e621385845993e1e521363176de171958b754",
+    "references/besoin-strategie-achat.md": "78537d272033bfb10e5a31d86604edac452f27a950639c6133d0e6f2ee1f08b4",
+    "references/candidatures-offres.md": "b0742b8e098c8d4c509a4766aa711a5d7a7ae0b487fcc88a2d7f151b1a90cf9c",
+    "references/contentieux.md": "dc8e88af165873e78d7495f22b41c2c572b4f0431cbda481367504994fe0ef8f",
+    "references/ecrits-commande-publique.md": "cb137e33a796823de2797a505a842cc5b34c61f7ca4010de47797eeb697a7d0d",
+    "references/execution-juridique.md": "bba77fe982da7ad31e1dc112a64f7d9fbdc0a63565ef501f420c7a8c1d4626cf",
+    "references/modifications.md": "77fde478ea875069eb1752e14c9d510025838746b78ef973bdd09ee439bdf333",
+    "references/procedures.md": "ed575cb495edabfa9fb3b3064726dfdd12bb560087dd10d31f45caa338e05451",
+    "references/publicite-consultation.md": "7ed81cf30315bc37142865aed2858045ee0815ecbb24bc6a847ab79458c6a8bf",
+    "references/references-verifiees.md": "5ed7eb19dc2121d12daeb6ca4de93bae5e04a4e4e0a4ef699ae41d608bb34651",
+    "references/resiliation-difficultes.md": "01515aa5d5bad782099cc7ba824f70e519be7b18b79c306ba67e3a7ef3f724df",
+    "references/retex.md": "36dc627b2caf794b53af9b159dababf78464364f22c7ea6c9708e912427c8f09",
+    "references/socle-sources-verification.md": "12b45dea2e0431a055f42417745a02f71e4b98126df2610f72f87cafaf1173cd",
+    "references/techniques-achat.md": "452030a6e1ecbfcf76a213917fa6f2949e90916f49142b8eca7ecb00364b57e6",
+    "references/templates/lettre-rejet.md": "2c6eeae1575222c61b3c667018f1a4650f90e6a4a7dee12867523bc8bc3676d4",
+    "references/templates/mise-en-demeure.md": "334624a24e19114fca57a5f97e19cf7c7d2a6d2247a954857ffb410ef840f507",
+    "references/templates/note-choix-procedure.md": "a7f0857c7c6f4b7443d364eaedc148ea7ef171ff25363d303bec054e6f94374e",
+    "references/templates/projet-avenant.md": "4db2a8e23cfbfa0efdbc3fe60175a9c983d748a214ccdde446e3bb83044d55bd",
+    "references/templates/rapport-analyse-offres.md": "220abb58f5a2181077a93912c89535a823ca0181fb35f02463bfb768dfa1ae75",
+    "SKILL.md": "91719ec15abd6a01d789050a2826e0d1489c2300ec579ad7be23267693109948"
+  },
+  "suite_sha256": "ed0734bae30e2e3053ba096016b08d30bd0b5117a74ae760f294daf6237a06fa",
+  "rubric_sha256": "9aa3d9aabdce879c680ef6c022ca289831cdf603365a79079393c503cf886be6",
+  "timeout_seconds_per_role": 900,
+  "precheck_seconds": 180,
+  "stop_policy": "upstream_threshold_25_of_28_no_critical_failure",
+  "success_threshold": 25,
+  "case_count": 28,
+  "resume_allowed": false,
+  "source_design": {
+    "dcp_common.py": "5b9e6daa5d4f9eb4ab4d54f31e74c3ebfa1a1c775961c2b9943ac0e699f67977",
+    "dcp_runner.py": "a7e675603e51f4810a17ed6e24d4755fb5e4d3a1fea66f342447bca8f008770c",
+    "dcp_native.py": "d5dd8f384c22f6fe9cae5c9f2255456d5aece80485914d6e2adc379ca3569a25",
+    "test_dcp_runner.py": "9660647bffc79bd01bed5c6fd44f86745a6ce036edc6632ed92b0664a83dc0e3",
+    "run-mesure.ps1": "136830386b5e2f72d469a34059199af91561524cf33fd609c3210ec995b3960c"
+  },
+  "export_review_policy": "bareme-015-reserves-visibles",
+  "previous_preparation_manifest_sha256": "54311e87eed2b909ecaf3796b81df1ebf53f088a5de927d1d6fcbf1787441f08",
+  "public_projection": "Chemin personnel CLI et inventaire de cache privé omis ; profil et empreintes conservés."
+}

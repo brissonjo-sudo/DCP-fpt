@@ -1,0 +1,131 @@
+{
+  "case_id": "cas-18",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/objets/titulaire-defaillant.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/resiliation-difficultes.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310518",
+          "title": "Article 52 - Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/daj/marches_publics/Consultation/2021.01.15_tableau_CCAG-Travaux%20VF.pdf",
+          "title": "MEFR/DAJ/SD1/1A                                                                 15 janvier 2021"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310431",
+          "title": "Article - Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/2021-04-01",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421/2024-01-31/",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/daj/cahier-des-clauses-administratives-generales-applicables-aux-marches-publics-marches-de-travaux",
+          "title": "Cahier des clauses administratives générales applicables aux marchés publics Marchés de travaux | economie.gouv.fr"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 2344"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043310518",
+          "title": "Article 52 - Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 261"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2344"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421",
+          "title": "Arrêté du 30 mars 2021 portant approbation du cahier des clauses administratives générales des marchés publics de travaux - Légifrance",
+          "action": "find_in_page",
+          "retrieval_marker": "Total lines: 2344"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 287628,
+        "cached_input_tokens": 219776,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1550,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 14003,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 175,
+        "reasoning_output_tokens": 37
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}
