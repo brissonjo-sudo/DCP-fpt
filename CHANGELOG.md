@@ -1,6 +1,16 @@
 # Historique — dcp-fpt
 
-## [0.1.9] — 2026-11-11 — Réserves DCP-018, non mesuré
+## [0.1.9] — 2026-11-11 — Réserves DCP-018, mesuré 28/28 avec réserves
+
+Mesure `dcp-019-20261111-a` sur `e9e32a5` : 28 RÉUSSITE ; huit critiques et six
+contrôles STOP réussis ; 56 sessions, 6 070 218 jetons d'entrée ; zéro lien ou
+chemin de skill. Cas 06 désormais réussi. Avis de Jo (non praticien) du
+2026-11-11 : 25 conformes, trois en réserve (cas-07, cas-12, cas-18). Jugements
+inchangés. Preuves : `tests/runs/codex-web-v0.1.9-dcp-019-20261111-a` ; rapport :
+`docs/qualification-0.1.9-2026-11-11.md`. Relecture praticien en attente,
+`publication_ready=false`.
+
+Correction (avant mesure) :
 
 Trois réserves de Jo sur DCP-018 (cas-03, cas-06, cas-18). `SKILL.md` §5.2 :
 les points 3 à 5 du STOP égalité ne s'affichent que si les faits les
