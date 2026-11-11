@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse affiche explicitement BASCULE dsi-fpt, arrête le volet technique sans produire de clause, d’architecture, de formats ni d’exemple, et ne prétend pas activer le skill absent. Le renvoi au service informatique respecte la frontière sans l’illustrer. La référence à dcp-fpt est interne ; aucune valeur ni règle juridique actuelle nécessitant une vérification officielle n’est avancée.",
+  "response_sha256": "f6affa06b5825acae9cfbd4494c6afdba0ee4f9e6fb2caf6f7f10580b255c3ad"
+}

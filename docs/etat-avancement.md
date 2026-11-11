@@ -3,9 +3,18 @@
 ## Version 0.1.9 — 2026-11-11
 
 Suivi des trois réserves de Jo sur DCP-018 : `SKILL.md` §2.3, §5.2, §5.4,
-§5.5 et §7 (points 1, 6, 10 et 14). **Non mesuré** : le runtime diffère de
-0.1.8 (aucun score transféré). Mesure, relecture et qualification du plugin
-restent ouvertes.
+§5.5 et §7 (points 1, 6, 10 et 14).
+
+**Mesuré 28/28, relu par Jo (non praticien) avec réserves.** Aucun ÉCHEC, huit
+critiques réussis ; cas 06 désormais réussi. Les jugements restent inchangés.
+Avis Jo du 2026-11-11 : 25 conformes, trois réserves (cas-07, cas-12, cas-18).
+56 sessions, 6 070 218 jetons d’entrée et six contrôles STOP réussis. Zéro
+lien/chemin de skill dans les 28 réponses. Aucun score transféré.
+
+Statut : [statut-0.1.9.json](statut-0.1.9.json) ; [rapport et suivi](qualification-0.1.9-2026-11-11.md).
+Runtime et paquet restent aux octets mesurés à
+`e9e32a592af83b8a70033b412050be955b6073ab`. Relecture praticien en attente,
+plugin non qualifié, `publication_ready=false`.
 
 - SHA-256 du paquet 0.1.9 : `0fef200841a83a65083db728121ec5c312aa7ebeae6dfceb40eaeb9d231a82ea`.
 

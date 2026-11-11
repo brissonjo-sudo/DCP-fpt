@@ -1,6 +1,9 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.9
 
-> **0.1.9 non mesuré** (réserves de Jo sur DCP-018 : STOP égalité adapté aux faits, bloc BASCULE dirfi-fpt recopié sans développement, échec de lecture décrit tel que la trace le montre). Les mesures ci-dessous portent sur 0.1.8 et ne sont pas transférées.
+> **0.1.9 mesuré : 28/28, relu par Jo (non praticien) avec réserves** (réserves de Jo sur DCP-018 : STOP égalité adapté aux faits, bloc BASCULE dirfi-fpt recopié sans développement, échec de lecture décrit tel que la trace le montre).
+> Aucun ÉCHEC ; trois réserves humaines (cas-07, cas-12, cas-18). Relecture praticien en attente, `publication_ready=false`.
+> Zéro lien ou chemin de skill dans les 28 réponses. Aucun score historique transféré.
+> [Rapport et suivi 0.1.9](docs/qualification-0.1.9-2026-11-11.md) · [statut](docs/statut-0.1.9.json) · [preuves](tests/runs/codex-web-v0.1.9-dcp-019-20261111-a/summary.json).
 
 > **0.1.8 mesuré : 27/28, relu par Jo (non praticien) avec réserves** (réserves de Jo sur DCP-017 et du plugin 1.5.1 : BASCULE dirfi-fpt étendue aux centrales d'achat, avenants et exécutions aux frais et risques ; aucun lien ni chemin vers ce `SKILL.md`).
 > Un ÉCHEC non critique (cas-06) ; trois réserves humaines (cas-03, cas-06, cas-18). Erratum du 2026-11-11 : le cas 19, noté à tort non conforme, est conforme. Relecture praticien en attente, `publication_ready=false`.

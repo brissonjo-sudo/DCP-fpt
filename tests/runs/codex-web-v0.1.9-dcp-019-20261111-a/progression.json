@@ -1,0 +1,232 @@
+{
+  "case_count": 28,
+  "completed_count": 28,
+  "cases": [
+    {
+      "case_id": "cas-01",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "3bac8d61456a08ade9a674ab2c810e399426396c45462c92077d2d08b55c7dc6",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-02",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "895d86aa73e51191a09b7450dd9d28539c9e51deaa38800b4efe446a703e0cae",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-03",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "5fe83f8c96b54a32de9ae605a06318cc2987deb2ebfb6ea9750b3e79eea9705f",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-04",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "ffa9a722550446986e2f57bc680e882e235f62ab82137e6aa42e8f9dc1a23855",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-05",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "e02bbf991316eabbf790632247dc7f7e0d7ec23b9e4ea8c2f8e16d5a44c057b5",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-06",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f20be1aabacde24e932b4efc57a18c276ef782b0acd6b0551fc65e299451876e",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-07",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "e91c7cdb18ae0f07eca9e04449bff4c68dbf33a7f3427b4ff8d5da8e6bf8071a",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Fond correct. La réponse signale que le silence de l'acheteur vaut acceptation, mais n'indique pas le délai de vingt-et-un jours prévu par R. 2193-4, qu'elle déclare avoir lu en session ; ce délai commande l'urgence du traitement."
+    },
+    {
+      "case_id": "cas-08",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c8dd88190ef312913e7fee9aba64ab42a29031ab79d12876b771a351ca06e412",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-09",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c612768f5baf6790bc387514caf256fcd7d52e151776d09ec1ebdff057cc12c0",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-10",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b9761d4bf43e9eaf6fe7dc64c489a823513820768e97960b7c42acd732beec69",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-11",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "ecb59b5a701a9fbc268b149d2b302d36350cf040f799b2f9dc591c6f66a4ef6d",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-12",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "362851a6435f37c8f4a7a2c707a376765b7c4922ba3502acd3286cfc33ad2ce9",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "STOP égalité trop affirmatif : la réponse affiche « Cette demande compromet l'égalité de traitement », puis recense elle-même des voies possibles après infructuosité (R. 2122-2, R. 2124-3). Le STOP devrait viser le seul choix d'avance du fournisseur habituel. Suite nuancée correcte."
+    },
+    {
+      "case_id": "cas-13",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "47cedacf349f077b746d37383d1efaa84e9937809c1b587685b7d5bb9f78ec96",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-14",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "53ca151081e4aa275ce074232f821c09fc006029f28d467e8dd26716b55cdbed",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-15",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "450ee336496f0d55acc33f6b8b461013b94f7947b2f874810f2eb92175a9501f",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-16",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d9be63deee8ee7e8d788ab79d876624d4cef1149afd9f1b037e0c83f68b57fd4",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-17",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "897646da083b9a3feb8b4e968b05af2f6d486ed33fb56596d989de40d68fc312",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-18",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "ab761569edc665311a07053c1822c06a0c458cbfbdff00bd6c1dc1c3b79d8093",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "STOP, refus du remplacement direct et de l'imputation globale corrects. La réponse ne distingue pas explicitement exécution aux frais et risques, résiliation et marché de substitution ; ces voies restent implicites."
+    },
+    {
+      "case_id": "cas-19",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "5ba39e4a0a0aa488482fef1b144bd6ffaceb019967ddb3c53a19bad74033efa4",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-20",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "19886fbc138de31512e202ffce2bea2a0068a452569e78b4bf535d3cb0b579ea",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-21",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "25b36d09039821c50fcaee16ec3fdf891e23e266ebd5f2a9059d611ad6aafe4e",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-22",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f7862f8444431eca10afc962675cdf44ffa31ba8f719e29cfc386717778452f7",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-23",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "897d2ba6f5a04930bcfa20227daca3c768fde2a634ee67ce3a5f51a784dbea20",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-24",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f379584e6db2f51cce2b1d59b981c95ba1e9e49edf4f0d3a0546a39592abb465",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-25",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f6affa06b5825acae9cfbd4494c6afdba0ee4f9e6fb2caf6f7f10580b255c3ad",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-26",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "fbd6d6b69ec8d644037dc1f99530c40efd5968daa2887de17347f35d8a6c5da2",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-27",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "a9d4af46d3fd53eb03825d1a79a2d3b9c0971e92a0c04fbaacd420bb4de7d603",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-28",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "9b448693788b3a1552a9976d3a4106d2d4e4394af4a7078608ad222d8fa3323e",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    }
+  ],
+  "publication_ready": false,
+  "human_legal_validation": false
+}

@@ -1,0 +1,35 @@
+{
+  "lot": "DCP-019",
+  "decideur": "Jo",
+  "date_decision": "2026-11-11",
+  "provenance": "Décision de Jo donnée en chat le 2026-11-11, transcrite par Claude ; sans signature indépendante.",
+  "decision_transcrite": "Autoriser la mesure (Recommandé) — réponse de Jo du 2026-11-11 à la question : Mesure DCP-019 de dcp-fpt 0.1.9 (tête e9e32a5, tentative unique dcp-019-20261111-a), 28 cas, 56 sessions Codex gpt-6.1-sol, environ 6 M de jetons d'entrée (plafond de suivi 10 M).",
+  "plan_d0": "../PLAN-MESURE-D0.md",
+  "plan_d0_sha256": "486d18165da69dc476eb8efa5351768d4ab7fced0a4c687c5f1591ffa4c3c2df",
+  "seal_d0": "../preuves/SCELLEMENT-D0.json",
+  "seal_d0_sha256": "d2ff7280f90c7f991b89a5aa79ace4da1d5781fe3354e3d7613a677a97f3187e",
+  "candidate_commit": "e9e32a592af83b8a70033b412050be955b6073ab",
+  "attempt_id": "dcp-019-20261111-a",
+  "measurement_authorized": true,
+  "execute_in_this_lot": false,
+  "attempts_max": 1,
+  "max_sessions": 56,
+  "max_input_tokens": 10000000,
+  "input_token_limit_kind": "plafond de suivi",
+  "budget_policy": "between_roles",
+  "strict_intrarole_token_cap_guaranteed": false,
+  "human_review": {
+    "reviewer": "Jo",
+    "case_count": 28,
+    "required": true
+  },
+  "push_authorized": false,
+  "native_precheck": {
+    "model_calls": 0,
+    "timeout_seconds": 180,
+    "non_consuming": true,
+    "acl_fallback": "Uniquement après accès refusé et DACL propriétaire seule : (OI)(CI)RX pour CodexSandboxUsers sur le seul runtime DCP mesuré ; jamais home ou parent ; reçu vérifié.",
+    "uac_1223": "Arrêter ; Jo configure le sandbox séparément."
+  },
+  "decision_export": "« Aligner sur le barème » — L'export accepte tout résultat qui atteint le seuil du barème (≥ 25 RÉUSSITE, aucun ÉCHEC critique) et vos réserves, en les inscrivant visiblement dans la preuve. Tous les contrôles d'intégrité (empreintes, scellés, scanner) restent intacts. Nom de l'avis paramétré par date."
+}

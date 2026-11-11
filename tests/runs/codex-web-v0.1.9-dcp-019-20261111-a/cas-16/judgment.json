@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "La réponse propose une trame conditionnelle sans arrêter le montage, identifie les données manquantes, distingue bons de commande et marchés subséquents et mobilise les branches pertinentes. La BASCULE dirfi-fpt est explicite et arrête le volet financier. Les règles sont rattachées à des sources officielles déclarées lues en session, avec dates et limites de vérification précisées. La réalité des lectures devra être contrôlée dans les traces avant promotion ; elle ne peut être confirmée ni infirmée à partir des seuls éléments fournis.",
+  "response_sha256": "d9be63deee8ee7e8d788ab79d876624d4cef1149afd9f1b037e0c83f68b57fd4"
+}
