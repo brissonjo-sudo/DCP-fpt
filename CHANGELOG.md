@@ -1,5 +1,22 @@
 # Historique — dcp-fpt
 
+## [0.2.0] — 2026-11-15 — Cinq réserves (DCP-019 et plugin 1.5.2), non mesuré
+
+Suivi des cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 :
+favoritisme et commission d'appel d'offres sans référence). `SKILL.md` §5.2 :
+après le bloc STOP égalité, une phrase nomme l'acte précis qui rompt l'égalité
+; le refus ne vise pas les voies régulières recensées ensuite (cas-12). §5.3 :
+les blocs STOP précédant toute lecture, chaque risque ou compétence qu'ils
+nomment porte ensuite sa référence lue en session ou la mention « non vérifié
+» (plugin : favoritisme, commission d'appel d'offres). §5.4 : un délai lu en
+session qui commande l'urgence s'indique avec sa valeur, sa source et sa date
+de lecture (cas-07). `references/resiliation-difficultes.md` §5 : exécution
+aux frais et risques, résiliation et marché de substitution nommés séparément,
+chacun avec sa condition à vérifier (cas-18). Auto-vérification 1 et 8
+alignées. En-têtes et blocs STOP, barème, cas de test, règles de droit et
+valeurs inchangés ; aucun identifiant ajouté. Paquet 0.2.0 : `5baff7a6…`.
+Runtime différent de 0.1.9 : aucun score transféré, mesure DCP-020 à faire.
+
 ## [0.1.9] — 2026-11-11 — Réserves DCP-018, mesuré 28/28 avec réserves
 
 Mesure `dcp-019-20261111-a` sur `e9e32a5` : 28 RÉUSSITE ; huit critiques et six

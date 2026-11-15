@@ -79,6 +79,16 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-15 — Cinq réserves, version 0.2.0
+
+Lot unique de la 1.5.3 du plugin (décision de Jo du 2026-11-15) : trois
+réserves de Jo sur DCP-019 (cas-07, cas-12, cas-18) et deux réserves de la
+campagne plugin 1.5.2 (risque pénal et commission d'appel d'offres nommés sans
+référence). Version 0.2.0 choisie par Jo pour la référence DCP-020. Aucune
+source juridique lue : aucune règle de droit touchée, aucun identifiant
+ajouté. Runtime modifié : 0.1.9 reste la dernière version mesurée. Aucune
+preuve ni run touché.
+
 ## 2026-11-11 — Réserves de Jo sur DCP-018, version 0.1.9
 
 Suivi des trois réserves de Jo sur DCP-018 (avis du 2026-11-11). Cas 03 :

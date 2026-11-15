@@ -1,10 +1,10 @@
 ---
 title: "Index dcp-fpt"
-version: 0.1.9
-statut: "0.1.9 mesuré 28/28, relu par Jo (non praticien) avec réserves (2026-11-11) ; praticien en attente"
+version: 0.2.0
+statut: "0.2.0 non mesuré (cinq réserves, 2026-11-15) ; 0.1.9 mesuré 28/28, relu par Jo (non praticien) avec réserves (2026-11-11) ; praticien en attente"
 ---
 
-# Index — dcp-fpt v0.1.9
+# Index — dcp-fpt v0.2.0
 
 Notes compatibles Obsidian ; aucune configuration de vault local ni
 synchronisation attestée. Suivi hors paquet runtime.

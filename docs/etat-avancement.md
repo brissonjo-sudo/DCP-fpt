@@ -1,4 +1,14 @@
-# État d'avancement — dcp-fpt v0.1.9
+# État d'avancement — dcp-fpt v0.2.0
+
+## Version 0.2.0 — 2026-11-15
+
+Suivi des cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 :
+favoritisme et commission d'appel d'offres sans référence) : `SKILL.md` §5.2,
+§5.3, §5.4 et §7 (points 1 et 8), `references/resiliation-difficultes.md` §5.
+**Non mesuré** : le runtime diffère de 0.1.9 (aucun score transféré). Mesure
+DCP-020, relecture et qualification du plugin 1.5.3 restent ouvertes.
+
+- SHA-256 du paquet 0.2.0 : `5baff7a6b9cff6bb3f476443cee4cface80e5367034dbd144b04a70f4e431cff`.
 
 ## Version 0.1.9 — 2026-11-11
 

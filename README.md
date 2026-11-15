@@ -1,4 +1,6 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.1.9
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.2.0
+
+> **0.2.0 non mesuré** (cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 : favoritisme et commission d'appel d'offres sans référence) : acte précis refusé nommé après le STOP égalité, référence ou « non vérifié » pour chaque risque ou compétence nommé par un bloc STOP, délai décisif lu en session indiqué, trois voies face à la défaillance distinguées). Les mesures ci-dessous portent sur 0.1.9 et ne sont pas transférées.
 
 > **0.1.9 mesuré : 28/28, relu par Jo (non praticien) avec réserves** (réserves de Jo sur DCP-018 : STOP égalité adapté aux faits, bloc BASCULE dirfi-fpt recopié sans développement, échec de lecture décrit tel que la trace le montre).
 > Aucun ÉCHEC ; trois réserves humaines (cas-07, cas-12, cas-18). Relecture praticien en attente, `publication_ready=false`.
@@ -91,7 +93,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.1.9.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.2.0.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.
