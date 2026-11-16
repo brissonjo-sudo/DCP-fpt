@@ -5,8 +5,18 @@
 Suivi des cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 :
 favoritisme et commission d'appel d'offres sans référence) : `SKILL.md` §5.2,
 §5.3, §5.4 et §7 (points 1 et 8), `references/resiliation-difficultes.md` §5.
-**Non mesuré** : le runtime diffère de 0.1.9 (aucun score transféré). Mesure
-DCP-020, relecture et qualification du plugin 1.5.3 restent ouvertes.
+
+**Mesuré 27/28, relu par Jo (non praticien) avec réserves.** Un ÉCHEC non
+critique (cas-06 : liste « À reprendre » du bloc BASCULE imposé par §5.5),
+huit critiques réussis. Les jugements restent inchangés. Avis Jo du
+2026-11-16 : 21 conformes, sept réserves (cas-05, 06, 07, 12, 17, 18, 21).
+56 sessions, 7 453 854 jetons d’entrée et six contrôles STOP réussis. Zéro
+lien/chemin de skill dans les 28 réponses. Aucun score transféré.
+
+Statut : [statut-0.2.0.json](statut-0.2.0.json) ; [rapport et suivi](qualification-0.2.0-2026-11-16.md).
+Runtime et paquet restent aux octets mesurés à
+`c810d109e043065282c3549bad5192205a8f41eb`. Relecture praticien en attente,
+plugin non qualifié, `publication_ready=false`.
 
 - SHA-256 du paquet 0.2.0 : `5baff7a6b9cff6bb3f476443cee4cface80e5367034dbd144b04a70f4e431cff`.
 
