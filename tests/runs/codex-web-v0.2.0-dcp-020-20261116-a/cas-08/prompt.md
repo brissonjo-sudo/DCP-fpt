@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Des travaux supplémentaires sont envisagés dans un marché fictif. Le service demande un avenant ; ni clause de réexamen, ni justification, ni montant comparatif ne sont fournis. Peut-on signer ?

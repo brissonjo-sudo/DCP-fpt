@@ -1,0 +1,172 @@
+{
+  "case_id": "cas-10",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/contentieux.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/contentieux.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2026-09-09",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109/2026-04-25",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021357750/2026-10-10",
+          "title": "Article R551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021357750/2026-10-27",
+          "title": "Article R551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000020602109/2026-03-24",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021357750",
+          "title": "Article R551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593127/2026-04-25/",
+          "title": "Sous-section 1 : Contrats passés par les pouvoirs adjudicateurs (Articles L551-1 à L551-4) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070933/",
+          "title": "Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/download/file/pdf/LEGITEXT000006070933.pdf/LEGI",
+          "title": "Le président du tribunal administratif, ou le magistrat qu'il délègue, peut être saisi en cas de manquement aux obligations de publicité et de mise en concurrence auxquelles est soumise la passation par les pouvoirs adjudicateurs de contrats administratifs ayant pour objet l'exécution de travaux, la livraison de fournitures ou la prestation de services, avec une contrepartie économique constituée par un prix ou un droit d'exploitation, la délégation d'un service public ou la sélection d'un actionnaire opérateur économique d'une société d'économie mixte à opération unique."
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021357750/2026-10-07",
+          "title": "Article R551-4 - Code de justice administrative - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000020593127/2026-01-30/",
+          "title": "Sous-section 1 : Contrats passés par les pouvoirs adjudicateurs (Articles L551-1 à L551-4) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000021357750/2026-05-01",
+          "title": "Article R551-4 - Code de justice administrative - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020602109",
+          "title": "Article L551-4 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 191"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033340465",
+          "title": "Article R551-1 - Code de justice administrative - Légifrance",
+          "action": "open_page",
+          "retrieval_marker": "Total lines: 189"
+        }
+      ],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 263113,
+        "cached_input_tokens": 209024,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1279,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 13874,
+        "cached_input_tokens": 9984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 33
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}
