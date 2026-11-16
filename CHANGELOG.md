@@ -1,6 +1,18 @@
 # Historique — dcp-fpt
 
-## [0.2.0] — 2026-11-15 — Cinq réserves (DCP-019 et plugin 1.5.2), non mesuré
+## [0.2.0] — 2026-11-15 — Cinq réserves (DCP-019 et plugin 1.5.2), mesuré 27/28 avec réserves
+
+Mesure `dcp-020-20261116-a` sur `c810d10` : 27 RÉUSSITE, un ÉCHEC non critique
+(cas-06, liste « À reprendre » du bloc BASCULE imposé par §5.5, même motif
+qu'en 0.1.8) ; huit critiques et six contrôles STOP réussis ; 56 sessions,
+7 453 854 jetons d'entrée ; zéro lien ou chemin de skill. Avis de Jo (non
+praticien) du 2026-11-16 : 21 conformes, sept en réserve (cas-05, 06, 07, 12,
+17, 18, 21). Jugements inchangés. Preuves :
+`tests/runs/codex-web-v0.2.0-dcp-020-20261116-a` ; rapport :
+`docs/qualification-0.2.0-2026-11-16.md`. Relecture praticien en attente,
+`publication_ready=false`.
+
+Correction (avant mesure) :
 
 Suivi des cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 :
 favoritisme et commission d'appel d'offres sans référence). `SKILL.md` §5.2 :

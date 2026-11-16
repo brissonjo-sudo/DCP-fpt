@@ -1,6 +1,9 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.2.0
 
-> **0.2.0 non mesuré** (cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 : favoritisme et commission d'appel d'offres sans référence) : acte précis refusé nommé après le STOP égalité, référence ou « non vérifié » pour chaque risque ou compétence nommé par un bloc STOP, délai décisif lu en session indiqué, trois voies face à la défaillance distinguées). Les mesures ci-dessous portent sur 0.1.9 et ne sont pas transférées.
+> **0.2.0 mesuré : 27/28, relu par Jo (non praticien) avec réserves** (cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 : favoritisme et commission d'appel d'offres sans référence) : acte précis refusé nommé après le STOP égalité, référence ou « non vérifié » pour chaque risque ou compétence nommé par un bloc STOP, délai décisif lu en session indiqué, trois voies face à la défaillance distinguées).
+> Un ÉCHEC non critique (cas-06, bloc BASCULE du §5.5) ; sept réserves humaines (cas-05, 06, 07, 12, 17, 18, 21). Relecture praticien en attente, `publication_ready=false`.
+> Zéro lien ou chemin de skill dans les 28 réponses. Aucun score historique transféré.
+> [Rapport et suivi 0.2.0](docs/qualification-0.2.0-2026-11-16.md) · [statut](docs/statut-0.2.0.json) · [preuves](tests/runs/codex-web-v0.2.0-dcp-020-20261116-a/summary.json).
 
 > **0.1.9 mesuré : 28/28, relu par Jo (non praticien) avec réserves** (réserves de Jo sur DCP-018 : STOP égalité adapté aux faits, bloc BASCULE dirfi-fpt recopié sans développement, échec de lecture décrit tel que la trace le montre).
 > Aucun ÉCHEC ; trois réserves humaines (cas-07, cas-12, cas-18). Relecture praticien en attente, `publication_ready=false`.

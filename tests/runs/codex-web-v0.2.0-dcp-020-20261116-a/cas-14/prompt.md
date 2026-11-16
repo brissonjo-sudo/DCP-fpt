@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une commune doit renouveler un marché fictif de nettoyage. Elle ignore si une reconduction est encore possible et souhaite éviter une interruption. Contrat, options et durée résiduelle manquent. Comment cadrer le renouvellement ?

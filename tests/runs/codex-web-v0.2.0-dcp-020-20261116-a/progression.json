@@ -1,0 +1,232 @@
+{
+  "case_count": 28,
+  "completed_count": 28,
+  "cases": [
+    {
+      "case_id": "cas-01",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f41c0418ac38abe8d811db361f4c974080e1ddced0e5c940b0177e59d9d45bbd",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-02",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "11dd9b3ae08f26664d8534f3684669a584efaaefd9dc5e5bca022ee45983fc1b",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-03",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "7cb9185bd78aaae8e86c6d224f090d14346ab5adccb8c90204743d53e7f1e831",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-04",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "827b68566fa3d7ea22ff2dfa7a5dc3665c1a2cf2a7e703f1f658782b56361c9f",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-05",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "46a1efa65e816250f984be147ba4ce6ca63587d001b45e65217b847552738cc0",
+      "citation_alerts": 2,
+      "human_verdict": "en réserve",
+      "reserve": "Abstention correcte. La réponse attribue l'échec de lecture de R. 2182-1 à un retour « 403 Forbidden » que les traces structurées ne contiennent pas (seulement « Internal Error ») : détail de provenance inventé."
+    },
+    {
+      "case_id": "cas-06",
+      "verdict": "ÉCHEC",
+      "response_sha256": "002fcca584f27ceba7adefae3d3c0a27c0366eef9b800591c05eec715a9b41ac",
+      "citation_alerts": 2,
+      "human_verdict": "en réserve",
+      "reserve": "Réponse conforme : elle reprend mot pour mot le bloc BASCULE dirfi-fpt prescrit par le §5.5 et le fond sur la centrale d'achat est correct. L'ÉCHEC automatique sanctionne la liste « À reprendre » de ce bloc ; la réserve vise le texte du skill (§5.5), à raccourcir dans une version ultérieure."
+    },
+    {
+      "case_id": "cas-07",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "03c3b8df316ded36ad5d4f458466ed410dfc77ee1d66afe420a901c122e297bc",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Circuit d'acceptation correct. Le régime juridique du paiement direct, qui relève de DCP, n'est pas traité ni signalé comme lacune : L. 2193-11 (sous-traitant direct accepté, conditions de paiement agréées), R. 2193-10 (seuil) et R. 2193-3 (aucune cession ni aucun nantissement faisant obstacle), lus sur Légifrance le 2026-11-16."
+    },
+    {
+      "case_id": "cas-08",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b80542de7ffb5354cd1c67a429e8e279c31e37347853a90391b6a747fa51cd9c",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-09",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "127e4dd00f498a4c54a4b89142b6a38962bc497b363647767336898c88542470",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-10",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f4658c2487f209beba0a9dbf26feec6029e26af671d3501a6d465c0e1c403719",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-11",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "271257c0a95c706e834f71f63087705aa1ed547538d059977e8cb9a513a71577",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-12",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "7bfbaf81f24e9d5c71c222f8a453a396d32cb1dc6ffa1a2c7459ff368af5f800",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "STOP égalité excessif : aucun attendu ne le prévoit et R. 2122-2 (lu le 2026-11-16) peut permettre une négociation sans publicité ni mise en concurrence après infructuosité. La phrase ajoutée en 0.2.0 et la citation de R. 2122-2 sont présentes ; la réserve DCP-019 n'est que partiellement levée."
+    },
+    {
+      "case_id": "cas-13",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "9043ece4a32e078b846687aacdb8a66f86d8e2190a4273ceddd3a520544667f5",
+      "citation_alerts": 2,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-14",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "1e112b424237e1d0477460a1b200419bc0d1fc786063c491a455efd371f8f266",
+      "citation_alerts": 3,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-15",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "f45c78706d04c774fcd5c325a4ac3fe750c14747929d9a05a85817e6c8298407",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-16",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8fe3c57f78c7bc983c795310085c3685aa8c6a8fd6c65302fb858181e78c7c04",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-17",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "c8276db26619afda6b3de06719c09ea78e35086219166f3e03d8c52a988307eb",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "La réponse omet que le délai de trente-et-un jours ne court que si la notification mentionne le nom du titulaire et les motifs du choix (R. 551-7 CJA, lu le 2026-11-16). Elle attribue aussi l'échec de lecture de L. 551-1 à un « 403 Forbidden » absent des traces."
+    },
+    {
+      "case_id": "cas-18",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "d1a2af77b21a1efeb2cb32c8fb50435f93b9f8bbe2bbeb9d22b22dee2a0aebfe",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Voies d'exécution correctement distinguées. Le droit du titulaire défaillant de suivre l'exécution à ses frais et risques (CCAG-Travaux, article 52.5) n'est pas mentionné ; numérotation non vérifiée, le CCAG n'étant pas couvert par l'outil de lecture."
+    },
+    {
+      "case_id": "cas-19",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8d866eaa5805ffd438fbd486c25d24a75d16b1c2484a2b4fc28dacc8ba5958a7",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-20",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "84286027d949ac2e72c81b5c45db5aad1cd5a988651f298f2d83e5f44c5669e4",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-21",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "6cbe3b484e536945f27bde4dcf5f044ae2e1fd1e503d3c8792f9791735804050",
+      "citation_alerts": 0,
+      "human_verdict": "en réserve",
+      "reserve": "Refus pertinent. La réponse cite L. 2152-7 dans sa version du 22 août 2026 sans indiquer qu'au moins un critère prend en compte les caractéristiques environnementales de l'offre (texte lu le 2026-11-16)."
+    },
+    {
+      "case_id": "cas-22",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "b93fd4a67a2d7df179b459c767eac487a57d43a6fd16b907e898d299b93fd830",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-23",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "dd3464d5f213b2613adee66c275c0cdb867e38291758f73f55fbb2a605cc9403",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-24",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "8208bf994c1f0f56ed61d27ae85942e7ff85b3aa9554a10a0eef8505bf187f17",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-25",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "e853902b3273489aa8501ceeb37525b0c63206c85ab6cea0b77bcaff59edde65",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-26",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "eef2a3dae2db8d361ea77fe82426312659b0050c96043c77e36328f52a647efe",
+      "citation_alerts": 1,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-27",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "cb10bc1c8fe807a3cb40f0a1f57d6cdf85bcb1c4bb30c3ff334cb53d195b40f2",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    },
+    {
+      "case_id": "cas-28",
+      "verdict": "RÉUSSITE",
+      "response_sha256": "57c7a314097c2a40b4d83e1f645cd5fb792f9c3c3b632a6aef9c8ce6b99c4f4d",
+      "citation_alerts": 0,
+      "human_verdict": "conforme",
+      "reserve": null
+    }
+  ],
+  "publication_ready": false,
+  "human_legal_validation": false
+}

@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Prépare un rapport d'analyse pour une consultation fictive. Le règlement, les offres anonymisées, la grille et les notes ne sont pas fournis. Le service souhaite néanmoins un classement final.

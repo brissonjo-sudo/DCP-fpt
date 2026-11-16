@@ -1,0 +1,38 @@
+Le parcours peut être préparé, mais aucune procédure ni autorité décisionnaire ne peut encore être arrêtée. Le premier jalon consiste à identifier l’acheteur, le maître d’ouvrage et les habilitations. **Mode d’exercice : [INCOMPLET]** — intégré, mutualisé, groupement, centrale ou assistance externe ; convention et délégations à fournir. *(dcp-fpt, §2.1 et objet marché-travaux, §1.)*
+
+L’hypothèse de travail est un marché de travaux d’une collectivité, au stade du besoin. La catégorie exacte d’acheteur, l’éventuelle activité de réseau et la date de lancement restent à confirmer.
+
+La méthode juridique d’estimation et le choix de procédure restent dans DCP ; le chiffrage et la validation de l’engagement relèvent du volet financier. *(dcp-fpt, §5.5.)*
+
+BASCULE dirfi-fpt — Volet financier du marché.
+À reprendre : avances, acomptes, révision et actualisation, calcul et imputation
+des pénalités, garantie, décompte, paiement direct, délais de paiement ou crédits.
+Ces points sont renvoyés à dirfi-fpt ; aucun n'est traité ici.
+
+**Parcours de décision — brouillon [INCOMPLET]**
+
+Le tableau constitue une recommandation d’organisation. Chaque passage à l’étape suivante appelle les pièces et contrôles indiqués ; il ne vaut pas autorisation d’agir.
+
+| Étape | Préparation et condition à lever | Décision, écrit et contrôle suivant |
+|---|---|---|
+| **1. Organiser la maîtrise d’ouvrage** | Identifier le maître d’ouvrage ; préciser les missions du prescripteur, du service achat, de la maîtrise d’œuvre et d’une éventuelle assistance. Examiner l’applicabilité du livre IV du code de la commande publique, encore **non vérifiée** pour cette opération. | Autorité organisatrice **[INCOMPLET]**. Préparer une fiche des responsabilités et réunir conventions, actes d’organisation et délégations. Un assistant externe ne reçoit ici aucun pouvoir de décision présumé. |
+| **2. Définir l’opération** | Décrire la fonction attendue, le périmètre, les contraintes, les études nécessaires et le calendrier souhaité. Délimiter l’opération dans son ensemble ; documenter le sourcing éventuel. | Faire valider le besoin par l’autorité à identifier. Produire une note de besoin et une proposition de lots. Contrôle : cohérence entre périmètre technique, opération et estimation juridique. |
+| **3. Choisir le montage et la procédure** | Examiner les lots, les interfaces et les éventuels marchés d’études ou de maîtrise d’œuvre. Établir la méthode d’estimation globale, puis vérifier les seuils et textes à la date du lancement. | Service achat : proposition motivée ; autorité compétente **[INCOMPLET]** : décision. Produire la note de choix de procédure. Aucune dispense, procédure adaptée ou formalisée n’est retenue à ce stade. |
+| **4. Préparer et lancer la consultation** | Mettre en cohérence avis, règlement, pièces techniques et administratives, critères, conditions d’exécution et calendrier. Déterminer les supports et délais après vérification du régime applicable. | Préparer une fiche de contrôle avant publication, puis conserver les versions et preuves de diffusion. Organiser les questions et corrections avec une information commune et traçable. |
+| **5. Examiner candidatures et offres** | Préparer séparément l’examen des capacités et celui des offres. Vérifier les possibilités d’échanges, de régularisation ou de négociation avant leur utilisation. | Équipe d’analyse à désigner : rapport motivé, fondé sur la grille annoncée et les preuves. Le service achat prépare une proposition ; l’attribution reste une décision distincte. |
+| **6. Attribuer, signer et notifier** | Identifier l’organe d’attribution et le signataire ; contrôler l’habilitation effective. Vérifier information des évincés, suspension éventuellement applicable, recours, contrôle de légalité et formalités de notification. | Constituer une fiche séparant chaque acte et sa preuve. La compétence de la commission d’appel d’offres dépend notamment du champ de l’article cité ci-dessous ; son intervention n’est pas présumée pour ce cas. |
+| **7. Préparer et suivre l’exécution** | Avant démarrage, réunir contrat signé, preuve de notification, conditions de prise d’effet et habilitations. Identifier qui peut émettre les ordres et constater les faits. Examiner les pièces de sous-traitance selon le régime applicable. | Tenir un registre des actes, notifications et événements. Pour chaque changement envisagé, préparer une comparaison avant/après et vérifier son fondement **avant exécution**, ainsi que les compétences et formalités nécessaires. |
+| **8. Préparer puis décider la réception** | Identifier les clauses applicables, les intervenants aux opérations préalables, les documents attendus et les modalités de constat. Distinguer constat technique, proposition de la maîtrise d’œuvre et décision juridique. | Autorité de réception **[INCOMPLET]**. Préparer procès-verbal technique, proposition, projet de décision et preuve de notification ; organiser, le cas échéant, le suivi puis la levée des réserves. Aucun délai ni effet du silence n’est présumé. |
+
+Traçabilité du parcours : étapes 1–2, *dcp-fpt, objet marché-travaux, §1–3 et branche besoin-strategie-achat, §4–6* ; étape 3, *branche procedures, §3–6* ; étape 4, *branche publicite-consultation, §3–6* ; étape 5, *branche candidatures-offres, §3–6* ; étape 6, *branche attribution-signature, §3–6* ; étapes 7–8, *branche execution-juridique, §3–6*, et, pour les changements, *branche modifications, §3–6*.
+
+Quelques ancrages ont été **lus sur Légifrance le 16 novembre 2026** :
+
+- L’estimation des travaux porte sur l’ensemble de l’opération, indépendamment du nombre de marchés ou d’opérateurs, en intégrant les fournitures et services nécessaires mis à disposition : [CCP, R. 2121-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037730899), version indiquée en vigueur depuis le 1er avril 2019.
+- L’allotissement constitue le principe, sauf objet ne permettant pas d’identifier des prestations distinctes : [CCP, L. 2113-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703512), version indiquée en vigueur depuis le 1er avril 2019. Une autre justification du non-allotissement demanderait une vérification complémentaire.
+- Le champ de la compétence d’attribution de la commission est défini par [CGCT, L. 1414-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037739193), version indiquée en vigueur depuis le 1er avril 2019. La procédure et la valeur manquant, son application au cas reste ouverte.
+- Le CCAG-Travaux ne s’applique qu’aux marchés qui s’y réfèrent : [arrêté du 30 mars 2021, article 1](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043310421). La page consolidée ouverte indique une mise à jour au 1er juillet 2024 et une vigueur au 15 novembre 2026. Aucun contrat n’étant fourni, son incorporation, les dérogations et les modalités détaillées de réception restent à établir.
+
+**Premier écrit à compléter : la note de cadrage et de choix de procédure**, avec les champs suivants : acheteur ; mode d’exercice ; maître d’ouvrage ; fonction et périmètre de l’opération ; études disponibles ; lots envisagés ; méthode d’estimation ; date prévisionnelle de lancement ; autorités et délégations ; sources et contrôles restant à effectuer. *(dcp-fpt, branche ecrits-commande-publique, §3–6 et gabarit note de choix de procédure.)*
+
+**[Risque élevé / confiance à vérifier]** : les responsabilités, le régime de passation et les effets contractuels restent conditionnels. La prochaine décision utile est la validation du cadrage et de l’organisation par l’autorité compétente, après identification de celle-ci.
