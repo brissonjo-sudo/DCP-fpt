@@ -79,6 +79,10 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-26 — Abstention après échec de lecture, version 0.2.2
+
+DCP-021 arrêtée au cas-21 (ÉCHEC critique). Les en-têtes STOP 0.2.1 tiennent (quatre contrôles réussis). Cause des ÉCHEC cas-03 et cas-21 : Légifrance derrière un challenge Cloudflare (403, constaté par curl le 2026-11-26 à 09:27 UTC, page d'accueil comprise) ; les réponses nommaient alors les articles tentés, leurs liens et des risques qualifiés, ce que le barème refuse malgré la réserve. Correctif choisi par Jo : « Correctif 0.2.2 ». Ajout, signalé dans la PR : bloc BASCULE dirfi-fpt sans liste (cas-06, deux mesures). Aucune source juridique lue ; aucune règle ni identifiant touché.
+
 ## 2026-11-26 — En-tête STOP de la description, version 0.2.1
 
 Cycle groupé du plugin (décision de Jo du 2026-11-26 : « Groupée », puis « Go »).

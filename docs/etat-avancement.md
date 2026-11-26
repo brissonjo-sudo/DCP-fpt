@@ -1,6 +1,14 @@
-# État d'avancement — dcp-fpt v0.2.1
+# État d'avancement — dcp-fpt v0.2.2
+
+## Version 0.2.2 — 2026-11-26
+
+Suite de DCP-021 : `SKILL.md` §5.4 (aucune référence ni conséquence nommée après un échec de lecture), §5.2 point 2 et paragraphe après §5.3 (risques comme points à qualifier), §5.5 (BASCULE dirfi-fpt sans liste). **Non mesuré** : aucun score transféré de 0.2.1 ; mesure DCP-022 et relecture à faire.
+
+- SHA-256 du paquet 0.2.2 : `149852b5657ab8ff5c1b637e99bfa04976a38864ac5de555e4632b1e531458c2`.
 
 ## Version 0.2.1 — 2026-11-26
+
+Mesure `dcp-021-20261126-a` sur `927934b` arrêtée au cas-21 (ÉCHEC critique) : 18 RÉUSSITE, ÉCHEC cas-03, cas-06 et cas-21, cas 22 à 28 non joués ; 42 sessions, 6 111 625 jetons d'entrée ; quatre contrôles STOP réussis (cas 03, 05, 10, 21). Légifrance répondait 403 (challenge Cloudflare) aux clients automatisés : 403 dans 19 réponses sur 21 contre 2 sur 28 en DCP-020. Preuve non exportée (mesure incomplète), conservée hors dépôt.
 
 Description du frontmatter seule : les lignes exactes « STOP — acte irréversible »
 et « STOP — égalité de traitement » passent en tête, chacune avec son déclencheur,

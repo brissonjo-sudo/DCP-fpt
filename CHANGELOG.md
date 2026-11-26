@@ -1,6 +1,14 @@
 # Historique — dcp-fpt
 
-## [0.2.1] — 2026-11-26 — En-tête STOP associé à son déclencheur, non mesuré
+## [0.2.2] — 2026-11-26 — Abstention après échec de lecture, BASCULE dirfi-fpt sans liste, non mesuré
+
+Suite de DCP-021 (décision de Jo du 2026-11-26 : « Correctif 0.2.2 »). `SKILL.md` §5.4 : après un échec de lecture, ne nommer ni texte, ni article, ni identifiant, ni lien tentés, ne qualifier aucune conséquence ; écrire « source officielle non lue en session » et le point à vérifier. §5.2, point 2 du bloc STOP égalité : risques nommés comme points à qualifier sur une source lue, sans conséquence affirmée ; paragraphe suivant le §5.3 aligné (la mention « non vérifié » ne suffit plus). §5.5 : bloc BASCULE dirfi-fpt réduit à « l'ensemble du volet financier de la décision », sans liste illustrative (cas-06 en ÉCHEC en DCP-021, en réserve en DCP-020). Aucune règle de droit ni identifiant ajouté ; branches, références, barème et cas inchangés. Runtime différent de 0.2.1 : aucun score transféré, mesure DCP-022 à faire.
+
+## [0.2.1] — 2026-11-26 — En-tête STOP associé à son déclencheur, mesure arrêtée
+
+Mesure `dcp-021-20261126-a` sur `927934b` arrêtée au cas-21 (ÉCHEC critique) : 18 RÉUSSITE, ÉCHEC cas-03, cas-06 et cas-21, cas 22 à 28 non joués ; 42 sessions, 6 111 625 jetons d'entrée ; quatre contrôles STOP réussis (cas 03, 05, 10, 21). Légifrance répondait 403 (challenge Cloudflare) aux clients automatisés : 403 dans 19 réponses sur 21 contre 2 sur 28 en DCP-020. Preuve non exportée (mesure incomplète), conservée hors dépôt.
+
+Correction (avant mesure) :
 
 Campagne plugin 1.5.3, tentative c : sur un référé précontractuel, premier
 message « STOP — égalité de traitement », corrigé après lecture du §5.3 ;
