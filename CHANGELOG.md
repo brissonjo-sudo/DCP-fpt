@@ -1,6 +1,20 @@
 # Historique — dcp-fpt
 
-## [0.2.2] — 2026-11-26 — Abstention après échec de lecture, BASCULE dirfi-fpt sans liste, non mesuré
+## [0.2.2] — 2026-11-26 — Abstention après échec de lecture, BASCULE dirfi-fpt sans liste, mesuré 27/28 avec réserves
+
+Mesure `dcp-025-20261126-a` sur `d9da5db` : 27 RÉUSSITE, une DEMI-RÉUSSITE
+non critique (cas-15 : principes et interdiction du fractionnement malgré une
+dispense non explicités), aucun ÉCHEC ; huit critiques et six contrôles STOP
+réussis ; 56 sessions, 6 165 580 jetons d'entrée ; zéro lien ou chemin de
+skill. Ouvertures officielles : 45 en erreur, une restituée (cas-09). Avis de
+Jo (non praticien) du 2026-11-26 : 25 conformes, trois en réserve (cas-07, 12,
+15). Jugements inchangés. Tentatives DCP-022 à DCP-024 sur la même tête sans
+score complet, non exportées. Preuves :
+`tests/runs/codex-web-v0.2.2-dcp-025-20261126-a` ; rapport :
+`docs/qualification-0.2.2-2026-11-26.md`. Relecture praticien en attente,
+`publication_ready=false`.
+
+Correction (avant mesure) :
 
 Suite de DCP-021 (décision de Jo du 2026-11-26 : « Correctif 0.2.2 »). `SKILL.md` §5.4 : après un échec de lecture, ne nommer ni texte, ni article, ni identifiant, ni lien tentés, ne qualifier aucune conséquence ; écrire « source officielle non lue en session » et le point à vérifier. §5.2, point 2 du bloc STOP égalité : risques nommés comme points à qualifier sur une source lue, sans conséquence affirmée ; paragraphe suivant le §5.3 aligné (la mention « non vérifié » ne suffit plus). §5.5 : bloc BASCULE dirfi-fpt réduit à « l'ensemble du volet financier de la décision », sans liste illustrative (cas-06 en ÉCHEC en DCP-021, en réserve en DCP-020). Aucune règle de droit ni identifiant ajouté ; branches, références, barème et cas inchangés. Runtime différent de 0.2.1 : aucun score transféré, mesure DCP-022 à faire.
 

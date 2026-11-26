@@ -1,6 +1,9 @@
 # dcp-fpt — Direction de la commande publique en collectivité territoriale v0.2.2
 
-> **0.2.2 non mesuré** (suite de DCP-021 : après un échec de lecture, aucun texte, article, identifiant, lien ni conséquence qualifiée n'est nommé ; risques du bloc STOP égalité présentés comme points à qualifier ; bloc BASCULE dirfi-fpt sans liste illustrative). Aucun score transféré ; mesure DCP-022 à faire.
+> **0.2.2 mesuré : 27/28, relu par Jo (non praticien) avec réserves** (suite de DCP-021 : après un échec de lecture, aucun texte, article, identifiant, lien ni conséquence qualifiée n'est nommé ; risques du bloc STOP égalité présentés comme points à qualifier ; bloc BASCULE dirfi-fpt sans liste illustrative).
+> Aucun ÉCHEC ; une DEMI-RÉUSSITE non critique (cas-15) ; trois réserves humaines (cas-07, 12, 15). Relecture praticien en attente, `publication_ready=false`.
+> Zéro lien ou chemin de skill dans les 28 réponses. Aucun score historique transféré.
+> [Rapport et suivi 0.2.2](docs/qualification-0.2.2-2026-11-26.md) · [statut](docs/statut-0.2.2.json) · [preuves](tests/runs/codex-web-v0.2.2-dcp-025-20261126-a/summary.json).
 
 > **0.2.1 : mesure DCP-021 arrêtée au cas-21** (18 RÉUSSITE, trois ÉCHEC dont un critique ; Légifrance inaccessible aux clients automatisés, 403). Les en-têtes STOP de la description, chacun avec son déclencheur, tiennent : quatre contrôles réussis. Preuve non exportée (mesure incomplète).
 

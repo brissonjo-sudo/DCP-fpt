@@ -2,7 +2,20 @@
 
 ## Version 0.2.2 — 2026-11-26
 
-Suite de DCP-021 : `SKILL.md` §5.4 (aucune référence ni conséquence nommée après un échec de lecture), §5.2 point 2 et paragraphe après §5.3 (risques comme points à qualifier), §5.5 (BASCULE dirfi-fpt sans liste). **Non mesuré** : aucun score transféré de 0.2.1 ; mesure DCP-022 et relecture à faire.
+Suite de DCP-021 : `SKILL.md` §5.4 (aucune référence ni conséquence nommée après un échec de lecture), §5.2 point 2 et paragraphe après §5.3 (risques comme points à qualifier), §5.5 (BASCULE dirfi-fpt sans liste).
+
+**Mesuré 27/28, relu par Jo (non praticien) avec réserves.** Mesure
+`dcp-025-20261126-a` : aucun ÉCHEC, une DEMI-RÉUSSITE non critique (cas-15),
+huit critiques réussis. Les jugements restent inchangés. Avis Jo du
+2026-11-26 : 25 conformes, trois réserves (cas-07, 12, 15). 56 sessions,
+6 165 580 jetons d’entrée et six contrôles STOP réussis. Zéro lien/chemin de
+skill dans les 28 réponses. Tentatives DCP-022 à DCP-024 sans score complet,
+non exportées. Aucun score transféré.
+
+Statut : [statut-0.2.2.json](statut-0.2.2.json) ; [rapport et suivi](qualification-0.2.2-2026-11-26.md).
+Runtime et paquet restent aux octets mesurés à
+`d9da5db8165ee858b57c10f543a504861926011e`. Relecture praticien en attente,
+plugin non qualifié, `publication_ready=false`.
 
 - SHA-256 du paquet 0.2.2 : `149852b5657ab8ff5c1b637e99bfa04976a38864ac5de555e4632b1e531458c2`.
 
