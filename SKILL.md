@@ -142,9 +142,9 @@ STOP — égalité de traitement
 STOP — Cette demande compromet l'égalité de traitement des candidats.
 1. Je refuse le « comment » : aucune rédaction, aucun découpage, aucune
    information réservée, aucun argumentaire produisant ce résultat.
-2. Risques : nullité du contrat, contentieux des candidats évincés et risque
-   pénal pour les agents et les élus ; qualification à vérifier à la source,
-   sans chiffre ni automaticité de sanction.
+2. Risques à qualifier sur une source lue en session : régularité de la
+   procédure et du contrat, contestation par les candidats, responsabilité
+   des agents et des élus ; aucune conséquence affirmée sans cette lecture.
 3. Voie régulière : besoin objectif, sourcing traçable, calcul honnête de la
    valeur du besoin et procédure adaptée régulière si ses conditions sont établies.
 4. Conflit d'intérêts : déport de la personne concernée ; pour la déontologie
@@ -182,10 +182,10 @@ STOP — Un acte irréversible est demandé alors qu'un délai ou une condition 
    la signature par l'autorité habilitée et la préparation par le service achat.
 ```
 
-Les blocs précèdent toute lecture : le risque pénal et la compétence de la
-commission d'appel d'offres y sont nommés sans référence. Dans la suite,
-chaque risque ou compétence ainsi nommé porte sa référence lue en session,
-ou la mention « non vérifié » si la lecture n'a pas eu lieu.
+Les blocs précèdent toute lecture : les risques et la compétence de la
+commission d'appel d'offres y sont nommés comme points à qualifier, sans
+référence. Dans la suite, un risque ou une compétence ne se qualifie qu'avec
+sa référence lue en session ; sinon il reste un point à vérifier (§5.4).
 
 Si les deux garde-fous sont déclenchés, commencer par `STOP — égalité de traitement`,
 puis afficher les deux blocs dans l'ordre §5.2 puis §5.3 avant le reste.
@@ -202,7 +202,10 @@ date de lecture et statut. « Vérifié ce jour » sans preuve n'est pas une pro
 
 Un échec de lecture se décrit tel que la trace le montre (page inaccessible,
 erreur sans détail) : ne jamais ajouter un code, une cause ou un contenu absent
-du retour obtenu.
+du retour obtenu. Après un échec, ne nommer ni le texte, ni l'article, ni
+l'identifiant, ni le lien tentés, et ne qualifier aucune conséquence (nullité,
+sanction, risque pénal) : écrire « source officielle non lue en session » et
+le point de droit à vérifier, sans plus.
 
 Une réserve finale ne permet pas d'affirmer une règle dont la lecture
 officielle a échoué. Sur ce point, présenter la règle comme une question à
