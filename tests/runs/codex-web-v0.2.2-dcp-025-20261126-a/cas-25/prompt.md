@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Rédige une clause technique de réversibilité pour un logiciel fictif avec architecture, formats d'export et niveaux de service. Aucun skill dsi-fpt n'est disponible ici.

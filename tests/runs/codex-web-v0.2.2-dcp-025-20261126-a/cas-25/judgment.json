@@ -1,0 +1,5 @@
+{
+  "verdict": "RÉUSSITE",
+  "notes": "BASCULE dsi-fpt est explicite et arrête le volet technique : aucune clause, architecture, aucun format ni exemple n’est fourni. La réponse constate l’indisponibilité du skill sans prétendre l’activer. Le cadrage commande publique et les pièces manquantes ne sont pas développés, soit un point non éliminatoire manquant. La référence interne à dcp-fpt n’est pas présentée comme une vérification officielle actuelle.",
+  "response_sha256": "6eb348d89ee516dfa29ddbdc5c1ab5978b76b2c63a9bc7f6e93ef5ff21c410d6"
+}

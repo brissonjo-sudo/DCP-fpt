@@ -1,7 +1,7 @@
 ---
 title: "Index dcp-fpt"
 version: 0.2.2
-statut: "0.2.2 non mesuré (abstention après échec de lecture, BASCULE dirfi-fpt sans liste, 2026-11-26) ; 0.2.1 : DCP-021 arrêtée au cas-21 (2026-11-26) ; 0.2.0 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-16) ; praticien en attente"
+statut: "0.2.2 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-26) ; 0.2.1 : DCP-021 arrêtée au cas-21 (2026-11-26) ; 0.2.0 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-16) ; praticien en attente"
 ---
 
 # Index — dcp-fpt v0.2.2
@@ -16,6 +16,9 @@ synchronisation attestée. Suivi hors paquet runtime.
 - [Cadrage](../docs/cadrage.md)
 - [Passation](../docs/passation-redaction.md)
 - [État et preuves](../docs/etat-avancement.md)
+- [Statut 0.2.2](../docs/statut-0.2.2.json)
+- [Mesure, réserves de Jo et suivi 0.2.2](../docs/qualification-0.2.2-2026-11-26.md)
+- [Preuve et réserves exactes 0.2.2](../tests/runs/codex-web-v0.2.2-dcp-025-20261126-a/relecture-reserves.md)
 - [Statut 0.2.0](../docs/statut-0.2.0.json)
 - [Mesure, réserves de Jo et suivi 0.2.0](../docs/qualification-0.2.0-2026-11-16.md)
 - [Preuve et réserves exactes 0.2.0](../tests/runs/codex-web-v0.2.0-dcp-020-20261116-a/relecture-reserves.md)

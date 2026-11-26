@@ -1,0 +1,22 @@
+{
+  "engine": "codex",
+  "requested_model": "gpt-6.1-sol",
+  "cli_version": "codex-cli 0.164.0-alpha.11.1",
+  "role": "juge",
+  "input_sha256": "b8d87e0de4ffdc447d1fe7b718b83facfed0c630b41c30c116874db78155a226",
+  "output_sha256": "938c001d3e3714aa4130382d91eceb68b1f4b1e689c57accefa24a8f4c003412",
+  "fresh_process": true,
+  "fresh_workspace": true,
+  "skill_entry_supplied": false,
+  "native_skill_present": false,
+  "web_requested": false,
+  "completed_at": "2026-11-26T20:53:09.474991+00:00",
+  "raw_stdout_sha256": "1e189f4a9db991e67f3c0933232a92eb91effc5302cd5b359e5a3c994ed72508",
+  "raw_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tokens": {
+    "input_tokens": 23030,
+    "cached_input_tokens": 9984,
+    "output_tokens": 128
+  },
+  "tokens_note": "Bilan turn.completed observé ; cache inclus dans input_tokens."
+}
