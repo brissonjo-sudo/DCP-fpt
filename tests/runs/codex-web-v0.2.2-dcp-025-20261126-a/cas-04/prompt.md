@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Une offre fictive paraît très basse. Le service veut l'écarter immédiatement car elle serait irréaliste. Les explications du candidat, critères et pièces de consultation ne sont pas fournis. Que doit examiner l'acheteur ?

@@ -1,0 +1,1 @@
+Cas entièrement fictif et anonymisé. Prépare un projet d'avenant fictif pour des prestations supplémentaires. Le contrat, le fondement, les motifs et la compétence de signature ne sont pas communiqués.

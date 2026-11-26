@@ -1,0 +1,139 @@
+{
+  "case_id": "cas-13",
+  "audit_version": 3,
+  "roles": {
+    "respondant": {
+      "read_commands": [
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/SKILL.md",
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/objets/marche-travaux.md",
+            ".agents/skills/dcp-fpt/references/analyse-situation.md",
+            ".agents/skills/dcp-fpt/references/socle-sources-verification.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/attribution-signature.md",
+            ".agents/skills/dcp-fpt/references/besoin-strategie-achat.md",
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/ecrits-commande-publique.md",
+            ".agents/skills/dcp-fpt/references/execution-juridique.md",
+            ".agents/skills/dcp-fpt/references/procedures.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/templates/note-choix-procedure.md"
+          ]
+        },
+        {
+          "exit_code": 1,
+          "status": "failed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        },
+        {
+          "exit_code": 0,
+          "status": "completed",
+          "runtime_paths": [
+            ".agents/skills/dcp-fpt/references/candidatures-offres.md",
+            ".agents/skills/dcp-fpt/references/publicite-consultation.md",
+            ".agents/skills/dcp-fpt/references/references-verifiees.md"
+          ]
+        }
+      ],
+      "search_calls": 1,
+      "official_search_results": [
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037704449/2026-05-01",
+          "title": "Article L2421-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037704449",
+          "title": "Article L2421-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037704449/",
+          "title": "Article L2421-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037704447/2026-08-20",
+          "title": "Section 1 : Dispositions générales (Article L2421-1) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037704447/",
+          "title": "Section 1 : Dispositions générales (Article L2421-1) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037704443/",
+          "title": "Titre II : MAÎTRISE D'OUVRAGE (Articles L2421-1 à L2422-13) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037704449/2025-10-30",
+          "title": "Article L2421-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037704449/2025-07-10",
+          "title": "Article L2421-1 - Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037704443/2026-03-16/",
+          "title": "Titre II : MAÎTRISE D'OUVRAGE (Articles L2421-1 à L2422-13) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000037701019/2026-10-14",
+          "title": "Code de la commande publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037704443/",
+          "title": "Titre II : MAÎTRISE D'OUVRAGE (Articles L2421-1 à L2422-13) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000037701019/LEGISCTA000037704427/2026-08-22",
+          "title": "Livre IV : DISPOSITIONS PROPRES AUX MARCHÉS PUBLICS LIÉS À LA MAÎTRISE D'OUVRAGE PUBLIQUE ET À LA MAÎTRISE D'ŒUVRE PRIVÉE (Articles L2410-1 à L2432-2) - Légifrance"
+        }
+      ],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 324025,
+        "cached_input_tokens": 264448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2327,
+        "reasoning_output_tokens": 15
+      }
+    },
+    "juge": {
+      "read_commands": [],
+      "search_calls": 0,
+      "official_search_results": [],
+      "official_results_action_unknown": [],
+      "official_open_results": [],
+      "mcp_calls": [],
+      "usage": {
+        "input_tokens": 24152,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    }
+  },
+  "review_status": "relu par Jo, non praticien",
+  "official_citations_without_matching_open_url": [],
+  "source_audit_note": "Correspondance d'URL seulement ; ni certification juridique ni qualification du plugin."
+}

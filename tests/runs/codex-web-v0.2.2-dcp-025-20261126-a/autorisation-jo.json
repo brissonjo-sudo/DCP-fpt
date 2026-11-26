@@ -1,0 +1,35 @@
+{
+  "lot": "DCP-025",
+  "decideur": "Jo",
+  "date_decision": "2026-11-26",
+  "provenance": "Décision de Jo donnée en chat le 2026-11-26, transcrite par Claude ; sans signature indépendante.",
+  "decision_transcrite": "Autoriser la mesure — réponse de Jo du 2026-11-26 à la question : DCP-025 de dcp-fpt 0.2.2 (tête d9da5db, kit identique, tentative unique dcp-025-20261126-a), 28 cas, 56 sessions gpt-6.1-sol, environ 7 M de jetons d'entrée (plafond 10 M), environ 10 points de quota hebdo ; condition stricte : lancement après 20:15, seulement si Codex affiche 100 % pour la fenêtre de 5 h et si le quota hebdo relevé laisse au moins 15 points.",
+  "plan_d0": "../PLAN-MESURE-D0.md",
+  "plan_d0_sha256": "03aa05a3de67882c2c4a92ff21f89a17351e0c5cf94dc48b1a85d936532335ab",
+  "seal_d0": "../preuves/SCELLEMENT-D0.json",
+  "seal_d0_sha256": "c5572f78d6286d91bcd3bd664769a14ad2dbe19ba42af4c0909c3ff1a0a025d2",
+  "candidate_commit": "d9da5db8165ee858b57c10f543a504861926011e",
+  "attempt_id": "dcp-025-20261126-a",
+  "measurement_authorized": true,
+  "execute_in_this_lot": false,
+  "attempts_max": 1,
+  "max_sessions": 56,
+  "max_input_tokens": 10000000,
+  "input_token_limit_kind": "plafond de suivi",
+  "budget_policy": "between_roles",
+  "strict_intrarole_token_cap_guaranteed": false,
+  "human_review": {
+    "reviewer": "Jo",
+    "case_count": 28,
+    "required": true
+  },
+  "push_authorized": false,
+  "native_precheck": {
+    "model_calls": 0,
+    "timeout_seconds": 180,
+    "non_consuming": true,
+    "acl_fallback": "Uniquement après accès refusé et DACL propriétaire seule : (OI)(CI)RX pour CodexSandboxUsers sur le seul runtime DCP mesuré ; jamais home ou parent ; reçu vérifié.",
+    "uac_1223": "Arrêter ; Jo configure le sandbox séparément."
+  },
+  "decision_export": "« Aligner sur le barème » — L'export accepte tout résultat qui atteint le seuil du barème (≥ 25 RÉUSSITE, aucun ÉCHEC critique) et vos réserves, en les inscrivant visiblement dans la preuve. Tous les contrôles d'intégrité (empreintes, scellés, scanner) restent intacts. Nom de l'avis paramétré par date."
+}
