@@ -1,4 +1,16 @@
-# État d'avancement — dcp-fpt v0.2.0
+# État d'avancement — dcp-fpt v0.2.1
+
+## Version 0.2.1 — 2026-11-26
+
+Description du frontmatter seule : les lignes exactes « STOP — acte irréversible »
+et « STOP — égalité de traitement » passent en tête, chacune avec son déclencheur,
+« seul sur sa ligne et mot pour mot ». Motif : campagne plugin 1.5.3 (tentative c),
+premier en-tête « STOP — égalité de traitement » sur le cas du référé précontractuel,
+reproduit 3 fois sur 3 hors mesure. Avec cette description, rejeux hors mesure du plugin :
+3/3 sur ce cas et 1/1 sur le cas égalité (diagnostics sans valeur de preuve).
+**Non mesuré** : aucun score transféré de 0.2.0 ; mesure DCP-021 et relecture à faire.
+
+- SHA-256 du paquet 0.2.1 : `6e6fdce9629ce1430a71277212af5fabe8ebb1c298a4c74cab5a1f546f00e7ad`.
 
 ## Version 0.2.0 — 2026-11-15
 

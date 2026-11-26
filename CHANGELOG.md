@@ -1,5 +1,21 @@
 # Historique — dcp-fpt
 
+## [0.2.1] — 2026-11-26 — En-tête STOP associé à son déclencheur, non mesuré
+
+Campagne plugin 1.5.3, tentative c : sur un référé précontractuel, premier
+message « STOP — égalité de traitement », corrigé après lecture du §5.3 ;
+reproduit 3 fois sur 3 hors mesure. Le STOP est émis avant toute lecture,
+sur la seule description, qui citait l'égalité en premier sans déclencheur.
+`SKILL.md`, frontmatter seul : les deux lignes STOP exactes passent en tête de
+la description, « seul sur sa ligne et mot pour mot », chacune avec son
+déclencheur (acte irréversible : signer, notifier ou faire exécuter sous
+référé, recours, suspension ou délai non établi ; égalité : besoin, critère ou
+découpage taillé pour un candidat, information privilégiée). Une première
+variante, déclencheurs en milieu de description, a échoué hors mesure. Corps,
+blocs STOP, branches, références, barème et cas inchangés ; aucune règle de
+droit ni identifiant touché. Runtime différent de 0.2.0 : aucun score
+transféré, mesure DCP-021 à faire. Réserves de la 0.2.0 non traitées ici.
+
 ## [0.2.0] — 2026-11-15 — Cinq réserves (DCP-019 et plugin 1.5.2), mesuré 27/28 avec réserves
 
 Mesure `dcp-020-20261116-a` sur `c810d10` : 27 RÉUSSITE, un ÉCHEC non critique

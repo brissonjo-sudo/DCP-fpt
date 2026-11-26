@@ -79,6 +79,16 @@ dépôt ; aucune relecture praticien ou qualification plugin revendiquée.
 Aucun appel modèle ni poussée dans D2 ; poussée et PR brouillon
 autorisées confiées à Claude.
 
+## 2026-11-26 — En-tête STOP de la description, version 0.2.1
+
+Cycle groupé du plugin (décision de Jo du 2026-11-26 : « Groupée », puis « Go »).
+Diagnostic hors mesure du plugin 1.5.3 : 0/3 sur le cas du référé précontractuel
+avec la description 0.2.0 ; 0/1 avec une première variante ; 3/3, puis 1/1 sur le
+cas égalité, avec la description retenue. Ces rejeux ne valent pas mesure. Seul le
+frontmatter change ; aucune source juridique lue, aucune règle ni identifiant
+touché. Les réserves de la 0.2.0 (§5.5, STOP égalité du cas-12, BASCULE dirfi-fpt,
+codes d'erreur, compléments de fond) restent ouvertes pour une version ultérieure.
+
 ## 2026-11-15 — Cinq réserves, version 0.2.0
 
 Lot unique de la 1.5.3 du plugin (décision de Jo du 2026-11-15) : trois

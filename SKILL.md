@@ -1,21 +1,21 @@
 ---
 name: dcp-fpt
 description: >-
+  Premier texte visible, avant toute annonce ou lecture, seul sur sa ligne et mot pour mot :
+  « STOP — acte irréversible » si l'on demande de signer, notifier ou faire exécuter sous référé, recours, suspension ou délai non établi ;
+  « STOP — égalité de traitement » si un besoin, un critère ou un découpage est taillé pour un candidat, ou une information privilégiée.
   Aide à la décision pour la fonction commande publique d'une collectivité
   territoriale française : besoin, passation, attribution, exécution juridique,
   modifications, résiliation, contentieux et écrits des marchés publics.
-  Si un garde-fou s'applique, la première ligne visible est exactement
-  « STOP — égalité de traitement » ou « STOP — acte irréversible », avant
-  toute annonce d'activation, de lecture ou tout autre contenu.
   Exclut le volet financier (dirfi-fpt), le contenu technique d'un achat
   informatique (dsi-fpt), les clauses de données personnelles (dpo-ct), la
   déontologie et la sanction des agents (drh-fpt), le besoin opérationnel de
   police municipale (dpm-fpt), les concessions et délégations de service public.
 ---
 
-# Skill : dcp-fpt (v0.2.0)
+# Skill : dcp-fpt (v0.2.1)
 
-> Métadonnées — version : **0.2.0** · langue : français · statut : **non mesuré, non relu par un praticien**.
+> Métadonnées — version : **0.2.1** · langue : français · statut : **non mesuré, non relu par un praticien**.
 > Aide à la décision ; aucune réponse ne vaut autorisation de signer ni source autonome de droit positif.
 
 ## 1. Déclenchement
