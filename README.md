@@ -1,4 +1,6 @@
-# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.2.0
+# dcp-fpt — Direction de la commande publique en collectivité territoriale v0.2.1
+
+> **0.2.1 non mesuré** (campagne plugin 1.5.3, tentative c : premier en-tête « STOP — égalité de traitement » au lieu de « STOP — acte irréversible » sur un référé précontractuel, avant toute lecture). Seule la description du frontmatter change : les deux lignes STOP exactes, chacune avec son déclencheur, passent en tête. Corps du skill, blocs STOP, références, barème et cas inchangés. Aucun score transféré ; mesure DCP-021 à faire.
 
 > **0.2.0 mesuré : 27/28, relu par Jo (non praticien) avec réserves** (cinq réserves de Jo (DCP-019 cas-07, cas-12, cas-18 ; plugin 1.5.2 : favoritisme et commission d'appel d'offres sans référence) : acte précis refusé nommé après le STOP égalité, référence ou « non vérifié » pour chaque risque ou compétence nommé par un bloc STOP, délai décisif lu en session indiqué, trois voies face à la défaillance distinguées).
 > Un ÉCHEC non critique (cas-06, bloc BASCULE du §5.5) ; sept réserves humaines (cas-05, 06, 07, 12, 17, 18, 21). Relecture praticien en attente, `publication_ready=false`.
@@ -96,7 +98,7 @@ présente, elle reste contrôlée ; sans option, l'absence échoue. Aucun mode
 partiel général dans la CI. Tests avec fixtures temporaires et CLI simulées,
 sans appel modèle ni score du skill.
 
-Archive déterministe : dist/dcp-fpt-0.2.0.zip. Contenu : SKILL.md,
+Archive déterministe : dist/dcp-fpt-0.2.1.zip. Contenu : SKILL.md,
 agents/openai.yaml, references/ sauf cache, objets/. Conception, scripts,
 tests, preuves, journal et index hors paquet. Distribution via plugin après
 phase de qualification autorisée, aucune installation dans cette passation.
