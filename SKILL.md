@@ -244,9 +244,8 @@ produit.
 
 ```text
 BASCULE dirfi-fpt — Volet financier du marché.
-À reprendre : avances, acomptes, révision et actualisation, calcul et imputation
-des pénalités, garantie, décompte, paiement direct, délais de paiement ou crédits.
-Ces points sont renvoyés à dirfi-fpt ; aucun n'est traité ici.
+À reprendre : l'ensemble du volet financier de la décision.
+Ce volet est renvoyé à dirfi-fpt ; il n'est ni détaillé ni traité ici.
 ```
 
 ```text
