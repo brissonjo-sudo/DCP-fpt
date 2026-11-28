@@ -1,10 +1,10 @@
 ---
 title: "Index dcp-fpt"
-version: 0.2.2
-statut: "0.2.2 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-26) ; 0.2.1 : DCP-021 arrêtée au cas-21 (2026-11-26) ; 0.2.0 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-16) ; praticien en attente"
+version: 0.2.3
+statut: "0.2.3 non mesuré (BASCULE dirfi-fpt cohérente, citation de §5.5 sans lien, 2026-11-28) ; 0.2.2 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-26) ; 0.2.1 : DCP-021 arrêtée au cas-21 (2026-11-26) ; 0.2.0 mesuré 27/28, relu par Jo (non praticien) avec réserves (2026-11-16) ; praticien en attente"
 ---
 
-# Index — dcp-fpt v0.2.2
+# Index — dcp-fpt v0.2.3
 
 Notes compatibles Obsidian ; aucune configuration de vault local ni
 synchronisation attestée. Suivi hors paquet runtime.

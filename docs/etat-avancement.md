@@ -1,4 +1,10 @@
-# État d'avancement — dcp-fpt v0.2.2
+# État d'avancement — dcp-fpt v0.2.3
+
+## Version 0.2.3 — 2026-11-28
+
+Suite de la campagne plugin 1.5.4 : `SKILL.md` §5.5 seulement — bloc BASCULE dirfi-fpt « DCP ne le détaille ni ne le traite » (cohérent en co-activation) et justification d'une frontière par « dcp-fpt, §5.5 » en texte simple, sans lien ni chemin. **Non mesuré** : aucun score transféré de 0.2.2 ; mesure autonome et relecture de Jo à faire, regroupées avec le prochain cycle plugin (décision de Jo du 2026-11-28).
+
+- SHA-256 du paquet 0.2.3 : `84b5283419a19e28703a9ac9af1c89334c906ab622a3ec143281eca516251f6f`.
 
 ## Version 0.2.2 — 2026-11-26
 
