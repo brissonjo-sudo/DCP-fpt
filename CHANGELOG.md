@@ -1,5 +1,9 @@
 # Historique — dcp-fpt
 
+## [0.2.3] — 2026-11-28 — BASCULE dirfi-fpt cohérente en co-activation, citation de §5.5 sans lien, non mesuré
+
+Suite de la campagne plugin 1.5.4 (avis de Jo du 27/11/2026, réserves de forme ; décision du 2026-11-28 : « Préparer, mesurer plus tard »). `SKILL.md` §5.5 : la 3e ligne du bloc BASCULE dirfi-fpt devient « Ce volet est renvoyé à dirfi-fpt ; DCP ne le détaille ni ne le traite. » (l'ancienne, « il n'est ni détaillé ni traité ici », contredisait l'analyse dirfi-fpt qui suit en co-activation : cas plugin `plugin-dcp-frontieres-finance-donnees` et `l8-dsi-achat-contrat-mixte`, réservés en 1.5.3 et 1.5.4) ; la justification d'une frontière s'écrit « dcp-fpt, §5.5 » en texte simple, sans lien Markdown ni chemin (cas plugin `plugin-dcp-frontiere-dsi-externe`, réservé depuis 1.4.0). Aucune règle de droit ni identifiant ajouté ; branches, références, barème et cas inchangés. Runtime différent de 0.2.2 : aucun score transféré, mesure autonome à faire.
+
 ## [0.2.2] — 2026-11-26 — Abstention après échec de lecture, BASCULE dirfi-fpt sans liste, mesuré 27/28 avec réserves
 
 Mesure `dcp-025-20261126-a` sur `d9da5db` : 27 RÉUSSITE, une DEMI-RÉUSSITE

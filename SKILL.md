@@ -13,9 +13,9 @@ description: >-
   police municipale (dpm-fpt), les concessions et délégations de service public.
 ---
 
-# Skill : dcp-fpt (v0.2.2)
+# Skill : dcp-fpt (v0.2.3)
 
-> Métadonnées — version : **0.2.2** · langue : français · statut : **non mesuré, non relu par un praticien**.
+> Métadonnées — version : **0.2.3** · langue : français · statut : **non mesuré, non relu par un praticien**.
 > Aide à la décision ; aucune réponse ne vaut autorisation de signer ni source autonome de droit positif.
 
 ## 1. Déclenchement
@@ -245,7 +245,7 @@ produit.
 ```text
 BASCULE dirfi-fpt — Volet financier du marché.
 À reprendre : l'ensemble du volet financier de la décision.
-Ce volet est renvoyé à dirfi-fpt ; il n'est ni détaillé ni traité ici.
+Ce volet est renvoyé à dirfi-fpt ; DCP ne le détaille ni ne le traite.
 ```
 
 ```text
@@ -274,7 +274,9 @@ BASCULE recherche-juridique — Validité, vigueur ou portée d'une référence.
 ```
 
 **Une frontière ne s'illustre pas.** Aucun aperçu, clause exemple ou calcul
-sur le volet délégué, même si le skill est disponible. Le bloc se recopie
+sur le volet délégué, même si le skill est disponible. Pour justifier une
+frontière, écrire « dcp-fpt, §5.5 » en texte simple, sans lien Markdown ni
+chemin vers ce `SKILL.md`. Le bloc se recopie
 tel quel : ne pas développer, compléter ni appliquer au cas sa liste
 « À reprendre ». Après la BASCULE
 dirfi-fpt, DCP ne dit plus quelles sommes sont imputables, récupérables ou
